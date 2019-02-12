@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
+[System.Serializable]
 public class DialogueNode
 {
-
+    int id;
+    string message;
 }
 
 public class TreeDS<T> {
