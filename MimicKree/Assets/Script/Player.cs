@@ -48,8 +48,11 @@ public class Player : MonoBehaviour {
             
             if(transform.position == endMarker.position)
             {
-                
                 location = endMarker.GetComponent<PathNode>();
+                if(!location.triggeredEventID.Equals(""))
+                {
+                    location.triggerEvent();
+                }
                 isWalking = false;
                 isStartTimeSet = false;
             }

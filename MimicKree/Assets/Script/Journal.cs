@@ -14,7 +14,6 @@ public class Journal : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if (Input.GetKeyDown(KeyCode.Escape)) toggleJournal();
-
     }
 
     public void toggleJournal()

@@ -18,4 +18,15 @@ public class EventManager : MonoBehaviour {
     {
 
     }
+
+    public void triggerEvent(string eventString)
+    {
+        switch (eventString)
+        {
+            case "thing":
+                break;
+            default:
+                break;
+        }
+    }
 }
