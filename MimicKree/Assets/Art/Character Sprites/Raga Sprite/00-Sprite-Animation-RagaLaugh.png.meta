@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: b70d3fde63a3a6246af7d7bc1c2bde22
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: 00-Sprite-Animation-RagaLaugh_0
+    21300002: 00-Sprite-Animation-RagaLaugh_1
+    21300004: 00-Sprite-Animation-RagaLaugh_2
+    21300006: 00-Sprite-Animation-RagaLaugh_3
+    21300008: 00-Sprite-Animation-RagaLaugh_4
+    21300010: 00-Sprite-Animation-RagaLaugh_5
+    21300012: 00-Sprite-Animation-RagaLaugh_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +47,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +76,160 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-RagaLaugh_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 210
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce21b56bc24d1564fa8e3147cbe2f5e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-RagaLaugh_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 210
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93556f0afc39394a8b7e9e0ad3da710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-RagaLaugh_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 0
+        width: 211
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2306d63b771389429564962be4a82df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-RagaLaugh_3
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 211
+        height: 457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816dabe1adaf1ac4fa832527e41d3560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-RagaLaugh_4
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 210
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6b0e53a1906c5479547d2a5375256c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-RagaLaugh_5
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 0
+        width: 211
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f49a30a5d4f6fb48af3a9e541580e8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-RagaLaugh_6
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 0
+        width: 210
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e914fa1f47fbc1d40b412c249a645196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: a40239b46fd08c5419922e53558ad010
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: 00-Sprite-Animation-KreeRunLeft_0
+    21300002: 00-Sprite-Animation-KreeRunLeft_1
+    21300004: 00-Sprite-Animation-KreeRunLeft_2
+    21300006: 00-Sprite-Animation-KreeRunLeft_3
+    21300008: 00-Sprite-Animation-KreeRunLeft_4
+    21300010: 00-Sprite-Animation-KreeRunLeft_5
+    21300012: 00-Sprite-Animation-KreeRunLeft_6
+    21300014: 00-Sprite-Animation-KreeRunLeft_7
+    21300016: 00-Sprite-Animation-KreeRunLeft_8
+    21300018: 00-Sprite-Animation-KreeRunLeft_9
+    21300020: 00-Sprite-Animation-KreeRunLeft_10
+    21300022: 00-Sprite-Animation-KreeRunLeft_11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +81,260 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 165
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3edcab11d521c41a2cd4fa148fa905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 6
+        width: 140
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c16df516851c4abd38efa8e93c0e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 5
+        width: 105
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3327720b7d6cf4e9a88b78e466455a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_3
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 16
+        width: 160
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0debff79cc6b24c82d3d62bb1bba15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_4
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 17
+        width: 185
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387717cea18f7fb43bf2e1e68115751b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 10
+        width: 171
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c976ad571253af8489987a8059651f88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_6
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 6
+        width: 128
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cf4a233a95af54c9b3f98f50f9cb3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_7
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 115
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ef3ed9cf03ed84296b0ac54344f1cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_8
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 5
+        width: 104
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051325cdfd8191848be78b0b23ad61f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_9
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 14
+        width: 137
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5dc70e08a9ebc43a05dfb2c3760433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_10
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 11
+        width: 179
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e895583c837bdf24198eaebfbf53d1e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeRunLeft_11
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 12
+        width: 165
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0d4552fdaae62489954ab8d16a1835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: e1b679797e192574c9e4f37b7c31baa7
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: 00-Sprite-Animation-KreeIdleRight_0
+    21300002: 00-Sprite-Animation-KreeIdleRight_1
+    21300004: 00-Sprite-Animation-KreeIdleRight_2
+    21300006: 00-Sprite-Animation-KreeIdleRight_3
+    21300008: 00-Sprite-Animation-KreeIdleRight_4
+    21300010: 00-Sprite-Animation-KreeIdleRight_5
+    21300012: 00-Sprite-Animation-KreeIdleRight_6
+    21300014: 00-Sprite-Animation-KreeIdleRight_7
+    21300016: 00-Sprite-Animation-KreeIdleRight_8
+    21300018: 00-Sprite-Animation-KreeIdleRight_9
+    21300020: 00-Sprite-Animation-KreeIdleRight_10
+    21300022: 00-Sprite-Animation-KreeIdleRight_11
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +81,260 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 101
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b467415e2c7149ad6702564850209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1
+        width: 91
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5190d53dd16e441b3646e0109e6734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1
+        width: 102
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8256f34e424a94cadebeda2c532117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_3
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1
+        width: 90
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873aa2384c7e24e439bdf898f4c0cc29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_4
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1
+        width: 76
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722d55ae7fcb5af488dd716b0d09f2a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_5
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 76
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16658c39ed7cb9544b1f31837e858e46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_6
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 0
+        width: 74
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436e719484a94724087260ce058836c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_7
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 0
+        width: 75
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c81aaa440fd84f40b6edb4c5d0c7347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_8
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 0
+        width: 86
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e594f684476b7499acbec6214f8f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_9
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 0
+        width: 92
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b63e5ecac639cc468be4eae30cdb294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_10
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 1
+        width: 73
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00700bfab4ebe1343b2115ceed73b700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-Sprite-Animation-KreeIdleRight_11
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 0
+        width: 102
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a857776b32d7b004fb5b55d50ce5e786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
