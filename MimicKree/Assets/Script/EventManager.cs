@@ -39,11 +39,14 @@ public class EventManager : MonoBehaviour {
                 player.transform.position = triggeredEvent.obj.transform.position;
                 break;
             case "addEdge":
+                triggeredEvent.obj.SetActive(true);
                 PathNode[] temp = new PathNode[triggeredEvent.p1.neighbors.Length + 1];
                 for(int i = 0; i < triggeredEvent.p1.neighbors.Length; i++)
                 {
+                    print(triggeredEvent.p1.neighbors[i]);
                     temp[i] = triggeredEvent.p1.neighbors[i];
                 }
+                print(triggeredEvent.p2);
                 temp[triggeredEvent.p1.neighbors.Length] = triggeredEvent.p2;
                 triggeredEvent.p1.neighbors = temp;
                 temp = new PathNode[triggeredEvent.p2.neighbors.Length + 1];

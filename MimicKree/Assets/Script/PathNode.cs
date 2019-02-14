@@ -27,5 +27,23 @@ public class PathNode: MonoBehaviour {
             em.triggerEvent(triggeredevent);
             triggeredevent.beenTriggered = true;
         }
+        if(triggeredevent.anotherEvent != null)
+        {
+            triggerEvent(triggeredevent.anotherEvent);
+        }
+    }
+
+    private void triggerEvent(Event e)
+    {
+        print("thing");
+        if (!e.triggerOnce || !e.beenTriggered)
+        {
+            em.triggerEvent(e);
+            e.beenTriggered = true;
+        }
+        if (e.anotherEvent != null)
+        {
+            triggerEvent(e.anotherEvent);
+        }
     }
 }
