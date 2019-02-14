@@ -6,7 +6,7 @@ public class PathNode: MonoBehaviour {
     public PathNode[] neighbors;
     public List<PathNode> history;
     private GameManager gm;
-    public string triggeredEventID;
+    public Event triggeredevent;
     private EventManager em;
 
     private void Start()
@@ -22,6 +22,10 @@ public class PathNode: MonoBehaviour {
 
     public void triggerEvent()
     {
-        em.triggerEvent(triggeredEventID);
+        if(!triggeredevent.triggerOnce || !triggeredevent.beenTriggered)
+        {
+            em.triggerEvent(triggeredevent);
+            triggeredevent.beenTriggered = true;
+        }
     }
 }

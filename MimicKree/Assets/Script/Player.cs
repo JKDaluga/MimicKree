@@ -49,7 +49,7 @@ public class Player : MonoBehaviour {
             if(transform.position == endMarker.position)
             {
                 location = endMarker.GetComponent<PathNode>();
-                if(!location.triggeredEventID.Equals(""))
+                if(location.triggeredevent != null)
                 {
                     location.triggerEvent();
                 }
@@ -79,5 +79,12 @@ public class Player : MonoBehaviour {
     public PathNode getLocation()
     {
         return location;
+    }
+
+    public void stopWalking()
+    {
+        isWalking = false;
+        isStartTimeSet = false;
+        pathsToTravel.Clear();
     }
 }

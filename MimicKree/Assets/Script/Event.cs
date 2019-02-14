@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Event : MonoBehaviour {
+    public string eventType;
+    public GameObject obj;
+    public bool triggerOnce;
+    public bool beenTriggered;
+    public Event anotherEvent;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject sceneOld;
+    public GameObject sceneNew;
+
+    public PathNode p1;
+    public PathNode p2;
 }
