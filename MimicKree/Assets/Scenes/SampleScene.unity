@@ -5955,7 +5955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Kree
+    name: Raga
     dialogues:
     - After my possessions like those blasted adventurers?
     - This time I will take you under my wing to do my bidding.
