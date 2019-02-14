@@ -653,8 +653,9 @@ GameObject:
   - component: {fileID: 153462748}
   - component: {fileID: 153462747}
   - component: {fileID: 153462746}
+  - component: {fileID: 153462750}
   m_Layer: 5
-  m_Name: PathNode (9)
+  m_Name: Block12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -780,6 +781,26 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 153462744}
   m_CullTransparentMesh: 0
+--- !u!114 &153462750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 153462744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventType: 
+  obj: {fileID: 0}
+  triggerOnce: 0
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
 --- !u!1 &205990483
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,9 +935,11 @@ GameObject:
   - component: {fileID: 214387507}
   - component: {fileID: 214387506}
   - component: {fileID: 214387505}
+  - component: {fileID: 214387508}
   - component: {fileID: 214387504}
+  - component: {fileID: 214387509}
   m_Layer: 5
-  m_Name: PathNode (9)
+  m_Name: Block4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -955,7 +978,7 @@ MonoBehaviour:
   - {fileID: 1497268422}
   - {fileID: 790378783}
   history: []
-  triggeredevent: {fileID: 0}
+  triggeredevent: {fileID: 214387508}
 --- !u!114 &214387505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1042,6 +1065,42 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 214387502}
   m_CullTransparentMesh: 0
+--- !u!114 &214387508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214387502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventType: dialogue
+  obj: {fileID: 214387502}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+--- !u!114 &214387509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 214387502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - Should be a trap around here.
+    profilePicture: {fileID: 21300000, guid: 1ddb4d3a7743c72419de75df3e6c0cd0, type: 3}
 --- !u!1 &280545062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1054,8 +1113,10 @@ GameObject:
   - component: {fileID: 280545065}
   - component: {fileID: 280545064}
   - component: {fileID: 280545063}
+  - component: {fileID: 280545068}
+  - component: {fileID: 280545069}
   m_Layer: 5
-  m_Name: PathNode (7)
+  m_Name: Block10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1076,7 +1137,7 @@ MonoBehaviour:
   - {fileID: 1828562075}
   - {fileID: 153462746}
   history: []
-  triggeredevent: {fileID: 0}
+  triggeredevent: {fileID: 280545068}
 --- !u!114 &280545064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,6 +1242,43 @@ RectTransform:
   m_AnchoredPosition: {x: -438, y: 25}
   m_SizeDelta: {x: 53.40001, y: 19.400002}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &280545068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 280545062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventType: dialogue
+  obj: {fileID: 280545062}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+--- !u!114 &280545069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 280545062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - These switches, seem to do something.
+    - For some reason they are not working.
+    profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &347346420
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,7 +1361,7 @@ GameObject:
   - component: {fileID: 468713284}
   - component: {fileID: 468713283}
   m_Layer: 5
-  m_Name: PathNode (6)
+  m_Name: Block1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1771,7 +1869,7 @@ GameObject:
   - component: {fileID: 574454122}
   - component: {fileID: 574454121}
   m_Layer: 5
-  m_Name: PathNode (9)
+  m_Name: Block8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2350,7 +2448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.14}
   m_SizeDelta: {x: 750, y: 422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &784913497
@@ -2545,7 +2643,7 @@ GameObject:
   - component: {fileID: 790378783}
   - component: {fileID: 790378787}
   m_Layer: 5
-  m_Name: PathNode (8)
+  m_Name: Block3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3089,8 +3187,9 @@ GameObject:
   - component: {fileID: 1092024405}
   - component: {fileID: 1092024404}
   - component: {fileID: 1092024403}
+  - component: {fileID: 1092024408}
   m_Layer: 5
-  m_Name: PathNode (8)
+  m_Name: Block7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3111,7 +3210,7 @@ MonoBehaviour:
   - {fileID: 1291447249}
   - {fileID: 1961499634}
   history: []
-  triggeredevent: {fileID: 0}
+  triggeredevent: {fileID: 1092024408}
 --- !u!114 &1092024404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3216,6 +3315,26 @@ RectTransform:
   m_AnchoredPosition: {x: -0.48000336, y: 1.2999992}
   m_SizeDelta: {x: 0.04599762, y: 0.20000076}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1092024408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1092024402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventType: changeScene
+  obj: {fileID: 1828562074}
+  triggerOnce: 0
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  sceneOld: {fileID: 593875173}
+  sceneNew: {fileID: 892807392}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
 --- !u!1 &1110114696
 GameObject:
   m_ObjectHideFlags: 0
@@ -4003,8 +4122,10 @@ GameObject:
   - component: {fileID: 1291447251}
   - component: {fileID: 1291447250}
   - component: {fileID: 1291447249}
+  - component: {fileID: 1291447254}
+  - component: {fileID: 1291447255}
   m_Layer: 5
-  m_Name: PathNode (7)
+  m_Name: Block6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4024,10 +4145,9 @@ MonoBehaviour:
   neighbors:
   - {fileID: 1961499634}
   - {fileID: 1092024403}
-  - {fileID: 574454121}
   history:
   - {fileID: 574454121}
-  triggeredevent: {fileID: 0}
+  triggeredevent: {fileID: 1291447254}
 --- !u!114 &1291447250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4132,6 +4252,42 @@ RectTransform:
   m_AnchoredPosition: {x: 0.5, y: -1.5}
   m_SizeDelta: {x: -1.9000015, y: -2.4059982}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1291447254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291447248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventType: dialogue
+  obj: {fileID: 1291447248}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+--- !u!114 &1291447255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291447248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - A pitfall? There must be a way to get across.
+    profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &1323005660
 GameObject:
   m_ObjectHideFlags: 0
@@ -4668,7 +4824,7 @@ GameObject:
   - component: {fileID: 1497268427}
   - component: {fileID: 1497268426}
   m_Layer: 5
-  m_Name: PathNode (7)
+  m_Name: Block2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4707,7 +4863,7 @@ MonoBehaviour:
   - {fileID: 468713283}
   - {fileID: 214387504}
   history: []
-  triggeredevent: {fileID: 0}
+  triggeredevent: {fileID: 1497268427}
 --- !u!114 &1497268423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4808,9 +4964,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - test
-    - please
-    profilePicture: {fileID: 21300000, guid: c301db884e76a574793120a1d683091b, type: 3}
+    - Hidden, temple, psh. This will be easy!
+    profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &1497268427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5511,8 +5666,9 @@ GameObject:
   - component: {fileID: 1828562077}
   - component: {fileID: 1828562076}
   - component: {fileID: 1828562075}
+  - component: {fileID: 1828562080}
   m_Layer: 5
-  m_Name: PathNode (6)
+  m_Name: Block9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5532,7 +5688,7 @@ MonoBehaviour:
   neighbors:
   - {fileID: 280545063}
   history: []
-  triggeredevent: {fileID: 0}
+  triggeredevent: {fileID: 1828562080}
 --- !u!114 &1828562076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5637,6 +5793,26 @@ RectTransform:
   m_AnchoredPosition: {x: -539.88, y: 25}
   m_SizeDelta: {x: 53.4, y: 19.4}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1828562080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1828562074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventType: changeScene
+  obj: {fileID: 1092024402}
+  triggerOnce: 0
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  sceneOld: {fileID: 892807392}
+  sceneNew: {fileID: 593875173}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
 --- !u!1 &1852384816
 GameObject:
   m_ObjectHideFlags: 0
@@ -5793,8 +5969,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -0.83100003, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 200.5, y: 0}
-  m_SizeDelta: {x: 400.9, y: 0.1}
+  m_AnchoredPosition: {x: 163, y: 4}
+  m_SizeDelta: {x: 408.9, y: 0.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1891450360
 SpriteRenderer:
@@ -5890,7 +6066,7 @@ GameObject:
   - component: {fileID: 1961499634}
   - component: {fileID: 1961499639}
   m_Layer: 5
-  m_Name: PathNode (6)
+  m_Name: Block5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5909,7 +6085,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 1291447249}
-  - {fileID: 1092024403}
   history: []
   triggeredevent: {fileID: 1961499639}
 --- !u!114 &1961499635
@@ -6028,7 +6203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventType: changeScene
-  obj: {fileID: 0}
+  obj: {fileID: 790378781}
   triggerOnce: 0
   beenTriggered: 0
   anotherEvent: {fileID: 0}
@@ -6155,8 +6330,11 @@ GameObject:
   - component: {fileID: 2023289048}
   - component: {fileID: 2023289047}
   - component: {fileID: 2023289046}
+  - component: {fileID: 2023289050}
+  - component: {fileID: 2023289052}
+  - component: {fileID: 2023289051}
   m_Layer: 5
-  m_Name: PathNode (8)
+  m_Name: Block11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6194,7 +6372,7 @@ MonoBehaviour:
   neighbors:
   - {fileID: 280545063}
   history: []
-  triggeredevent: {fileID: 0}
+  triggeredevent: {fileID: 2023289050}
 --- !u!114 &2023289047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6281,6 +6459,63 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2023289044}
   m_CullTransparentMesh: 0
+--- !u!114 &2023289050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2023289044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventType: dialogue
+  obj: {fileID: 2023289044}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+--- !u!114 &2023289051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2023289044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - This switch seemed to do something.
+    - I wonder if I can cross that gap now.
+    profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
+--- !u!114 &2023289052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2023289044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventType: addedge
+  obj: {fileID: 2023289044}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  p1: {fileID: 1092024403}
+  p2: {fileID: 574454121}
 --- !u!1 &2088381616
 GameObject:
   m_ObjectHideFlags: 0
