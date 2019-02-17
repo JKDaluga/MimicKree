@@ -22,7 +22,6 @@ public class GameManager : MonoBehaviour {
         List<PathNode> visited = new List<PathNode>();
         Queue<PathNode> work = new Queue<PathNode>();
 
-        
         start.history = new List<PathNode>();
         visited.Add(start);
         work.Enqueue(start);

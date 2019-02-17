@@ -10,10 +10,19 @@ public class Item : MonoBehaviour {
     public string itemName;
     private bool isclicked = false;
     private Vector3 mousePosition;
+    public bool isInSlot;
 
     private void Start()
     {
         origPos = transform.position;
+        if(isInSlot)
+        {
+            GetComponent<Image>().enabled = true;
+        }
+        else
+        {
+            GetComponent<Image>().enabled = false;
+        }
     }
 
     private void Update()
@@ -23,17 +32,17 @@ public class Item : MonoBehaviour {
             mousePosition = Input.mousePosition;
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             transform.position = new Vector3(mousePosition.x, mousePosition.y,0);
-            
         }
     }
 
     void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0) == true)
+        if (Input.GetMouseButtonDown(0) == true && isInSlot)
         {
             isclicked = !isclicked;
             if(isclicked == false)
             {
+                //raycast 
                 transform.position = origPos;
             }
         }

@@ -6,8 +6,7 @@ using UnityEngine.UI;
 [System.Serializable]
 public class Inventory : MonoBehaviour {
     public GameObject inventoryCanvas;
-    [SerializeField]
-    public List<InventorySlot> invSlots = new List<InventorySlot>();
+    public InventorySlot[] invSlots;
     public Sprite lockpick;
     private int slotNum = 0;
 
@@ -28,7 +27,7 @@ public class Inventory : MonoBehaviour {
 
     public void addItem()
     {
-        if(slotNum < invSlots.Count)
+        if(slotNum < invSlots.Length)
         {
             //invSlots[slotNum] = 
             slotNum++;

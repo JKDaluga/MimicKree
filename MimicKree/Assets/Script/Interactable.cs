@@ -2,32 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PathNode: MonoBehaviour {
-    public PathNode[] neighbors;
-    public List<PathNode> history;
-    private GameManager gm;
+public class Interactable : MonoBehaviour {
+
+    public PathNode location;
+    public bool isActivated;
+    //public bool isRepeatable;
+    public Item itemRequired;
     public Event triggeredevent;
     private EventManager em;
 
-    private void Start()
-    {
-        gm = FindObjectOfType<GameManager>();
+    // Use this for initialization
+    void Start () {
         em = FindObjectOfType<EventManager>();
     }
-
-    public void walk()
-    {
-        gm.walk(this);
-    }
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
 
     public void triggerEvent()
     {
-        if(!triggeredevent.triggerOnce || !triggeredevent.beenTriggered)
+        if (!triggeredevent.triggerOnce || !triggeredevent.beenTriggered)
         {
             em.triggerEvent(triggeredevent);
             triggeredevent.beenTriggered = true;
         }
-        if(triggeredevent.anotherEvent != null)
+        if (triggeredevent.anotherEvent != null)
         {
             triggerEvent(triggeredevent.anotherEvent);
         }

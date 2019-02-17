@@ -4361,7 +4361,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -7049275
   m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &784913501
@@ -4897,6 +4897,7 @@ MonoBehaviour:
   origPos: {x: 0, y: 0, z: 0}
   image: {fileID: 0}
   itemName: 
+  isInSlot: 1
 --- !u!224 &820923319
 RectTransform:
   m_ObjectHideFlags: 0

@@ -5,11 +5,13 @@ using UnityEngine;
 public class EventManager : MonoBehaviour {
 
     Player player;
+    Inventory inv;
 
 	// Use this for initialization
 	void Start () {
         player = FindObjectOfType<Player>();
-	}
+        inv = FindObjectOfType<Inventory>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -39,7 +41,10 @@ public class EventManager : MonoBehaviour {
                 player.transform.position = triggeredEvent.obj.transform.position;
                 break;
             case "addEdge":
-                triggeredEvent.obj.SetActive(true);
+                if(triggeredEvent.obj != null)
+                {
+                    triggeredEvent.obj.SetActive(true);
+                }
                 PathNode[] temp = new PathNode[triggeredEvent.p1.neighbors.Length + 1];
                 for(int i = 0; i < triggeredEvent.p1.neighbors.Length; i++)
                 {
@@ -56,6 +61,12 @@ public class EventManager : MonoBehaviour {
                 }
                 temp[triggeredEvent.p2.neighbors.Length] = triggeredEvent.p1;
                 triggeredEvent.p2.neighbors = temp;
+                break;
+            case "addItem":
+
+                break;
+            case "removeItem":
+
                 break;
             default:
                 break;
