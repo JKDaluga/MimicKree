@@ -14,6 +14,7 @@ public class Item : MonoBehaviour {
 
     private void Start()
     {
+        image = GetComponent<Image>();
         origPos = transform.position;
         if(isInSlot)
         {
@@ -46,5 +47,17 @@ public class Item : MonoBehaviour {
                 transform.position = origPos;
             }
         }
+    }
+
+    public void activate()
+    {
+        isInSlot = true;
+        image.enabled = true;
+    }
+
+    public void deactivate()
+    {
+        isInSlot = false;
+        image.enabled = false;
     }
 }

@@ -18,11 +18,6 @@ public class EventManager : MonoBehaviour {
 		
 	}
 
-    public void addItem(GameObject item)
-    {
-
-    }
-
     public void triggerEvent(Event triggeredEvent)
     {
         switch (triggeredEvent.eventType)
@@ -63,10 +58,10 @@ public class EventManager : MonoBehaviour {
                 triggeredEvent.p2.neighbors = temp;
                 break;
             case "addItem":
-
+                inv.addItem(triggeredEvent.addedItem);
                 break;
             case "removeItem":
-
+                inv.removeItem(triggeredEvent.removedItem);
                 break;
             default:
                 break;

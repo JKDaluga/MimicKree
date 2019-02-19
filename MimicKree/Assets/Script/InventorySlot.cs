@@ -4,18 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [System.Serializable]
-public class InventorySlot : MonoBehaviour {
-
+public class InventorySlot : MonoBehaviour
+{
     public Image image;
+    public Item item;
     public string itemName;
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

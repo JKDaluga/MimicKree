@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour {
     public GameObject inventoryCanvas;
     public InventorySlot[] invSlots;
-    public Sprite lockpick;
     private int slotNum = 0;
 
 	// Use this for initialization
@@ -25,17 +24,34 @@ public class Inventory : MonoBehaviour {
         inventoryCanvas.SetActive(!inventoryCanvas.activeSelf);
     }
 
-    public void addItem()
+    public bool addItem(Item item)
     {
-        if(slotNum < invSlots.Length)
+        foreach(InventorySlot inv in invSlots)
         {
-            //invSlots[slotNum] = 
-            slotNum++;
+            if(!inv.item.isInSlot)
+            {
+                inv.item.image.sprite = item.image.sprite;
+                inv.item.itemName = item.itemName;
+                inv.item.activate();
+                return true;
+            }
         }
+        print("I don't have room for that");
+        return false;
     }
 
-    public void removeItem()
+    public bool removeItem(Item item)
     {
-
+        foreach (InventorySlot inv in invSlots)
+        {
+            if (inv.item.isInSlot && inv.item.itemName.Equals(item.itemName))
+            {
+                inv.item.image.sprite = null;
+                inv.item.itemName = "";
+                inv.item.deactivate();
+                return true;
+            }
+        }
+        return false;
     }
 }

@@ -8,6 +8,8 @@ public class Event : MonoBehaviour {
     public bool triggerOnce;
     public bool beenTriggered;
     public Event anotherEvent;
+    public Item addedItem;
+    public Item removedItem;
 
     public GameObject sceneOld;
     public GameObject sceneNew;
