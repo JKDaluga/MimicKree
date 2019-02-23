@@ -27,4 +27,10 @@ public class Event : MonoBehaviour {
     public Item removedItem;
 
     public bool waitOnAnimation;
+
+    public bool triggerOnce;
+    public bool beenTriggered;
+
+    public Event anotherEvent;
+
 }
