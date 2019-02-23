@@ -20,6 +20,39 @@ public class EventManager : MonoBehaviour {
 
     public void triggerEvent(Event triggeredEvent)
     {
+        if(triggeredEvent.hasAnimation)
+        {
+            triggeredEvent.anim.Play();
+        }
+        if (triggeredEvent.hasDialogue)
+        {
+            triggeredEvent.dialogueTrigger.TriggerDialogue();
+            player.stopWalking();
+        }
+        if (triggeredEvent.hasSceneChange)
+        {
+            triggeredEvent.sceneOld.SetActive(false);
+            triggeredEvent.sceneNew.SetActive(true);
+            player.location = triggeredEvent.newSceneNode;
+            player.transform.position = triggeredEvent.newSceneNode.transform.position;
+        }
+        if (triggeredEvent.addAnEdge)
+        {
+
+        }
+        if (triggeredEvent.addsItem)
+        {
+
+        }
+        if (triggeredEvent.removesItem)
+        {
+
+        }
+        if (triggeredEvent.hasAnotherEvent)
+        {
+
+        }
+        /*
         switch (triggeredEvent.eventType)
         {
             case "animation":
@@ -65,6 +98,6 @@ public class EventManager : MonoBehaviour {
                 break;
             default:
                 break;
-        }
+        }*/
     }
 }
