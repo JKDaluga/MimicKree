@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Event : MonoBehaviour {
-    //public string eventType;
+    
     public bool hasAnimation;
     public bool hasDialogue;
     public bool hasSceneChange;
@@ -13,6 +13,7 @@ public class Event : MonoBehaviour {
     public bool hasAnotherEvent;
 
     public Animation anim;
+    public bool waitOnAnimation;
 
     public DialogueTrigger dialogueTrigger;
 
@@ -25,8 +26,6 @@ public class Event : MonoBehaviour {
 
     public Item addedItem;
     public Item removedItem;
-
-    public bool waitOnAnimation;
 
     public bool triggerOnce;
     public bool beenTriggered;

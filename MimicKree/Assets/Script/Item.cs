@@ -36,16 +36,12 @@ public class Item : MonoBehaviour {
         }
     }
 
+    //used for pickin up items
     void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0) == true && isInSlot)
+        if (Input.GetMouseButtonDown(0) == true && isInSlot && !isclicked)
         {
-            isclicked = !isclicked;
-            if(isclicked == false)
-            {
-                //raycast 
-                transform.position = origPos;
-            }
+            isclicked = true;
         }
     }
 
@@ -59,5 +55,20 @@ public class Item : MonoBehaviour {
     {
         isInSlot = false;
         image.enabled = false;
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(isclicked && Input.GetMouseButtonDown(0))
+        {
+            Interactable inter = collision.gameObject.GetComponent<Interactable>();
+            if(inter != null)
+            {
+                if(inter.itemRequired == "" || inter.itemRequired == itemName)
+                {
+                    inter.triggerEvent();
+                }
+            }
+        }
     }
 }
