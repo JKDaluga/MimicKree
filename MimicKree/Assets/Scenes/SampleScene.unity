@@ -1736,7 +1736,7 @@ RectTransform:
   m_LocalScale: {x: 0.850119, y: 1.00014, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1159791490}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.45233336, y: 0.19410901}
   m_AnchorMax: {x: 0.744, y: 0.40047872}
@@ -2088,6 +2088,193 @@ RectTransform:
   m_AnchorMax: {x: 0.7223672, y: 0.2263923}
   m_AnchoredPosition: {x: -0.27560425, y: -0.33061218}
   m_SizeDelta: {x: -44.23744, y: 0.072075605}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &259141410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 259141417}
+  - component: {fileID: 259141416}
+  - component: {fileID: 259141415}
+  - component: {fileID: 259141414}
+  - component: {fileID: 259141411}
+  - component: {fileID: 259141412}
+  - component: {fileID: 259141413}
+  m_Layer: 5
+  m_Name: Block29
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &259141411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259141410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7308a2212360749b07af7af3c54620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neighbors:
+  - {fileID: 406527754}
+  history: []
+  triggeredevent: {fileID: 259141412}
+--- !u!114 &259141412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259141410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAnimation: 0
+  hasDialogue: 1
+  hasSceneChange: 0
+  addAnEdge: 0
+  addsItem: 0
+  removesItem: 0
+  hasAnotherEvent: 0
+  anim: {fileID: 0}
+  waitOnAnimation: 0
+  dialogueTrigger: {fileID: 259141413}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  newSceneNode: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  addedItem: {fileID: 0}
+  removedItem: {fileID: 0}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+--- !u!114 &259141413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259141410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - I'm dead? I can't be? I need to run.
+    profilePicture: {fileID: 21300000, guid: 85299eecd118b1c4989a4ac24fd0ee0e, type: 3}
+--- !u!114 &259141414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259141410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 259141415}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 259141411}
+        m_MethodName: walk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &259141415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259141410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &259141416
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259141410}
+  m_CullTransparentMesh: 0
+--- !u!224 &259141417
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259141410}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.809818, y: 1.00014, z: 1.00014}
+  m_Children: []
+  m_Father: {fileID: 1159791490}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.21900001, y: 0.19410901}
+  m_AnchorMax: {x: 0.45233336, y: 0.40047872}
+  m_AnchoredPosition: {x: -55, y: 36.098}
+  m_SizeDelta: {x: -17.5, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &264838079
 GameObject:
@@ -2563,6 +2750,194 @@ MonoBehaviour:
   image: {fileID: 1925604342}
   item: {fileID: 1925604339}
   itemName: 
+--- !u!1 &406527753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 406527760}
+  - component: {fileID: 406527759}
+  - component: {fileID: 406527758}
+  - component: {fileID: 406527757}
+  - component: {fileID: 406527754}
+  - component: {fileID: 406527755}
+  - component: {fileID: 406527756}
+  m_Layer: 5
+  m_Name: Block30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &406527754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406527753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7308a2212360749b07af7af3c54620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neighbors: []
+  history: []
+  triggeredevent: {fileID: 406527755}
+--- !u!114 &406527755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406527753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAnimation: 0
+  hasDialogue: 1
+  hasSceneChange: 0
+  addAnEdge: 0
+  addsItem: 0
+  removesItem: 0
+  hasAnotherEvent: 0
+  anim: {fileID: 0}
+  waitOnAnimation: 0
+  dialogueTrigger: {fileID: 406527756}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  newSceneNode: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  addedItem: {fileID: 0}
+  removedItem: {fileID: 0}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+--- !u!114 &406527756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406527753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Raga
+    dialogues:
+    - AH there's your soul and it is time for a new home.
+    - Enjoy the new mimic form.
+    - Now please leave my temple.
+    profilePicture: {fileID: 21300000, guid: ee136def52cc0af40a9cc48d036213bb, type: 3}
+--- !u!114 &406527757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406527753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 406527758}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 406527754}
+        m_MethodName: walk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &406527758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406527753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &406527759
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406527753}
+  m_CullTransparentMesh: 0
+--- !u!224 &406527760
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 406527753}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.809818, y: 1.00014, z: 1.00014}
+  m_Children: []
+  m_Father: {fileID: 1159791490}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.21900001, y: 0.19410901}
+  m_AnchorMax: {x: 0.45233336, y: 0.40047872}
+  m_AnchoredPosition: {x: -181, y: 36.098}
+  m_SizeDelta: {x: -17.5, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &455203645
 GameObject:
   m_ObjectHideFlags: 0
@@ -4834,7 +5209,7 @@ RectTransform:
   m_Children:
   - {fileID: 1300489156}
   m_Father: {fileID: 1159791490}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6075,7 +6450,7 @@ RectTransform:
   m_LocalScale: {x: 0.8626207, y: 1.00014, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1159791490}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.744, y: 0.19410901}
   m_AnchorMax: {x: 1, y: 0.40047872}
@@ -6096,7 +6471,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Time for me to get out of here
+    - Time for me to get out of here.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &944699454
 MonoBehaviour:
@@ -6610,7 +6985,7 @@ RectTransform:
   m_Children:
   - {fileID: 1932050917}
   m_Father: {fileID: 1159791490}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8061,6 +8436,8 @@ RectTransform:
   m_Children:
   - {fileID: 296180197}
   - {fileID: 2129127001}
+  - {fileID: 406527760}
+  - {fileID: 259141417}
   - {fileID: 944699452}
   - {fileID: 224145302}
   - {fileID: 1813014528}
@@ -12453,12 +12830,12 @@ RectTransform:
   m_LocalScale: {x: 0.80995715, y: 1.00014, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1159791490}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.21900001, y: 0.19410901}
   m_AnchorMax: {x: 0.45233336, y: 0.40047872}
-  m_AnchoredPosition: {x: 69.3, y: 36.097984}
-  m_SizeDelta: {x: 68.6, y: 1}
+  m_AnchoredPosition: {x: 90.4, y: 36.097984}
+  m_SizeDelta: {x: 16.5, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1813014529
 MonoBehaviour:
@@ -12480,7 +12857,6 @@ MonoBehaviour:
       human again.
     - Sounds like a good plan right? I thought of it myself.
     - Sorry? What was that? I can't speak death? So i will take that as a yes.
-    - Enjoy the new form, if you succeed I will turn you back or whatever.
     profilePicture: {fileID: 21300000, guid: fd80d696b4ea7f84a98ead26262a4757, type: 3}
 --- !u!114 &1813014530
 MonoBehaviour:
@@ -12524,7 +12900,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7308a2212360749b07af7af3c54620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neighbors: []
+  neighbors:
+  - {fileID: 259141411}
   history: []
   triggeredevent: {fileID: 1813014530}
 --- !u!114 &1813014532
