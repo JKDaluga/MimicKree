@@ -12,6 +12,7 @@ public class Interactable : MonoBehaviour {
     private EventManager em;
     private GameManager gm;
     private Component halo;
+    public bool DestoryOnceUsed;
 
     // Use this for initialization
     void Start () {
@@ -57,12 +58,37 @@ public class Interactable : MonoBehaviour {
     {
         if(Input.GetMouseButtonDown(0))
         {
-            
+            print("here");
+            gm.walk(location);
+            print("alsohere");
+            StartCoroutine("waitForTrigger");
+            //waitForTrigger();
         }
     }
 
     private void OnMouseExit()
     {
         halo.GetType().GetProperty("enabled").SetValue(halo, false, null);
+    }
+
+    IEnumerator waitForTrigger()
+    {
+        Player p = FindObjectOfType<Player>();
+        print("dank");
+        while(p.walking)
+        {
+            print("thing");
+            yield return null;
+        }
+        print("then");
+        if (p.location == location)
+        {
+            print("here");
+            triggerEvent();
+            if (DestoryOnceUsed)
+            {
+                Destroy(this.gameObject);
+            }
+        }  
     }
 }

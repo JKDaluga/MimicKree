@@ -6,7 +6,8 @@ public class Player : MonoBehaviour {
 
     public PathNode location;
     List<PathNode> pathsToTravel = new List<PathNode>();
-    bool isWalking;
+    private bool isWalking;
+    public bool walking;
     bool isStartTimeSet;
 
     // Transforms to act as start and end markers for the journey.
@@ -54,6 +55,7 @@ public class Player : MonoBehaviour {
                     location.triggerEvent();
                 }
                 isWalking = false;
+                walking = false;
                 isStartTimeSet = false;
             }
         }
@@ -68,7 +70,8 @@ public class Player : MonoBehaviour {
             endMarker = pathsToTravel[0].transform;
             pathsToTravel.RemoveAt(0);
             isWalking = true;
-        }
+            walking = true;
+          }
     }
 
     public void setList(List<PathNode> path)
@@ -84,7 +87,13 @@ public class Player : MonoBehaviour {
     public void stopWalking()
     {
         isWalking = false;
+        walking = false;
         isStartTimeSet = false;
         pathsToTravel.Clear();
+    }
+
+    public int Count()
+    {
+        return pathsToTravel.Count;
     }
 }
