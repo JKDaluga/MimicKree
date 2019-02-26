@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EventManager : MonoBehaviour {
 
@@ -69,6 +70,16 @@ public class EventManager : MonoBehaviour {
         {
             triggerEvent(triggeredEvent.anotherEvent);
         }
+        if (triggeredEvent.axeNum != 0)
+        {
+            triggeredEvent.ap.updateAxes(triggeredEvent.axeNum);
+        }
+        if (triggeredEvent.door != null)
+        {
+            triggeredEvent.door.SetActive(false);
+            triggeredEvent.door2.SetActive(true);
+            triggeredEvent.button.GetComponent<SpriteRenderer>().sprite = triggeredEvent.sprite;
+        }
     }
 
     private IEnumerator WaitForAnimation(Animation animation)
@@ -78,6 +89,5 @@ public class EventManager : MonoBehaviour {
         {
             yield return null;
         } while (animation.isPlaying);
-        print("Nice trick kiddo");
     }
 }

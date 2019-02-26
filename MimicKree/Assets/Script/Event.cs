@@ -32,4 +32,12 @@ public class Event : MonoBehaviour {
 
     public Event anotherEvent;
 
+    public AxePuzzle ap;
+    public int axeNum;
+
+    public GameObject door;
+    public GameObject door2;
+    public GameObject button;
+    public Sprite sprite;
+
 }
