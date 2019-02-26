@@ -5190,7 +5190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5895,7 +5895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &784913498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11345,7 +11345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4b2731513371ef4ba6cf6d9345bd54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 41986848}
+  location: {fileID: 468713283}
   walking: 0
   startMarker: {fileID: 0}
   endMarker: {fileID: 0}
@@ -11367,7 +11367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1448583980
 MonoBehaviour:
   m_ObjectHideFlags: 0
