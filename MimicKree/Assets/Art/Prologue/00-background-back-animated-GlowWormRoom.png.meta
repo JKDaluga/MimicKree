@@ -1,7 +1,11 @@
 fileFormatVersion: 2
-guid: a55a86d3509ab214e906cd6d29f2666b
+guid: c38b3bffab0eeab42a30bdcfe48d38ce
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: 00-background-back-animated-GlowWormRoom_0
+    21300002: 00-background-back-animated-GlowWormRoom_1
+    21300004: 00-background-back-animated-GlowWormRoom_2
+    21300006: 00-background-back-animated-GlowWormRoom_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +44,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,11 +119,91 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 00-background-back-animated-GlowWormRoom_0
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 193
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a408853275d51c648b9fc411cbce21ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-background-back-animated-GlowWormRoom_1
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 199
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1897f1f73d84b74bb9de5962e07f47d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-background-back-animated-GlowWormRoom_2
+      rect:
+        serializedVersion: 2
+        x: 4116
+        y: 199
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d567039d28d8f4b8bc9e9a8d052f7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 00-background-back-animated-GlowWormRoom_3
+      rect:
+        serializedVersion: 2
+        x: 6048
+        y: 205
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22390a41162184a4e817e05bf0665002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c4db440a63035d5409530e6c0375202a
+    spriteID: 18a72dbad0916444a9430d8c1cd60480
     vertices: []
     indices: 
     edges: []

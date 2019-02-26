@@ -40,4 +40,6 @@ public class Event : MonoBehaviour {
     public GameObject button;
     public Sprite sprite;
 
+    public Event ev;
+
 }

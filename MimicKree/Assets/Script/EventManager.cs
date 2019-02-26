@@ -79,6 +79,7 @@ public class EventManager : MonoBehaviour {
             triggeredEvent.door.SetActive(false);
             triggeredEvent.door2.SetActive(true);
             triggeredEvent.button.GetComponent<SpriteRenderer>().sprite = triggeredEvent.sprite;
+            triggeredEvent.ev.hasDialogue = false;
         }
     }
 

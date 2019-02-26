@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
     private Player player;
+    public GameObject screen;
 
 	// Use this for initialization
 	void Start () {
@@ -64,5 +66,20 @@ public class GameManager : MonoBehaviour {
             if(temp.Count > 1) temp.RemoveAt(0);
             player.setList(temp);
         }
+    }
+
+    public void changeScene()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    public void LoadScreen()
+    {
+        screen.SetActive(!screen.activeSelf);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

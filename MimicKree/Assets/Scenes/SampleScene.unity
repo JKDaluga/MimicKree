@@ -418,6 +418,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &41986850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,10 +518,10 @@ RectTransform:
   m_Father: {fileID: 1448583983}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.8358592, y: 0.017260363}
-  m_AnchorMax: {x: 1, y: 0.22100002}
-  m_AnchoredPosition: {x: 2.7292514, y: 0.90917337}
-  m_SizeDelta: {x: -57.911766, y: 2.1133335}
+  m_AnchorMin: {x: 0.83084947, y: 0.017260363}
+  m_AnchorMax: {x: 1, y: 0.19430266}
+  m_AnchoredPosition: {x: 3.6420414, y: -0.96200776}
+  m_SizeDelta: {x: -60.659283, y: -1.5140157}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &56998613
 GameObject:
@@ -554,7 +555,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0025024414, y: 0.022472382}
+  m_AnchoredPosition: {x: -0.0025024414, y: 0.022476196}
   m_SizeDelta: {x: 0, y: 0.045021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &56998615
@@ -1064,6 +1065,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!1 &155106769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,9 +1203,9 @@ RectTransform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.051379476}
-  m_AnchorMax: {x: 0.08863151, y: 0.43400002}
-  m_AnchoredPosition: {x: 0.0036144, y: -0.66089}
-  m_SizeDelta: {x: -0.0020523, y: 1.3}
+  m_AnchorMax: {x: 0.14110167, y: 0.43400002}
+  m_AnchoredPosition: {x: -0.6488298, y: -0.66089}
+  m_SizeDelta: {x: -1.3976581, y: 1.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &171752313
 MonoBehaviour:
@@ -1226,9 +1228,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   waitOnAnimation: 0
   dialogueTrigger: {fileID: 0}
-  sceneOld: {fileID: 821776691}
-  sceneNew: {fileID: 848893853}
-  newSceneNode: {fileID: 171752314}
+  sceneOld: {fileID: 1265732985}
+  sceneNew: {fileID: 1448583979}
+  newSceneNode: {fileID: 41986848}
   p1: {fileID: 0}
   p2: {fileID: 0}
   addedItem: {fileID: 0}
@@ -1242,6 +1244,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &171752314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1435,6 +1438,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &197650072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1837,6 +1841,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!1 &224145301
 GameObject:
   m_ObjectHideFlags: 0
@@ -1951,6 +1956,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &224145306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2094,7 +2100,7 @@ MonoBehaviour:
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
-  dialogueTrigger: {fileID: 0}
+  dialogueTrigger: {fileID: 234474297}
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
@@ -2111,6 +2117,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &234474297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2307,6 +2314,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &259141413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2693,6 +2701,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &280545069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3081,6 +3090,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &406527756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3237,10 +3247,10 @@ RectTransform:
   m_Father: {fileID: 1053219205}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.22371574, y: 0.18729314}
-  m_AnchorMax: {x: 0.35654998, y: 0.342}
-  m_AnchoredPosition: {x: 0.05421573, y: -2.4792206}
-  m_SizeDelta: {x: 2.407502, y: 7.953064}
+  m_AnchorMin: {x: 0.19786441, y: 0.16971487}
+  m_AnchorMax: {x: 0.33554578, y: 0.342}
+  m_AnchoredPosition: {x: -1.4202299, y: -0.2674842}
+  m_SizeDelta: {x: -1.2050991, y: 0.5350323}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &455203647
 MonoBehaviour:
@@ -3256,9 +3266,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - These purple crystals look beautiful.
-    - Maybe I will take some back if i have room for them.
-    profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
+    - The door seems to be locked.
+    profilePicture: {fileID: 21300000, guid: ed5bf9cbf6fd55b44940b8ac2171cd05, type: 3}
 --- !u!114 &455203648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3296,6 +3305,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &455203649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3309,7 +3319,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 1111940671}
-  - {fileID: 1486458224}
   history: []
   triggeredevent: {fileID: 455203648}
 --- !u!114 &455203650
@@ -3801,7 +3810,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 528276922}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 248.98001, y: 29.962, z: -3798}
+  m_LocalPosition: {x: 248.98001, y: 28.6, z: -3798}
   m_LocalScale: {x: 42.2, y: 42.2, z: 42.2}
   m_Children: []
   m_Father: {fileID: 1448583983}
@@ -3839,8 +3848,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1640847469
-  m_SortingLayer: 3
+  m_SortingLayerID: 1557054327
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 068f46ed04854d84699b8b394c74618d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4126,6 +4135,77 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &557201346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 557201349}
+  - component: {fileID: 557201348}
+  - component: {fileID: 557201347}
+  m_Layer: 5
+  m_Name: Journal (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &557201347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 557201346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 254866a8a3deabe44a1acf555a5ff748, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &557201348
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 557201346}
+  m_CullTransparentMesh: 0
+--- !u!224 &557201349
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 557201346}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1278252658}
+  - {fileID: 1502815415}
+  m_Father: {fileID: 1191356756}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_SizeDelta: {x: 0.000030517578, y: -0.000030517578}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &574454119
 GameObject:
   m_ObjectHideFlags: 0
@@ -4302,6 +4382,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!1 &593875173
 GameObject:
   m_ObjectHideFlags: 0
@@ -4611,6 +4692,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &619684523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5207,6 +5289,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &761775338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 761775339}
+  - component: {fileID: 761775341}
+  - component: {fileID: 761775340}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &761775339
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761775338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1502815415}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &761775340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761775338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Close
+--- !u!222 &761775341
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761775338}
+  m_CullTransparentMesh: 0
 --- !u!1 &763652340
 GameObject:
   m_ObjectHideFlags: 0
@@ -5284,7 +5441,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1737518618}
-        m_MethodName: QuitGame
+        m_MethodName: toggleHelp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5763,6 +5920,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &787085459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6027,6 +6185,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &790378788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6347,6 +6506,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &836788264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6599,6 +6759,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &885223127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6867,7 +7028,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0025024414, y: 0.022472382}
+  m_AnchoredPosition: {x: -0.0025024414, y: 0.022468567}
   m_SizeDelta: {x: 0, y: 0.045021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899563879
@@ -6942,7 +7103,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0025024414, y: 0.022472382}
+  m_AnchoredPosition: {x: -0.0025024414, y: 0.022468567}
   m_SizeDelta: {x: 0, y: 0.045021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &923373281
@@ -7077,6 +7238,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &944699455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7354,6 +7516,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &966019279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7482,8 +7645,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1025531680}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: 12, z: -3798}
-  m_LocalScale: {x: 42.2, y: 42.2, z: 42.2}
+  m_LocalPosition: {x: 8.4, y: 4.4, z: -3798}
+  m_LocalScale: {x: 41.778, y: 41.778, z: 41.778}
   m_Children: []
   m_Father: {fileID: 1053219205}
   m_RootOrder: 0
@@ -7627,6 +7790,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1046414863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7790,9 +7954,9 @@ MonoBehaviour:
   anim: {fileID: 0}
   waitOnAnimation: 0
   dialogueTrigger: {fileID: 1051026283}
-  sceneOld: {fileID: 1051026281}
-  sceneNew: {fileID: 0}
-  newSceneNode: {fileID: 0}
+  sceneOld: {fileID: 1448583979}
+  sceneNew: {fileID: 1159791486}
+  newSceneNode: {fileID: 944699455}
   p1: {fileID: 0}
   p2: {fileID: 0}
   addedItem: {fileID: 0}
@@ -7806,6 +7970,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1051026285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8442,6 +8607,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!1 &1110114696
 GameObject:
   m_ObjectHideFlags: 0
@@ -8569,7 +8735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 0}
+  - {fileID: 836788264}
   - {fileID: 455203649}
   history: []
   triggeredevent: {fileID: 1111940672}
@@ -8610,6 +8776,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1111940673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8726,10 +8893,10 @@ RectTransform:
   m_Father: {fileID: 1053219205}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.46911412, y: 0.21749686}
-  m_AnchorMax: {x: 0.60034907, y: 0.38639483}
-  m_AnchoredPosition: {x: 3.2967381, y: -2.2218018}
-  m_SizeDelta: {x: 3.6253102, y: 2.5123246}
+  m_AnchorMin: {x: 0.4138608, y: 0.16971487}
+  m_AnchorMax: {x: 0.5716572, y: 0.342}
+  m_AnchoredPosition: {x: -2.647821, y: 0.49341}
+  m_SizeDelta: {x: 1.795641, y: -0.9968}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1120828550
 GameObject:
@@ -9224,6 +9391,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1165139711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9377,6 +9545,7 @@ RectTransform:
   - {fileID: 1201708405}
   - {fileID: 763652341}
   - {fileID: 1485744813}
+  - {fileID: 557201349}
   m_Father: {fileID: 1110114700}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9911,6 +10080,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1231416750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10069,6 +10239,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1243913553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10270,6 +10441,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0.06, y: 0.31}
   m_SizeDelta: {x: 750, y: 422}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1278252657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1278252658}
+  - component: {fileID: 1278252660}
+  - component: {fileID: 1278252659}
+  m_Layer: 5
+  m_Name: HelpText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1278252658
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278252657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 557201349}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.1, y: 0.70250005}
+  m_AnchorMax: {x: 0.46500003, y: 0.7975}
+  m_AnchoredPosition: {x: 1.5, y: 1}
+  m_SizeDelta: {x: 1.6000061, y: -1.0999985}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1278252659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278252657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: This is where we put helpful tips
+--- !u!222 &1278252660
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278252657}
+  m_CullTransparentMesh: 0
 --- !u!1 &1291447248
 GameObject:
   m_ObjectHideFlags: 0
@@ -10450,6 +10696,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1291447255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11305,8 +11552,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.09166667, y: 0.75000006}
   m_AnchorMax: {x: 0.45333335, y: 0.8525}
-  m_AnchoredPosition: {x: 279.59, y: -234.31}
-  m_SizeDelta: {x: 19.6, y: 0.2}
+  m_AnchoredPosition: {x: 279.59003, y: -234.31}
+  m_SizeDelta: {x: 19.600006, y: 0.20000076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1485744814
 MonoBehaviour:
@@ -11407,7 +11654,6 @@ GameObject:
   - component: {fileID: 1486458225}
   - component: {fileID: 1486458224}
   - component: {fileID: 1486458223}
-  - component: {fileID: 1486458222}
   m_Layer: 5
   m_Name: Block17
   m_TagString: Untagged
@@ -11428,27 +11674,11 @@ RectTransform:
   m_Father: {fileID: 1053219205}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.092522934, y: 0.05322828}
-  m_AnchorMax: {x: 0.22371574, y: 0.21749686}
-  m_AnchoredPosition: {x: -0.071727514, y: 0.042915344}
-  m_SizeDelta: {x: 4.018044, y: 1.4049416}
+  m_AnchorMin: {x: 0.013, y: 0.18729314}
+  m_AnchorMax: {x: 0.13547407, y: 0.342}
+  m_AnchoredPosition: {x: 0.53623813, y: -4.8373814}
+  m_SizeDelta: {x: 4.793056, y: 0.29165173}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1486458222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1486458220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Kree
-    dialogues:
-    - The door seems to be locked.
-    profilePicture: {fileID: 21300000, guid: ed5bf9cbf6fd55b44940b8ac2171cd05, type: 3}
 --- !u!114 &1486458223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11461,7 +11691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
+  hasDialogue: 0
   hasSceneChange: 1
   addAnEdge: 0
   addsItem: 0
@@ -11469,9 +11699,9 @@ MonoBehaviour:
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
-  dialogueTrigger: {fileID: 1486458222}
-  sceneOld: {fileID: 1551215343}
-  sceneNew: {fileID: 821776691}
+  dialogueTrigger: {fileID: 0}
+  sceneOld: {fileID: 1053219201}
+  sceneNew: {fileID: 1265732985}
   newSceneNode: {fileID: 1243913551}
   p1: {fileID: 0}
   p2: {fileID: 0}
@@ -11486,6 +11716,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1486458224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11497,8 +11728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de7308a2212360749b07af7af3c54620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neighbors:
-  - {fileID: 455203649}
+  neighbors: []
   history: []
   triggeredevent: {fileID: 1486458223}
 --- !u!114 &1486458225
@@ -11662,6 +11892,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1493685931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11674,7 +11905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 0}
+  - {fileID: 836788264}
   history: []
   triggeredevent: {fileID: 1493685930}
 --- !u!114 &1493685932
@@ -11838,6 +12069,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1497128386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12133,6 +12365,130 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
+--- !u!1 &1502815414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1502815415}
+  - component: {fileID: 1502815418}
+  - component: {fileID: 1502815417}
+  - component: {fileID: 1502815416}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1502815415
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1502815414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 761775339}
+  m_Father: {fileID: 557201349}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -135, y: -125}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1502815416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1502815414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1502815417}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1737518618}
+        m_MethodName: toggleHelp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1502815417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1502815414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1502815418
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1502815414}
+  m_CullTransparentMesh: 0
 --- !u!1 &1527706811
 GameObject:
   m_ObjectHideFlags: 0
@@ -12555,7 +12911,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 01568e9af66f8a64c933410a263fdf14, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eaeeca676e880d345947094507943ea5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -12885,6 +13241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77a5e28884a66bc4094b2592296bdb9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screen: {fileID: 0}
 --- !u!114 &1737518617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12917,6 +13274,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   journalCanvas: {fileID: 1110114696}
+  helpPanel: {fileID: 557201346}
 --- !u!114 &1737518619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12989,8 +13347,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1640847469
-  m_SortingLayer: 3
+  m_SortingLayerID: 1557054327
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 33a6e73cf8d8ecb4183a255fda5bca2e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -13249,7 +13607,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0025024414, y: 0.022472382}
+  m_AnchoredPosition: {x: -0.0025024414, y: 0.022476196}
   m_SizeDelta: {x: 0, y: 0.045021}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1792442698
@@ -13326,10 +13684,10 @@ RectTransform:
   m_Father: {fileID: 1448583983}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.73436946, y: 0.23378871}
-  m_AnchorMax: {x: 0.88100004, y: 0.52900004}
-  m_AnchoredPosition: {x: 4.803713, y: 0.5975882}
-  m_SizeDelta: {x: -14.726446, y: 8.812325}
+  m_AnchorMin: {x: 0.7302318, y: 0.19430266}
+  m_AnchorMax: {x: 0.88100004, y: 0.3614202}
+  m_AnchoredPosition: {x: 3.6741657, y: 0.19908777}
+  m_SizeDelta: {x: -14.630922, y: -2.7495582}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1793078308
 MonoBehaviour:
@@ -13384,6 +13742,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1793078310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13747,6 +14106,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1813014531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14009,6 +14369,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1826544616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14419,6 +14780,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!1 &1846864177
 GameObject:
   m_ObjectHideFlags: 0
@@ -14495,6 +14857,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1846864180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14802,7 +15165,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d92f2f8926b41c24c9c33c20ff229786, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a3b30831dfa9cff4eb212535c0c1d132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15255,8 +15618,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1640847469
-  m_SortingLayer: 3
+  m_SortingLayerID: 1557054327
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b6ad3800f8c90374192db3f982441e85, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15405,8 +15768,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1640847469
-  m_SortingLayer: 3
+  m_SortingLayerID: 1557054327
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 12c6d961a3ff4b64591d3944712dff06, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15595,6 +15958,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!1 &1973449200
 GameObject:
   m_ObjectHideFlags: 0
@@ -15630,9 +15994,9 @@ RectTransform:
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.09200001, y: 0.0886905}
-  m_AnchorMax: {x: 0.32350764, y: 0.47131094}
-  m_AnchoredPosition: {x: 1.8694249, y: -0.73573446}
-  m_SizeDelta: {x: 1.6923904, y: 1.2256842}
+  m_AnchorMax: {x: 0.31824267, y: 0.5}
+  m_AnchoredPosition: {x: 2.7682607, y: 0.4994831}
+  m_SizeDelta: {x: 5.5418878, y: 0.9989662}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1973449202
 MonoBehaviour:
@@ -15687,6 +16051,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &1973449204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16067,7 +16432,7 @@ MonoBehaviour:
   hasAnimation: 0
   hasDialogue: 1
   hasSceneChange: 0
-  addAnEdge: 0
+  addAnEdge: 1
   addsItem: 0
   removesItem: 0
   hasAnotherEvent: 0
@@ -16077,8 +16442,8 @@ MonoBehaviour:
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
-  p1: {fileID: 1291447249}
-  p2: {fileID: 574454121}
+  p1: {fileID: 455203649}
+  p2: {fileID: 1486458224}
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
   triggerOnce: 1
@@ -16090,6 +16455,7 @@ MonoBehaviour:
   door2: {fileID: 1949511423}
   button: {fileID: 127559991}
   sprite: {fileID: 21300000, guid: 0c43c2249263da1409edcb5c1aedd34b, type: 3}
+  ev: {fileID: 455203648}
 --- !u!1 &2045075286
 GameObject:
   m_ObjectHideFlags: 0
@@ -16166,6 +16532,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &2045075289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16283,8 +16650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.54620904, y: 0.25436217}
   m_AnchorMax: {x: 0.6844468, y: 0.422223}
-  m_AnchoredPosition: {x: 1.6015723, y: 5.537082}
-  m_SizeDelta: {x: -0.26161575, y: 3.9822083}
+  m_AnchoredPosition: {x: 1.6015723, y: 1.7704}
+  m_SizeDelta: {x: -0.26, y: -3.5501}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2056521681
 GameObject:
@@ -16360,6 +16727,7 @@ MonoBehaviour:
   door2: {fileID: 0}
   button: {fileID: 0}
   sprite: {fileID: 0}
+  ev: {fileID: 0}
 --- !u!114 &2056521684
 MonoBehaviour:
   m_ObjectHideFlags: 0

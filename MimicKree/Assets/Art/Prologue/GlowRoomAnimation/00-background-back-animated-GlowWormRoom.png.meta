@@ -91,18 +91,18 @@ TextureImporter:
       name: 00-background-back-animated-GlowWormRoom_0
       rect:
         serializedVersion: 2
-        x: 258
-        y: 206
-        width: 1916
-        height: 1077
+        x: 256
+        y: 207
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cf3dac488a3e9246adf0c2fd45527a3
+      spriteID: 6c87d40106a0a384c8848a395e8411c8
       vertices: []
       indices: 
       edges: []
@@ -111,18 +111,18 @@ TextureImporter:
       name: 00-background-back-animated-GlowWormRoom_1
       rect:
         serializedVersion: 2
-        x: 2187
+        x: 2186
         y: 203
         width: 1920
-        height: 1079
+        height: 1080
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8a030fe5e50852439879ff60de291ab
+      spriteID: 916eefbe97ae36b4ebb20de76bf27da7
       vertices: []
       indices: 
       edges: []
@@ -131,18 +131,18 @@ TextureImporter:
       name: 00-background-back-animated-GlowWormRoom_2
       rect:
         serializedVersion: 2
-        x: 4118
-        y: 201
-        width: 1915
-        height: 1082
+        x: 4119
+        y: 204
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7d57af0686010543898dead862db85d
+      spriteID: 4a16780cabc896744a11eb9ffcc42598
       vertices: []
       indices: 
       edges: []
@@ -151,18 +151,18 @@ TextureImporter:
       name: 00-background-back-animated-GlowWormRoom_3
       rect:
         serializedVersion: 2
-        x: 6049
-        y: 200
-        width: 1917
-        height: 1083
+        x: 6046
+        y: 197
+        width: 1920
+        height: 1080
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1c43bd1a8023774c97ef461195de3bc
+      spriteID: 91f8e0da2fe36a84089fdc208edf29a0
       vertices: []
       indices: 
       edges: []
