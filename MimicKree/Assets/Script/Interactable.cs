@@ -10,12 +10,16 @@ public class Interactable : MonoBehaviour {
     public string itemRequired;
     public Event triggeredevent;
     private EventManager em;
+    private GameManager gm;
     private Component halo;
 
     // Use this for initialization
     void Start () {
         em = FindObjectOfType<EventManager>();
+        gm = FindObjectOfType<GameManager>();
         halo = GetComponent("Halo");
+        halo.GetComponent<Renderer>().sortingLayerName = "SceneItems";
+        halo.GetComponent<Renderer>().sortingOrder = 2;
     }
 
     public void triggerEvent()
@@ -47,6 +51,14 @@ public class Interactable : MonoBehaviour {
     private void OnMouseEnter()
     {
         halo.GetType().GetProperty("enabled").SetValue(halo, true, null);
+    }
+
+    private void OnMouseOver()
+    {
+        if(Input.GetMouseButtonDown(0))
+        {
+            
+        }
     }
 
     private void OnMouseExit()

@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: SceneItems
+    uniqueID: 1557054327
+    locked: 0
   - name: Player
     uniqueID: 2264756179
     locked: 0
