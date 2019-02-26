@@ -8,66 +8,66 @@ AnimatorController:
   m_Name: KreeHumanMainAniCon
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Kree Idle Right
+  - m_Name: KreeIdleRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Kree Walk Right
+    m_Controller: {fileID: 0}
+  - m_Name: KreeWalkRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Kree Run Right
+    m_Controller: {fileID: 0}
+  - m_Name: KreeRunRight
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Kree Jump Right
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Kree Interact Right
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Kree Idle Left
+    m_Controller: {fileID: 0}
+  - m_Name: KreeIdleLeft
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: Kree Walk Left
+    m_Controller: {fileID: 0}
+  - m_Name: KreeWalkLeft
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Kree Run Left
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Kree Jump Left
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Kree Interact Left
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -89,7 +89,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Walk Right
+    m_ConditionEvent: KreeWalkRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: Kree Interact Right
@@ -116,7 +116,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Walk Right
+    m_ConditionEvent: KreeWalkRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102520811144130536}
@@ -140,7 +140,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Walk Left
+    m_ConditionEvent: KreeWalkLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102927329783506878}
@@ -188,7 +188,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Idle Right
+    m_ConditionEvent: KreeIdleRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102657372212166598}
@@ -212,7 +212,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Idle Right
+    m_ConditionEvent: KreeIdleRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102657372212166598}
@@ -236,7 +236,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Walk Right
+    m_ConditionEvent: KreeWalkRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102520811144130536}
@@ -260,7 +260,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Run Right
+    m_ConditionEvent: KreeRunRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102451438376014406}
@@ -305,7 +305,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Idle Left
+    m_ConditionEvent: KreeIdleLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102290570870109920}
@@ -329,7 +329,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Walk Left
+    m_ConditionEvent: KreeWalkLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102927329783506878}
@@ -377,7 +377,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Idle Left
+    m_ConditionEvent: KreeIdleLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102290570870109920}
@@ -404,7 +404,7 @@ AnimatorStateTransition:
     m_ConditionEvent: Kree Interact Right
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: Kree Walk Right
+    m_ConditionEvent: KreeWalkRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102339218410723492}
@@ -428,7 +428,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Walk Left
+    m_ConditionEvent: KreeWalkLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102927329783506878}
@@ -452,7 +452,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Walk Right
+    m_ConditionEvent: KreeWalkRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102520811144130536}
@@ -476,7 +476,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Walk Left
+    m_ConditionEvent: KreeWalkLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102927329783506878}
@@ -500,7 +500,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Run Right
+    m_ConditionEvent: KreeRunRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102451438376014406}
@@ -524,7 +524,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Idle Left
+    m_ConditionEvent: KreeIdleLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102290570870109920}
@@ -575,13 +575,13 @@ AnimatorStateTransition:
     m_ConditionEvent: Kree Interact Right
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: Kree Idle Right
+    m_ConditionEvent: KreeIdleRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: Kree Walk Right
+    m_ConditionEvent: KreeWalkRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
-    m_ConditionEvent: Kree Run Right
+    m_ConditionEvent: KreeRunRight
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: Kree Jump Right
@@ -608,7 +608,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Idle Right
+    m_ConditionEvent: KreeIdleRight
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102657372212166598}
@@ -1042,7 +1042,7 @@ AnimatorTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: Kree Idle Left
+    m_ConditionEvent: KreeIdleLeft
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102290570870109920}

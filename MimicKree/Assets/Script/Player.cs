@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
+    Animator anim;
+
     public PathNode location;
     List<PathNode> pathsToTravel = new List<PathNode>();
     private bool isWalking;
@@ -24,14 +26,30 @@ public class Player : MonoBehaviour {
     private float journeyLength;
 
     // Use this for initialization
-    void Start () {
-		
+    void Start ()
+    {
+        anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if(isWalking)
         {
+            if (startMarker.position.x < endMarker.position.x)
+            {
+                anim.SetBool("KreeWalkRight", true);
+                anim.SetBool("KreeWalkLeft", false);
+            }
+
+            else
+            {
+
+                anim.SetBool("KreeWalkLeft", true);
+                anim.SetBool("KreeWalkRight", false);
+
+          
+            }
+           
             if(isStartTimeSet == false)
             {
                 startTime = Time.time;
@@ -57,6 +75,24 @@ public class Player : MonoBehaviour {
                 isWalking = false;
                 walking = false;
                 isStartTimeSet = false;
+                if (anim.GetBool("KreeWalkRight"))
+                {
+                    anim.SetBool("KreeIdleRight", true);
+                    anim.SetBool("KreeWalkRight", false);
+                    anim.SetBool("KreeWalkLeft", false);
+                }
+
+                else
+                {
+
+                    anim.SetBool("KreeIdleLeft", true);
+                    anim.SetBool("KreeWalkRight", false);
+                    anim.SetBool("KreeWalkLeft", false);
+
+                }
+               
+
+
             }
         }
         else walk();
