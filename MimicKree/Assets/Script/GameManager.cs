@@ -65,6 +65,7 @@ public class GameManager : MonoBehaviour {
         {
             if(temp.Count > 1) temp.RemoveAt(0);
             player.setList(temp);
+            player.walking = true;
         }
     }
 
