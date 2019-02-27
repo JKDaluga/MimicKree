@@ -39,6 +39,8 @@ public class Player : MonoBehaviour {
             {
                 anim.SetBool("KreeWalkRight", true);
                 anim.SetBool("KreeWalkLeft", false);
+                anim.SetBool("KreeIdleRight", false);
+                anim.SetBool("KreeIdleLeft", false);
             }
 
             else
@@ -46,11 +48,11 @@ public class Player : MonoBehaviour {
 
                 anim.SetBool("KreeWalkLeft", true);
                 anim.SetBool("KreeWalkRight", false);
-
-          
+                anim.SetBool("KreeIdleLeft", false);
+                anim.SetBool("KreeIdleRight", false);
             }
-           
-            if(isStartTimeSet == false)
+
+            if (isStartTimeSet == false)
             {
                 startTime = Time.time;
                 isStartTimeSet = true;

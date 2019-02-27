@@ -26,13 +26,20 @@ public class Item : MonoBehaviour {
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (isclicked)
         {
             mousePosition = Input.mousePosition;
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             transform.position = new Vector3(mousePosition.x, mousePosition.y,0);
+            if(Input.GetMouseButtonDown(0))
+            {
+                //GetComponent<BoxCollider2D>().enabled();
+                GameObject.FindGameObjectWithTag("dialoguething").GetComponent<DialogueTrigger>().TriggerDialogue();
+                isclicked = false;
+                transform.position = origPos;
+            }
         }
     }
 
