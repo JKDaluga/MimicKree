@@ -3267,7 +3267,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The door seems to be locked.
-    profilePicture: {fileID: 21300000, guid: ed5bf9cbf6fd55b44940b8ac2171cd05, type: 3}
+    profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &455203648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8313,7 +8313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1053219202
 MonoBehaviour:
   m_ObjectHideFlags: 0
