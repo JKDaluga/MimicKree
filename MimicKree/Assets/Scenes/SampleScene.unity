@@ -11188,7 +11188,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - That would be alittle silly.
+    - That would be a little silly.
     profilePicture: {fileID: 21300000, guid: 1ddb4d3a7743c72419de75df3e6c0cd0, type: 3}
 --- !u!4 &1334722390
 Transform:
