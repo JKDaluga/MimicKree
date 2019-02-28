@@ -6337,7 +6337,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Should be a trap around here.
+    - Of course I did have a map... oh hey there's a trap here!
     profilePicture: {fileID: 21300000, guid: 1ddb4d3a7743c72419de75df3e6c0cd0, type: 3}
 --- !u!1 &813796639
 GameObject:
@@ -9321,7 +9321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1159791487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12699,7 +12699,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Hidden temple, psh. This will be easy!
+    - 'This is the easiest to find hidden temple that I''ve ever heard of. '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &1497268427
 MonoBehaviour:
