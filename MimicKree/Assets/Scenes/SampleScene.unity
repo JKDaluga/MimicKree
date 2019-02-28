@@ -144,7 +144,7 @@ RectTransform:
   - {fileID: 1323005661}
   - {fileID: 820923319}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1239,7 +1239,7 @@ MonoBehaviour:
   p2: {fileID: 0}
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
-  triggerOnce: 1
+  triggerOnce: 0
   beenTriggered: 0
   anotherEvent: {fileID: 0}
   ap: {fileID: 0}
@@ -5201,7 +5201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7110,7 +7110,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &892807393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9010,7 +9010,7 @@ RectTransform:
   m_Children:
   - {fileID: 1191356756}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11996,7 +11996,7 @@ MonoBehaviour:
   p2: {fileID: 0}
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
-  triggerOnce: 1
+  triggerOnce: 0
   beenTriggered: 0
   anotherEvent: {fileID: 0}
   ap: {fileID: 0}
