@@ -2133,9 +2133,9 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - 'This place is amazing! '
-    - I wonder if the grand treasure is in the back.
-    - Is this suppose to be the trickster god?
-    - He doesn't look frightening.
+    - I bet the treasure is in the back. People always put the treasure in the back.
+    - I guess that's Raga, god of trickery, lies and mystery.
+    - "He looks kinda goofy. \r\n"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &234474298
 MonoBehaviour:
@@ -2716,7 +2716,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - These switches, seem to do something.
+    - Swinging axes, really?
+    - That is so old school
+    - " I bet those switches over there will do something. \r\n"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &296180196
 GameObject:
@@ -3954,8 +3956,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - A map that can reveal any trap!
-    - Don't mind if I do.
+    - The map of revealing!
+    - " This things reveals nearby treasures and traps. Way better than thosee talking
+      maps I\u2019ve heard about. \r"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &528276930
 MonoBehaviour:
@@ -7698,8 +7701,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - These damn blades are sharp!
-    - I'll be mincemeat if I touch these things.
+    - ' I shouldn''t go near these. I''m not durable enough to get hit by those'
+    - "Maybe I should invest in a meatshield to get hit by things for me.\r"
     profilePicture: {fileID: 0}
 --- !u!114 &966019278
 MonoBehaviour:
@@ -8152,8 +8155,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - A throne in the treasure room?
-    - Guess the god likes to stare at his own things.
+    - Looks like Raga has a throne in here. I wonder why.
+    - 'Maybe he just likes to watch his shiny things. I know I do. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1051026284
 MonoBehaviour:
@@ -9098,8 +9101,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Whats this a switch?
-    - Seems like it did something.
+    - 'Things are definitely happening. That''s why we pull switches. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1111940674
 MonoBehaviour:
@@ -10802,7 +10804,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - This area is huge, there has to be something worthwhile in here.
+    - This place is massive! Being a god must pay great
+    - "I wonder where he keeps his treasure. \r"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &1294271920
 GameObject:
@@ -13990,7 +13993,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - A key that can open any lock!
-    - This will come in handy.
+    - "I'll won't have to buy a new lockpick set! Or even pick locks! I love it. \r\n"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1764040358
 MonoBehaviour:
@@ -15170,7 +15173,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - There seems to be something up ahead.
+    - Whoa it looks like there's some shiny stuff up ahead
+    - "Shiny normally means expensive. I should check it out. \r"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &1827658500
 GameObject:
@@ -15556,7 +15560,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - A room with legendary treasure! Let's take what I can and get out here.
+    - Oh wow, a whole room of treasures!
+    - Momma's gonna go shopping.
+    - 'And by shopping I mean stealing. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1846864181
 MonoBehaviour:
@@ -16562,7 +16568,8 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The chalice of immortality!
-    - I understand the need for a spillproof for such a priceless artifact.
+    - Huh. I expected it to be more... regal.
+    - "It's totally spillproof though.  \r\n"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1951837015
 MonoBehaviour:
@@ -17384,7 +17391,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - '*Click* What was that sounds?'
+    - "*Click* Well that did something. I should check it out.\r"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &2023289052
 MonoBehaviour:
