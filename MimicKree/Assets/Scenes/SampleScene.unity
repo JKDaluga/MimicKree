@@ -404,7 +404,7 @@ MonoBehaviour:
   dialogueTrigger: {fileID: 0}
   sceneOld: {fileID: 1448583979}
   sceneNew: {fileID: 1159791486}
-  newSceneNode: {fileID: 41986848}
+  newSceneNode: {fileID: 944699455}
   p1: {fileID: 0}
   p2: {fileID: 0}
   addedItem: {fileID: 0}
@@ -4535,7 +4535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &593875174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9321,7 +9321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1159791487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13567,7 +13567,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670926846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4, y: 305, z: 0}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 1159791490}
@@ -14707,7 +14707,6 @@ GameObject:
   - component: {fileID: 1813014532}
   - component: {fileID: 1813014531}
   - component: {fileID: 1813014530}
-  - component: {fileID: 1813014535}
   - component: {fileID: 1813014529}
   m_Layer: 5
   m_Name: Block26
@@ -14773,7 +14772,7 @@ MonoBehaviour:
   removesItem: 0
   hasAnotherEvent: 1
   anim: {fileID: 0}
-  waitOnAnimation: 0
+  waitOnAnimation: 1
   dialogueTrigger: {fileID: 1813014529}
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
@@ -14893,44 +14892,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1813014527}
   m_CullTransparentMesh: 0
---- !u!114 &1813014535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813014527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimation: 1
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
-  anim: {fileID: 0}
-  waitOnAnimation: 0
-  dialogueTrigger: {fileID: 0}
-  sceneOld: {fileID: 0}
-  sceneNew: {fileID: 0}
-  newSceneNode: {fileID: 0}
-  p1: {fileID: 0}
-  p2: {fileID: 0}
-  addedItem: {fileID: 0}
-  removedItem: {fileID: 0}
-  triggerOnce: 0
-  beenTriggered: 0
-  anotherEvent: {fileID: 0}
-  ap: {fileID: 0}
-  axeNum: 0
-  door: {fileID: 0}
-  door2: {fileID: 0}
-  button: {fileID: 0}
-  sprite: {fileID: 0}
-  ev: {fileID: 0}
 --- !u!1 &1818133227
 GameObject:
   m_ObjectHideFlags: 0
