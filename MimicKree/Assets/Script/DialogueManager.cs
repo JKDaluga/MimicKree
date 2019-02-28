@@ -21,6 +21,20 @@ public class DialogueManager : MonoBehaviour {
         dialogues = new Queue<string>();
 	}
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Player p = GameObject.FindObjectOfType<Player>();
+            if (p.getWalking())
+            {
+                p.stopWalking();
+            }
+            DisplayText();
+        }
+        
+    }
+
     public void StartDialogue(Dialogue dialogue)
     {
         dialogues.Clear();

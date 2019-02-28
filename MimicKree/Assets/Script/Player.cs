@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
     Animator anim;
 
     public PathNode location;
-    List<PathNode> pathsToTravel = new List<PathNode>();
+    public List<PathNode> pathsToTravel = new List<PathNode>();
     private bool isWalking;
     public bool walking;
     bool isStartTimeSet;
@@ -45,7 +45,6 @@ public class Player : MonoBehaviour {
 
             else
             {
-
                 anim.SetBool("KreeWalkLeft", true);
                 anim.SetBool("KreeWalkRight", false);
                 anim.SetBool("KreeIdleLeft", false);
@@ -83,7 +82,6 @@ public class Player : MonoBehaviour {
                     anim.SetBool("KreeWalkRight", false);
                     anim.SetBool("KreeWalkLeft", false);
                 }
-
                 else
                 {
 
@@ -92,9 +90,6 @@ public class Player : MonoBehaviour {
                     anim.SetBool("KreeWalkLeft", false);
 
                 }
-               
-
-
             }
         }
         else walk();
@@ -133,5 +128,10 @@ public class Player : MonoBehaviour {
     public int Count()
     {
         return pathsToTravel.Count;
+    }
+
+    public bool getWalking()
+    {
+        return isWalking;
     }
 }

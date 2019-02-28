@@ -29,8 +29,10 @@ public class EventManager : MonoBehaviour {
         }
         if (triggeredEvent.hasDialogue)
         {
-            triggeredEvent.dialogueTrigger.TriggerDialogue();
             player.stopWalking();
+            triggeredEvent.dialogueTrigger.TriggerDialogue();
+            
+            print(player.pathsToTravel.Count);
         }
         if (triggeredEvent.hasSceneChange)
         {
@@ -38,6 +40,7 @@ public class EventManager : MonoBehaviour {
             triggeredEvent.sceneNew.SetActive(true);
             player.location = triggeredEvent.newSceneNode;
             player.transform.position = triggeredEvent.newSceneNode.transform.position;
+            player.stopWalking();
         }
         if (triggeredEvent.addAnEdge)
         {
