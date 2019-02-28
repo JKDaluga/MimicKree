@@ -2717,7 +2717,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Swinging axes, really?
-    - That is so old school
+    - That is so old school.
     - " I bet those switches over there will do something. \r\n"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &296180196
@@ -7701,7 +7701,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - ' I shouldn''t go near these. I''m not durable enough to get hit by those'
+    - ' I shouldn''t go near these. I''m not durable enough to get hit by those.'
     - "Maybe I should invest in a meatshield to get hit by things for me.\r"
     profilePicture: {fileID: 0}
 --- !u!114 &966019278
@@ -9574,7 +9574,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - The switch clicked
+    - The switch clicked.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &1165139712
 MonoBehaviour:
@@ -10804,7 +10804,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - This place is massive! Being a god must pay great
+    - This place is massive! Being a god must pay great.
     - "I wonder where he keeps his treasure. \r"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &1294271920
@@ -11397,6 +11397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   location: {fileID: 468713283}
+  pathsToTravel: []
   walking: 0
   startMarker: {fileID: 0}
   endMarker: {fileID: 0}
@@ -15079,7 +15080,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Whoa it looks like there's some shiny stuff up ahead
+    - Whoa it looks like there's some shiny stuff up ahead.
     - "Shiny normally means expensive. I should check it out. \r"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &1827658500
