@@ -76,19 +76,21 @@ public class Player : MonoBehaviour {
                 isWalking = false;
                 walking = false;
                 isStartTimeSet = false;
-                if (anim.GetBool("KreeWalkRight"))
+                if(pathsToTravel.Count == 0)
                 {
-                    anim.SetBool("KreeIdleRight", true);
-                    anim.SetBool("KreeWalkRight", false);
-                    anim.SetBool("KreeWalkLeft", false);
-                }
-                else
-                {
+                    if (anim.GetBool("KreeWalkRight"))
+                    {
+                        anim.SetBool("KreeIdleRight", true);
+                        anim.SetBool("KreeWalkRight", false);
+                        anim.SetBool("KreeWalkLeft", false);
+                    }
+                    else
+                    {
 
-                    anim.SetBool("KreeIdleLeft", true);
-                    anim.SetBool("KreeWalkRight", false);
-                    anim.SetBool("KreeWalkLeft", false);
-
+                        anim.SetBool("KreeIdleLeft", true);
+                        anim.SetBool("KreeWalkRight", false);
+                        anim.SetBool("KreeWalkLeft", false);
+                    }
                 }
             }
         }

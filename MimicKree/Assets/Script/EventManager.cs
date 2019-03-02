@@ -31,7 +31,6 @@ public class EventManager : MonoBehaviour {
         {
             player.stopWalking();
             triggeredEvent.dialogueTrigger.TriggerDialogue();
-            
             print(player.pathsToTravel.Count);
         }
         if (triggeredEvent.hasSceneChange)

@@ -41,5 +41,4 @@ public class Event : MonoBehaviour {
     public Sprite sprite;
 
     public Event ev;
-
 }
