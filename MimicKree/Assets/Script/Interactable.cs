@@ -56,11 +56,9 @@ public class Interactable : MonoBehaviour {
 
     private void OnMouseOver()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && itemRequired == "")
         {
-            print("here");
-            gm.walk(location);
-            print("alsohere");
+            walk();
             StartCoroutine("waitForTrigger");
             //waitForTrigger();
         }
@@ -68,27 +66,28 @@ public class Interactable : MonoBehaviour {
 
     private void OnMouseExit()
     {
-        halo.GetType().GetProperty("enabled").SetValue(halo, false, null);
+        //halo.GetType().GetProperty("enabled").SetValue(halo, false, null);
     }
 
     IEnumerator waitForTrigger()
     {
         Player p = FindObjectOfType<Player>();
-        print("dank");
         while(p.walking)
         {
-            print("thing");
             yield return null;
         }
-        print("then");
         if (p.location == location)
         {
-            print("here");
             triggerEvent();
             if (DestoryOnceUsed)
             {
                 Destroy(this.gameObject);
             }
         }  
+    }
+
+    public void walk()
+    {
+        gm.walk(location);
     }
 }

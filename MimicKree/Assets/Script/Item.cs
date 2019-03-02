@@ -11,6 +11,7 @@ public class Item : MonoBehaviour {
     private bool isclicked = false;
     private Vector3 mousePosition;
     public bool isInSlot;
+    private bool onInteractable;
 
     private void Start()
     {
@@ -33,7 +34,7 @@ public class Item : MonoBehaviour {
             mousePosition = Input.mousePosition;
             mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
             transform.position = new Vector3(mousePosition.x, mousePosition.y,0);
-            if(Input.GetMouseButtonDown(0))
+            if(Input.GetMouseButtonDown(0) && !onInteractable)
             {
                 //GetComponent<BoxCollider2D>().enabled();
                 GameObject.FindGameObjectWithTag("dialoguething").GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -71,11 +72,37 @@ public class Item : MonoBehaviour {
             Interactable inter = collision.gameObject.GetComponent<Interactable>();
             if(inter != null)
             {
-                if(inter.itemRequired == "" || inter.itemRequired == itemName)
+                if(inter.itemRequired == itemName)
                 {
-                    inter.triggerEvent();
+                    inter.walk();
+                    inter.StartCoroutine("waitForTrigger");
+                }
+                else
+                {
+                    
+                    GameObject.FindGameObjectWithTag("dialoguething").GetComponent<DialogueTrigger>().TriggerDialogue();
+                    isclicked = false;
+                    transform.position = origPos;
                 }
             }
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        print("collision");
+        if (collision.gameObject.GetComponent<Interactable>() != null)
+        {
+            print("hit");
+            onInteractable = true;
+        }   
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.GetComponent<Interactable>() != null)
+        {
+            onInteractable = false;
         }
     }
 }

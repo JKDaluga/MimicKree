@@ -3896,7 +3896,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5201,7 +5201,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6478,7 +6478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   origPos: {x: 0, y: 0, z: 0}
   image: {fileID: 813796643}
-  itemName: 
+  itemName: lockpick
   isInSlot: 1
 --- !u!224 &820923319
 RectTransform:
@@ -7689,7 +7689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 2023289046}
+  - {fileID: 153462746}
   - {fileID: 153462746}
   history: []
   triggeredevent: {fileID: 0}
@@ -11403,7 +11403,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4b2731513371ef4ba6cf6d9345bd54b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 468713283}
+  location: {fileID: 41986848}
   pathsToTravel: []
   walking: 0
   startMarker: {fileID: 0}
@@ -11444,7 +11444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1448583980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13855,7 +13855,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -13959,7 +13959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: {fileID: 2045075287}
   isActivated: 0
-  itemRequired: 
+  itemRequired: lockpick
   triggeredevent: {fileID: 1764040358}
   DestoryOnceUsed: 1
 --- !u!1 &1774003271
@@ -16339,7 +16339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: {fileID: 1973449204}
   isActivated: 0
-  itemRequired: 
+  itemRequired: lockpick
   triggeredevent: {fileID: 1951837015}
   DestoryOnceUsed: 1
 --- !u!122 &1951837017
@@ -16362,7 +16362,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
