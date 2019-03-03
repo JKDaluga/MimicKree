@@ -45,7 +45,7 @@ public class Inventory : MonoBehaviour {
     {
         foreach (InventorySlot inv in invSlots)
         {
-            if (inv.item.isInSlot && inv.item.itemName.Equals(item.itemName))
+            if (inv.item != null && inv.item.isInSlot && inv.item.itemName.Equals(item.itemName))
             {
                 inv.item.image.sprite = null;
                 inv.item.itemName = "";

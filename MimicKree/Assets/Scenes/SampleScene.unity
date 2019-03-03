@@ -2490,7 +2490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   origPos: {x: 0, y: 0, z: 0}
   image: {fileID: 0}
-  itemName: Elmo
+  itemName: lockpick
   isInSlot: 0
 --- !u!114 &264838082
 MonoBehaviour:
@@ -2511,7 +2511,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c301db884e76a574793120a1d683091b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 855aa82ed9772ec4d937894784826f89, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3945,7 +3945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: {fileID: 1793078310}
   isActivated: 0
-  itemRequired: Map
+  itemRequired: lockpick
   triggeredevent: {fileID: 528276930}
   DestoryOnceUsed: 1
 --- !u!114 &528276929
@@ -3982,7 +3982,7 @@ MonoBehaviour:
   hasSceneChange: 0
   addAnEdge: 0
   addsItem: 1
-  removesItem: 0
+  removesItem: 1
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
@@ -3993,7 +3993,7 @@ MonoBehaviour:
   p1: {fileID: 0}
   p2: {fileID: 0}
   addedItem: {fileID: 1510591242}
-  removedItem: {fileID: 0}
+  removedItem: {fileID: 264838081}
   triggerOnce: 1
   beenTriggered: 0
   anotherEvent: {fileID: 0}
@@ -13924,7 +13924,7 @@ MonoBehaviour:
   hasSceneChange: 0
   addAnEdge: 0
   addsItem: 1
-  removesItem: 0
+  removesItem: 1
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
@@ -13935,7 +13935,7 @@ MonoBehaviour:
   p1: {fileID: 0}
   p2: {fileID: 0}
   addedItem: {fileID: 1104798614}
-  removedItem: {fileID: 0}
+  removedItem: {fileID: 264838081}
   triggerOnce: 1
   beenTriggered: 0
   anotherEvent: {fileID: 0}
@@ -16304,7 +16304,7 @@ MonoBehaviour:
   hasSceneChange: 0
   addAnEdge: 0
   addsItem: 1
-  removesItem: 0
+  removesItem: 1
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
@@ -16315,7 +16315,7 @@ MonoBehaviour:
   p1: {fileID: 0}
   p2: {fileID: 0}
   addedItem: {fileID: 852584081}
-  removedItem: {fileID: 0}
+  removedItem: {fileID: 264838081}
   triggerOnce: 1
   beenTriggered: 0
   anotherEvent: {fileID: 0}

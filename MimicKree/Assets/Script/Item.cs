@@ -74,6 +74,8 @@ public class Item : MonoBehaviour {
             {
                 if(inter.itemRequired == itemName)
                 {
+                    isclicked = false;
+                    transform.position = origPos;
                     inter.walk();
                     inter.StartCoroutine("waitForTrigger");
                 }

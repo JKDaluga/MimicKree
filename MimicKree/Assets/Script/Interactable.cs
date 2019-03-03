@@ -56,10 +56,13 @@ public class Interactable : MonoBehaviour {
 
     private void OnMouseOver()
     {
-        if(Input.GetMouseButtonDown(0) && itemRequired == "")
+        if(Input.GetMouseButtonDown(0))
         {
             walk();
-            StartCoroutine("waitForTrigger");
+            if(itemRequired == "")
+            {
+                StartCoroutine("waitForTrigger");
+            }
             //waitForTrigger();
         }
     }
