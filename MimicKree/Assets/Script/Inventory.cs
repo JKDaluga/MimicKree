@@ -30,7 +30,6 @@ public class Inventory : MonoBehaviour {
         {
             if(!inv.item.isInSlot)
             {
-                print(inv.item);
                 inv.item.image.sprite = item.image.sprite;
                 inv.item.itemName = item.itemName;
                 inv.item.activate();

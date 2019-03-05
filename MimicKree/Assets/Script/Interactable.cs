@@ -51,7 +51,7 @@ public class Interactable : MonoBehaviour {
 
     private void OnMouseEnter()
     {
-        halo.GetType().GetProperty("enabled").SetValue(halo, true, null);
+        FindObjectOfType<CursorManager>().changeCursor("InteractableIcon");
     }
 
     private void OnMouseOver()
@@ -63,13 +63,12 @@ public class Interactable : MonoBehaviour {
             {
                 StartCoroutine("waitForTrigger");
             }
-            //waitForTrigger();
         }
     }
 
     private void OnMouseExit()
     {
-        //halo.GetType().GetProperty("enabled").SetValue(halo, false, null);
+        FindObjectOfType<CursorManager>().changeCursor("");
     }
 
     IEnumerator waitForTrigger()

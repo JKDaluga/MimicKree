@@ -45,4 +45,15 @@ public class PathNode: MonoBehaviour {
             triggerEvent(e.anotherEvent);
         }
     }
+
+    private void OnMouseEnter()
+    {
+        if(triggeredevent != null && triggeredevent.hasSceneChange) FindObjectOfType<CursorManager>().changeCursor("SceneChangeIcon");
+        else FindObjectOfType<CursorManager>().changeCursor("MoveIcon");
+    }
+
+    private void OnMouseExit()
+    {
+        FindObjectOfType<CursorManager>().changeCursor("");
+    }
 }

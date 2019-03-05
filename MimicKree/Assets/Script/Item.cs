@@ -92,10 +92,8 @@ public class Item : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        print("collision");
         if (collision.gameObject.GetComponent<Interactable>() != null)
         {
-            print("hit");
             onInteractable = true;
         }   
     }
