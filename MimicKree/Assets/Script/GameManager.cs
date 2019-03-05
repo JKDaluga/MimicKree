@@ -69,9 +69,9 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public void changeScene()
+    public void changeScene(string scene)
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(scene);
     }
 
     public void LoadScreen()
