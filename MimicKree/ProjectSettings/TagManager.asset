@@ -43,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Cutscene
+    uniqueID: 3752183835
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
