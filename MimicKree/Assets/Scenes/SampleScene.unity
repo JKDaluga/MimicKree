@@ -389,6 +389,7 @@ GameObject:
   - component: {fileID: 41986850}
   - component: {fileID: 41986848}
   - component: {fileID: 41986849}
+  - component: {fileID: 41986854}
   m_Layer: 5
   m_Name: Block21
   m_TagString: MoveIcon
@@ -555,6 +556,24 @@ RectTransform:
   m_AnchoredPosition: {x: 3.6240835, y: 2.85353}
   m_SizeDelta: {x: -96.60616, y: 5.029581}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &41986854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41986847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - Oh wow, a whole room of treasures!
+    - 'Momma''s gonna go shopping. '
+    - 'And by shopping I mean stealing. '
+    profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &56998613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2050,10 +2069,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'This place is amazing! '
-    - I bet the treasure is in the back. People always put the treasure in the back.
-    - I guess that's Raga, god of trickery, lies and mystery.
-    - "He looks kinda goofy. \r\n"
+    - "I guess that's Raga, god of trickery, lies, and mystery.\r\n"
+    - Looks like somebody REALLY likes himself.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &234474298
 MonoBehaviour:
@@ -2442,8 +2459,9 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Swinging axes, really?
-    - That is so old school.
-    - " I bet those switches over there will do something. \r\n"
+    - "I would\u2019ve expected more from the God of Tricks\u2026 but can\u2019t beat
+      a classic I suppose."
+    - "Now usually these things have a switch nearby...\r\n"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &280545070
 BoxCollider2D:
@@ -2902,7 +2920,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - The door seems to be locked.
+    - "Huh. No lock. Can\u2019t pick that. \r"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &455203648
 MonoBehaviour:
@@ -3666,8 +3684,8 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The map of revealing!
-    - " This things reveals nearby treasures and traps. Way better than thosee talking
-      maps I\u2019ve heard about. \r"
+    - "The map of revealing!; This things reveals nearby treasures and traps. I\u2019ll
+      never lose my keys again. "
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &528276930
 MonoBehaviour:
@@ -7321,8 +7339,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - ' I shouldn''t go near these. I''m not durable enough to get hit by those.'
-    - "Maybe I should invest in a meatshield to get hit by things for me.\r"
+    - "They may be old, but I\u2019m not willing to find out how nasty those blades
+      are. \r"
     profilePicture: {fileID: 0}
 --- !u!114 &966019278
 MonoBehaviour:
@@ -7544,8 +7562,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Looks like Raga has a throne in here. I wonder why.
-    - 'Maybe he just likes to watch his shiny things. I know I do. '
+    - "Look like this is Raga\u2019s throne room."
+    - "I\u2019d say it\u2019s comforting that he\u2019s not here right now, but at
+      least then I\u2019d know where he is. \r"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1051026284
 MonoBehaviour:
@@ -8585,7 +8604,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'Things are definitely happening. That''s why we pull switches. '
+    - "Well that door looks suspicious.\r"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1111940674
 MonoBehaviour:
@@ -10364,8 +10383,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - This place is massive! Being a god must pay great.
-    - "I wonder where he keeps his treasure. \r"
+    - "This place is massive, though it looks like the cleaning crew took the century
+      off.\r"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!61 &1291447256
 BoxCollider2D:
@@ -13575,7 +13594,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - A key that can open any lock!
-    - "I'll won't have to buy a new lockpick set! Or even pick locks! I love it. \r\n"
+    - "Just what every treasure hunter needs. I love it. \n"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1764040358
 MonoBehaviour:
@@ -14633,8 +14652,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Whoa it looks like there's some shiny stuff up ahead.
-    - "Shiny normally means expensive. I should check it out. \r"
+    - "Seems like there\u2019s still something working around here\u2026  "
+    - "What\u2019s that ahead? \r"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &1826544621
 BoxCollider2D:
@@ -16608,7 +16627,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "*Click* Well that did something. I should check it out.\r"
+    - "\u201CClick\u201D Well whatever that did, it looks like it wasn\u2019t something
+      in here."
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &2023289052
 MonoBehaviour:
