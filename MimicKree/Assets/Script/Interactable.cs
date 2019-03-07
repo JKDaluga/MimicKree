@@ -11,19 +11,16 @@ public class Interactable : MonoBehaviour {
     public Event triggeredevent;
     private EventManager em;
     private GameManager gm;
-    private Component halo;
     public bool DestoryOnceUsed;
+    public bool visualOnly;
 
     // Use this for initialization
     void Start () {
         em = FindObjectOfType<EventManager>();
         gm = FindObjectOfType<GameManager>();
-        halo = GetComponent("Halo");
-        halo.GetComponent<Renderer>().sortingLayerName = "SceneItems";
-        halo.GetComponent<Renderer>().sortingOrder = 2;
     }
 
-    public void triggerEvent()
+    public virtual void triggerEvent()
     {
         if (!triggeredevent.triggerOnce || !triggeredevent.beenTriggered)
         {
@@ -51,7 +48,8 @@ public class Interactable : MonoBehaviour {
 
     private void OnMouseEnter()
     {
-        FindObjectOfType<CursorManager>().changeCursor("InteractableIcon");
+        if(visualOnly) FindObjectOfType<CursorManager>().changeCursor("EyeIcon");
+        else FindObjectOfType<CursorManager>().changeCursor("InteractableIcon");
     }
 
     private void OnMouseOver()
