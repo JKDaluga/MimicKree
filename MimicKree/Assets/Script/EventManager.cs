@@ -36,8 +36,15 @@ public class EventManager : MonoBehaviour {
         {
             triggeredEvent.sceneOld.SetActive(false);
             triggeredEvent.sceneNew.SetActive(true);
-            player.location = triggeredEvent.newSceneNode;
-            player.transform.position = triggeredEvent.newSceneNode.transform.position;
+            if(triggeredEvent.newSceneNode != null)
+            {
+                player.location = triggeredEvent.newSceneNode;
+                player.transform.position = triggeredEvent.newSceneNode.transform.position;
+            }
+            else
+            {
+                print("No Node to transition to");
+            }
             player.stopWalking();
         }
         if (triggeredEvent.addAnEdge)

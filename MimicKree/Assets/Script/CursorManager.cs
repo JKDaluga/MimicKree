@@ -12,6 +12,7 @@ public class CursorManager : MonoBehaviour {
     public Sprite interactCursor;
     public Sprite dialogueCursor;
     public Sprite transitionCursor;
+    public Sprite EyeCursor;
 
 
     // Use this for initialization
@@ -66,6 +67,9 @@ public class CursorManager : MonoBehaviour {
                 break;
             case "InteractableIcon":
                 cursorImage.sprite = interactCursor;
+                break;
+            case "EyeIcon":
+                cursorImage.sprite = EyeCursor;
                 break;
             default:
                 cursorImage.sprite = defaultCursor;

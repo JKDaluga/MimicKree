@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
     private Player player;
     public GameObject screen;
+
+    public GameObject intro;
 
 	// Use this for initialization
 	void Start () {
@@ -82,5 +85,27 @@ public class GameManager : MonoBehaviour {
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void Intro()
+    {
+        intro.SetActive(true);
+        UnityEngine.Video.VideoPlayer vp = intro.GetComponent<UnityEngine.Video.VideoPlayer>();
+        StartCoroutine("playIntro",vp);
+    }
+
+    IEnumerator playIntro(UnityEngine.Video.VideoPlayer vp)
+    {
+        
+        vp.Play();
+        while (!vp.isPlaying)
+        {
+            yield return null;
+        }
+        while (vp.isPlaying)
+        {
+            yield return null;
+        }
+        SceneManager.LoadScene("SampleScene");
     }
 }
