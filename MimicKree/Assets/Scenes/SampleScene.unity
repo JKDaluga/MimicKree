@@ -11096,7 +11096,7 @@ MonoBehaviour:
   location: {fileID: 234474295}
   isActivated: 0
   itemRequired: 
-  triggeredevent: {fileID: 0}
+  triggeredevent: {fileID: 1386076217}
   DestoryOnceUsed: 0
   visualOnly: 1
 --- !u!1 &1397189639
@@ -11171,7 +11171,7 @@ Transform:
   m_GameObject: {fileID: 1397189639}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.03, y: -0.8, z: 90}
-  m_LocalScale: {x: 1.5853167, y: 1.1411906, z: 0.026595745}
+  m_LocalScale: {x: 1, y: 1, z: 0.026595745}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
