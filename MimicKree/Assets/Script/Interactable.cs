@@ -83,7 +83,7 @@ public class Interactable : MonoBehaviour {
             {
                 Destroy(this.gameObject);
             }
-        }  
+        }
     }
 
     public void walk()
