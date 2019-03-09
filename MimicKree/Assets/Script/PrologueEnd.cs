@@ -4,6 +4,21 @@ using UnityEngine;
 
 public class PrologueEnd : Interactable {
 
+    public bool stolenItem;
+    public Event cutsceneEvent;
+
+    private void Update()
+    {
+        if (FindObjectOfType<Inventory>().contains("lockpick"))
+        {
+            stolenItem = true;
+        }
+        else
+        {
+            stolenItem = false;
+        }
+    }
+
     private void OnMouseEnter()
     {
         FindObjectOfType<CursorManager>().changeCursor("SceneChangeIcon");
@@ -11,12 +26,40 @@ public class PrologueEnd : Interactable {
 
     private void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0))
+        if(stolenItem)
         {
-            walk();
-            if (itemRequired == "")
+            if (Input.GetMouseButtonDown(0))
             {
-                StartCoroutine("waitForTrigger");
+                walk();
+                StartCoroutine("waitForTrigger2");
+            }
+        }
+        else
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                walk();
+                if (itemRequired == "")
+                {
+                    StartCoroutine("waitForTrigger");
+                }
+            }
+        }
+    }
+
+    IEnumerator waitForTrigger2()
+    {
+        Player p = FindObjectOfType<Player>();
+        while (p.walking)
+        {
+            yield return null;
+        }
+        if (p.location == location)
+        {
+            triggerEvent(cutsceneEvent);
+            if (DestoryOnceUsed)
+            {
+                Destroy(this.gameObject);
             }
         }
     }

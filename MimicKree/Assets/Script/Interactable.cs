@@ -33,7 +33,7 @@ public class Interactable : MonoBehaviour {
         }
     }
 
-    private void triggerEvent(Event e)
+    protected void triggerEvent(Event e)
     {
         if (!e.triggerOnce || !e.beenTriggered)
         {

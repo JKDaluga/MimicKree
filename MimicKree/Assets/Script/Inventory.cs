@@ -54,4 +54,16 @@ public class Inventory : MonoBehaviour {
         }
         return false;
     }
+
+    public bool contains(string itemName)
+    {
+        foreach (InventorySlot inv in invSlots)
+        {
+            if (inv.item != null && inv.item.isInSlot && inv.item.itemName.Equals(itemName))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }
