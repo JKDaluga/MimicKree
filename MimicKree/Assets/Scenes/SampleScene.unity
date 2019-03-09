@@ -546,7 +546,7 @@ RectTransform:
   m_LocalScale: {x: 1.9127676, y: 1.0079101, z: 1.0079101}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7302318, y: 0}
   m_AnchorMax: {x: 1, y: 0.17746784}
@@ -2188,7 +2188,7 @@ GameObject:
   - component: {fileID: 264838083}
   - component: {fileID: 264838082}
   m_Layer: 5
-  m_Name: Elmo
+  m_Name: Lockpick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3593,7 +3593,7 @@ Transform:
   m_LocalScale: {x: 15, y: 15, z: 42.2}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &528276924
 SpriteRenderer:
@@ -3710,7 +3710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: {fileID: 1793078310}
   isActivated: 0
-  itemRequired: lockpick
+  itemRequired: 
   triggeredevent: {fileID: 528276930}
   DestoryOnceUsed: 1
   visualOnly: 0
@@ -3748,7 +3748,7 @@ MonoBehaviour:
   hasSceneChange: 0
   addAnEdge: 0
   addsItem: 1
-  removesItem: 1
+  removesItem: 0
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
@@ -6667,7 +6667,7 @@ Transform:
   m_LocalScale: {x: 42.2, y: 42.2, z: 42.2}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &848893855
 SpriteRenderer:
@@ -6809,6 +6809,10 @@ GameObject:
   m_Component:
   - component: {fileID: 877966567}
   - component: {fileID: 877966568}
+  - component: {fileID: 877966572}
+  - component: {fileID: 877966570}
+  - component: {fileID: 877966569}
+  - component: {fileID: 877966571}
   m_Layer: 0
   m_Name: 00-Sprite-Object-mid-TreasureCage1
   m_TagString: Untagged
@@ -6875,6 +6879,106 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &877966569
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 877966566}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 3
+--- !u!61 &877966570
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 877966566}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.85, y: 5.86}
+    newSize: {x: 5.85, y: 5.86}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.85, y: 5.86}
+  m_EdgeRadius: 0
+--- !u!114 &877966571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 877966566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAnimation: 0
+  hasDialogue: 0
+  hasSceneChange: 0
+  addAnEdge: 0
+  addsItem: 0
+  removesItem: 1
+  hasAnotherEvent: 0
+  anim: {fileID: 0}
+  waitOnAnimation: 0
+  dialogueTrigger: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  newSceneNode: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  addedItem: {fileID: 0}
+  removedItem: {fileID: 264838081}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  ap: {fileID: 0}
+  axeNum: 0
+  door: {fileID: 0}
+  door2: {fileID: 0}
+  button: {fileID: 0}
+  sprite: {fileID: 0}
+  ev: {fileID: 0}
+--- !u!114 &877966572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 877966566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19963fb59c774840b90f15219db9312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: {fileID: 1973449204}
+  isActivated: 0
+  itemRequired: lockpick
+  triggeredevent: {fileID: 877966571}
+  DestoryOnceUsed: 1
+  visualOnly: 0
 --- !u!1 &885223124
 GameObject:
   m_ObjectHideFlags: 0
@@ -7793,7 +7897,7 @@ RectTransform:
   m_LocalScale: {x: 1.00014, y: 1.00014, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39768863, y: 0.374}
   m_AnchorMax: {x: 0.56017077, y: 0.7555457}
@@ -10973,6 +11077,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1385376067}
   - component: {fileID: 1385376068}
+  - component: {fileID: 1385376072}
+  - component: {fileID: 1385376071}
+  - component: {fileID: 1385376070}
+  - component: {fileID: 1385376069}
   m_Layer: 0
   m_Name: 00-Sprite-Object-mid-TreasureCage1 (2)
   m_TagString: Untagged
@@ -10991,7 +11099,7 @@ Transform:
   m_LocalScale: {x: 16.226744, y: 16.030514, z: 42.2}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 12
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1385376068
 SpriteRenderer:
@@ -11039,6 +11147,106 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1385376069
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385376066}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 3
+--- !u!61 &1385376070
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385376066}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.85, y: 5.86}
+    newSize: {x: 5.85, y: 5.86}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.85, y: 5.86}
+  m_EdgeRadius: 0
+--- !u!114 &1385376071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385376066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAnimation: 0
+  hasDialogue: 0
+  hasSceneChange: 0
+  addAnEdge: 0
+  addsItem: 0
+  removesItem: 1
+  hasAnotherEvent: 0
+  anim: {fileID: 0}
+  waitOnAnimation: 0
+  dialogueTrigger: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  newSceneNode: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  addedItem: {fileID: 0}
+  removedItem: {fileID: 264838081}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  ap: {fileID: 0}
+  axeNum: 0
+  door: {fileID: 0}
+  door2: {fileID: 0}
+  button: {fileID: 0}
+  sprite: {fileID: 0}
+  ev: {fileID: 0}
+--- !u!114 &1385376072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385376066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19963fb59c774840b90f15219db9312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: {fileID: 1793078310}
+  isActivated: 0
+  itemRequired: lockpick
+  triggeredevent: {fileID: 1794441357}
+  DestoryOnceUsed: 1
+  visualOnly: 0
 --- !u!1 &1386076213
 GameObject:
   m_ObjectHideFlags: 0
@@ -11468,6 +11676,7 @@ RectTransform:
   m_Children:
   - {fileID: 877966567}
   - {fileID: 1794441355}
+  - {fileID: 1385376067}
   - {fileID: 848893854}
   - {fileID: 1938374294}
   - {fileID: 1951837012}
@@ -11478,7 +11687,6 @@ RectTransform:
   - {fileID: 1973449201}
   - {fileID: 2045075293}
   - {fileID: 1051026282}
-  - {fileID: 1385376067}
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13773,7 +13981,7 @@ Transform:
   m_LocalScale: {x: 15, y: 15, z: 42.2}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1764040353
 SpriteRenderer:
@@ -13908,9 +14116,9 @@ MonoBehaviour:
   hasAnimation: 0
   hasDialogue: 1
   hasSceneChange: 0
-  addAnEdge: 0
+  addAnEdge: 1
   addsItem: 1
-  removesItem: 1
+  removesItem: 0
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
@@ -13945,7 +14153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: {fileID: 2045075287}
   isActivated: 0
-  itemRequired: lockpick
+  itemRequired: 
   triggeredevent: {fileID: 1764040358}
   DestoryOnceUsed: 1
   visualOnly: 0
@@ -14271,7 +14479,7 @@ RectTransform:
   m_Children:
   - {fileID: 1294271921}
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7302318, y: 0.19430266}
   m_AnchorMax: {x: 0.91365266, y: 0.51911306}
@@ -14537,6 +14745,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1794441355}
   - component: {fileID: 1794441356}
+  - component: {fileID: 1794441360}
+  - component: {fileID: 1794441357}
+  - component: {fileID: 1794441359}
+  - component: {fileID: 1794441358}
   m_Layer: 0
   m_Name: 00-Sprite-Object-mid-TreasureCage1 (1)
   m_TagString: Untagged
@@ -14603,6 +14815,106 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1794441357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794441354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAnimation: 0
+  hasDialogue: 0
+  hasSceneChange: 0
+  addAnEdge: 0
+  addsItem: 0
+  removesItem: 1
+  hasAnotherEvent: 0
+  anim: {fileID: 0}
+  waitOnAnimation: 0
+  dialogueTrigger: {fileID: 0}
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  newSceneNode: {fileID: 0}
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  addedItem: {fileID: 0}
+  removedItem: {fileID: 264838081}
+  triggerOnce: 1
+  beenTriggered: 0
+  anotherEvent: {fileID: 0}
+  ap: {fileID: 0}
+  axeNum: 0
+  door: {fileID: 0}
+  door2: {fileID: 0}
+  button: {fileID: 0}
+  sprite: {fileID: 0}
+  ev: {fileID: 0}
+--- !u!50 &1794441358
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794441354}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 3
+--- !u!61 &1794441359
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794441354}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.85, y: 5.86}
+    newSize: {x: 5.85, y: 5.86}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.85, y: 5.86}
+  m_EdgeRadius: 0
+--- !u!114 &1794441360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1794441354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19963fb59c774840b90f15219db9312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  location: {fileID: 2045075287}
+  isActivated: 0
+  itemRequired: lockpick
+  triggeredevent: {fileID: 1794441357}
+  DestoryOnceUsed: 1
+  visualOnly: 0
 --- !u!1 &1805636900
 GameObject:
   m_ObjectHideFlags: 0
@@ -15855,7 +16167,7 @@ Transform:
   m_LocalScale: {x: 42.2, y: 42.2, z: 42.2}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1938374295
 SpriteRenderer:
@@ -16011,7 +16323,7 @@ Transform:
   m_LocalScale: {x: 15, y: 15, z: 42.2}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1951837013
 SpriteRenderer:
@@ -16093,7 +16405,7 @@ MonoBehaviour:
   hasSceneChange: 0
   addAnEdge: 0
   addsItem: 1
-  removesItem: 1
+  removesItem: 0
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
@@ -16128,7 +16440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: {fileID: 1973449204}
   isActivated: 0
-  itemRequired: lockpick
+  itemRequired: 
   triggeredevent: {fileID: 1951837015}
   DestoryOnceUsed: 1
   visualOnly: 0
@@ -16499,7 +16811,7 @@ RectTransform:
   m_Children:
   - {fileID: 2050119948}
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.097, y: 0.020642858}
   m_AnchorMax: {x: 0.36819273, y: 0.48316512}
@@ -17143,7 +17455,7 @@ RectTransform:
   m_LocalScale: {x: 1.00014, y: 1.00014, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1448583983}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.54800004, y: 0.19430266}
   m_AnchorMax: {x: 0.7302318, y: 0.4605228}
