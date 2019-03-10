@@ -35,6 +35,7 @@ public class Player : MonoBehaviour {
 	void Update () {
         if(isWalking)
         {
+
             if (startMarker.position.x < endMarker.position.x)
             {
                 anim.SetBool("KreeWalkRight", true);
@@ -74,10 +75,12 @@ public class Player : MonoBehaviour {
                     location.triggerEvent();
                 }
                 isWalking = false;
-                walking = false;
+ 
+                print("We got to this part for walking");
                 isStartTimeSet = false;
                 if(pathsToTravel.Count == 0)
                 {
+                    walking = false;
                     if (anim.GetBool("KreeWalkRight"))
                     {
                         anim.SetBool("KreeIdleRight", true);
