@@ -12,11 +12,11 @@ public class PrologueEnd : Interactable {
     {
         if (FindObjectOfType<Inventory>().contains("lockpick"))
         {
-            stolenItem = true;
+            stolenItem = false;
         }
         else
         {
-            stolenItem = false;
+            stolenItem = true;
         }
     }
 

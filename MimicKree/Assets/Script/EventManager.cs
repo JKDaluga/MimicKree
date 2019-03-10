@@ -66,6 +66,33 @@ public class EventManager : MonoBehaviour {
             temp[triggeredEvent.p2.neighbors.Length] = triggeredEvent.p1;
             triggeredEvent.p2.neighbors = temp;
         }
+        if (triggeredEvent.removeAnEdge)
+        {
+            PathNode[] temp = new PathNode[triggeredEvent.p1.neighbors.Length - 1];
+            for (int i = 0; i < triggeredEvent.p1.neighbors.Length; i++)
+            {
+                if (triggeredEvent.p1.neighbors[i] != triggeredEvent.p2)
+                {
+                    temp[i] = triggeredEvent.p1.neighbors[i];
+                }
+            }
+            if(temp.Length < triggeredEvent.p1.neighbors.Length)
+            {
+                triggeredEvent.p1.neighbors = temp;
+            }
+            temp = new PathNode[triggeredEvent.p2.neighbors.Length - 1];
+            for (int i = 0; i < triggeredEvent.p2.neighbors.Length; i++)
+            {
+                if (triggeredEvent.p2.neighbors[i] != triggeredEvent.p1)
+                {
+                    temp[i] = triggeredEvent.p2.neighbors[i];
+                }
+            }
+            if (temp.Length < triggeredEvent.p2.neighbors.Length)
+            {
+                triggeredEvent.p2.neighbors = temp;
+            }
+        }
         if (triggeredEvent.addsItem)
         {
             inv.addItem(triggeredEvent.addedItem);

@@ -8,6 +8,7 @@ public class Event : MonoBehaviour {
     public bool hasDialogue;
     public bool hasSceneChange;
     public bool addAnEdge;
+    public bool removeAnEdge;
     public bool addsItem;
     public bool removesItem;
     public bool hasAnotherEvent;
