@@ -6,6 +6,7 @@ public class PrologueEnd : Interactable {
 
     public bool stolenItem;
     public Event cutsceneEvent;
+    public GameObject invIcon;
 
     private void Update()
     {
@@ -57,6 +58,7 @@ public class PrologueEnd : Interactable {
         if (p.location == location)
         {
             triggerEvent(cutsceneEvent);
+            invIcon.SetActive(false);
             if (DestoryOnceUsed)
             {
                 Destroy(this.gameObject);
