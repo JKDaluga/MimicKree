@@ -4026,7 +4026,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - That would be a little silly.
-    profilePicture: {fileID: 21300000, guid: 1ddb4d3a7743c72419de75df3e6c0cd0, type: 3}
+    profilePicture: {fileID: 21300000, guid: 39c9fdb897ebbce4f9bc7d0861d1ec68, type: 3}
 --- !u!4 &1248120050
 Transform:
   m_ObjectHideFlags: 0
@@ -4362,7 +4362,7 @@ Animator:
   m_GameObject: {fileID: 1317986566}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9e47ef4dfef0fd04481b4b1cac9cd064, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
