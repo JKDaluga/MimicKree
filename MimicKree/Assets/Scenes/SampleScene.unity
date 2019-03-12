@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 8014506}
   - component: {fileID: 8014508}
   - component: {fileID: 8014507}
+  - component: {fileID: 8014509}
   m_Layer: 5
   m_Name: InventoryPanel
   m_TagString: Untagged
@@ -304,6 +305,31 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 8014505}
   m_CullTransparentMesh: 0
+--- !u!61 &8014509
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8014505}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &13240342
 GameObject:
   m_ObjectHideFlags: 0
@@ -6885,6 +6911,7 @@ GameObject:
   - component: {fileID: 885223127}
   - component: {fileID: 885223126}
   - component: {fileID: 885223131}
+  - component: {fileID: 885223132}
   m_Layer: 5
   m_Name: Block8.75
   m_TagString: SceneChangeIcon
@@ -6922,7 +6949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
+  hasDialogue: 1
   hasSceneChange: 1
   addAnEdge: 0
   removeAnEdge: 0
@@ -6931,7 +6958,7 @@ MonoBehaviour:
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
-  dialogueTrigger: {fileID: 0}
+  dialogueTrigger: {fileID: 885223132}
   sceneOld: {fileID: 593875173}
   sceneNew: {fileID: 892807392}
   newSceneNode: {fileID: 1828562075}
@@ -7075,6 +7102,23 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 115.7574, y: 167.6678}
   m_EdgeRadius: 0
+--- !u!114 &885223132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 885223124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - I can't see a thing in here! It's definitly to dangerous to continue without
+      light.
+    profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &892807392
 GameObject:
   m_ObjectHideFlags: 0
@@ -12825,6 +12869,7 @@ GameObject:
   - component: {fileID: 1583198084}
   - component: {fileID: 1583198088}
   - component: {fileID: 1583198087}
+  - component: {fileID: 1583198089}
   m_Layer: 0
   m_Name: 00-sprite-object-PrologueGlowRoomSwitch
   m_TagString: Untagged
@@ -12867,12 +12912,13 @@ MonoBehaviour:
   - {fileID: 749254897}
   - {fileID: 2100060353}
   background: {fileID: 1412588506}
+  Switch: {fileID: 1583198086}
   buttonOn: {fileID: 21300000, guid: adb66090bd92e9c419bff87982f13909, type: 3}
   buttonOff: {fileID: 21300000, guid: 4f58bf78df46a384b83761fd232e322e, type: 3}
   RoomOn: {fileID: 21300000, guid: 3eba27d63993d52498d3bc1d694def01, type: 3}
   RoomOff: {fileID: 21300000, guid: bf2181472b70b5648805bcfcdf4cfd89, type: 3}
   toggle: 0
-  dialogueEvent: {fileID: 0}
+  dialogueEvent: {fileID: 885223126}
   toggleOff: {fileID: 1583198087}
 --- !u!61 &1583198085
 BoxCollider2D:
@@ -12935,7 +12981,7 @@ SpriteRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4fce9ca75c73a174d84725c1d2ae1510, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12996,7 +13042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
+  hasDialogue: 1
   hasSceneChange: 0
   addAnEdge: 1
   removeAnEdge: 0
@@ -13005,7 +13051,7 @@ MonoBehaviour:
   hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
-  dialogueTrigger: {fileID: 0}
+  dialogueTrigger: {fileID: 1583198089}
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
@@ -13023,6 +13069,22 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
+--- !u!114 &1583198089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1583198082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - 'Woah! These things glow? '
+    profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &1590785914
 GameObject:
   m_ObjectHideFlags: 0
@@ -14362,7 +14424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
+  hasDialogue: 0
   hasSceneChange: 0
   addAnEdge: 0
   removeAnEdge: 0
@@ -14863,7 +14925,6 @@ GameObject:
   - component: {fileID: 1852384820}
   - component: {fileID: 1852384819}
   - component: {fileID: 1852384818}
-  - component: {fileID: 1852384821}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -14975,31 +15036,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852384816}
   m_CullTransparentMesh: 0
---- !u!61 &1852384821
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1852384816}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.081544876, y: 0.16301537}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 37.04392, y: 35.88368}
-  m_EdgeRadius: 0
 --- !u!1 &1911030021
 GameObject:
   m_ObjectHideFlags: 0
