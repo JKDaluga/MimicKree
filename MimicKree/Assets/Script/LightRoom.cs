@@ -16,6 +16,7 @@ public class LightRoom : Interactable {
     public bool toggle;
 
     public Event dialogueEvent;
+    public Event toggleOff;
 
     IEnumerator waitForTrigger()
     {
@@ -24,9 +25,14 @@ public class LightRoom : Interactable {
         {
             yield return null;
         }
+        if (p.location != location)
+        {
+            yield return null;
+        }
+
         if (p.location == location)
         {
-            triggerEvent();
+            print("ACTIVATE");
             toggle = !toggle;
             if(toggle)
             {
@@ -35,6 +41,7 @@ public class LightRoom : Interactable {
                     button.sprite = buttonOn;
                 }
                 background.sprite = RoomOn;
+                triggerEvent();
             }
             else
             {
@@ -43,11 +50,16 @@ public class LightRoom : Interactable {
                     button.sprite = buttonOff;
                 }
                 background.sprite = RoomOff;
+                triggerEvent(toggleOff);
             }
             if (DestoryOnceUsed)
             {
                 Destroy(this.gameObject);
             }
+        }
+        else
+        {
+            print("not there ma dude");
         }
     }
 }

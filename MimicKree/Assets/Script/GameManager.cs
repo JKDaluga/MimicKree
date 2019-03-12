@@ -66,9 +66,13 @@ public class GameManager : MonoBehaviour {
         List<PathNode> temp = BreadthFirstSearch(player.getLocation(), end);
         if (temp != null)
         {
-            if(temp.Count > 1) temp.RemoveAt(0);
-            player.setList(temp);
-            player.walking = true;
+            if (temp.Count == 1) player.getLocation().triggerEvent();
+            else
+            {
+                temp.RemoveAt(0);
+                player.setList(temp);
+                player.walking = true;
+            }
         }
     }
 
