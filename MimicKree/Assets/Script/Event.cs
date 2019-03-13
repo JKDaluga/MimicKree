@@ -3,36 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Event : MonoBehaviour {
-    
-    public bool hasAnimation;
-    public bool hasDialogue;
-    public bool hasSceneChange;
-    public bool addAnEdge;
-    public bool removeAnEdge;
-    public bool addsItem;
-    public bool removesItem;
-    public bool hasAnotherEvent;
 
+    [Header("Animation Settings")]
+    public bool hasAnimation;
     public Animation anim;
     public bool waitOnAnimation;
 
+    [Header("Dialogue Settings")]
+    public bool hasDialogue;
     public DialogueTrigger dialogueTrigger;
 
+    [Header("Scene Change Settings")]
+    public bool hasSceneChange;
     public GameObject sceneOld;
     public GameObject sceneNew;
     public PathNode newSceneNode;
 
+    [Header("Add/Remove Edge Settings")]
+    public bool addAnEdge;
+    public bool removeAnEdge;
     public PathNode p1;
     public PathNode p2;
 
+    [Header("Add/Remove Item Settings")]
+    public bool addsItem;
+    public bool removesItem;
     public Item addedItem;
     public Item removedItem;
-
+    [Header("Extra Event Settings")]
+    public bool hasAnotherEvent;
+    public Event anotherEvent;
     public bool triggerOnce;
     public bool beenTriggered;
 
-    public Event anotherEvent;
-
+    [Header("Special Settings")]
     public AxePuzzle ap;
     public int axeNum;
 
