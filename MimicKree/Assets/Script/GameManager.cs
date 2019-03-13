@@ -110,6 +110,6 @@ public class GameManager : MonoBehaviour {
         {
             yield return null;
         }
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Prologue");
     }
 }

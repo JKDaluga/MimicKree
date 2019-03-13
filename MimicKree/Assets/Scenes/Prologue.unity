@@ -729,7 +729,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 127559991}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 333, y: 74, z: -3798}
+  m_LocalPosition: {x: 333, y: 74, z: 0}
   m_LocalScale: {x: 42.2, y: 42.2, z: 42.2}
   m_Children: []
   m_Father: {fileID: 892807396}
@@ -838,26 +838,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 1
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 2023289051}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 1
+  removeAnEdge: 0
   p1: {fileID: 455203649}
   p2: {fileID: 1486458224}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 1566907306}
@@ -1110,26 +1110,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -1317,26 +1317,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 1265732985}
   sceneNew: {fileID: 1448583979}
   newSceneNode: {fileID: 41986848}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -1771,26 +1771,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -2078,26 +2078,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 1448583979}
   sceneNew: {fileID: 1265732985}
   newSceneNode: {fileID: 171752314}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -2196,26 +2196,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 1448583979}
   sceneNew: {fileID: 835985492}
   newSceneNode: {fileID: 171752314}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -2461,26 +2461,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 280545069}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -2980,26 +2980,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 455203647}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -3792,26 +3792,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 1
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 528276929}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 1
+  removesItem: 0
   addedItem: {fileID: 1510591242}
   removedItem: {fileID: 264838081}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -4001,26 +4001,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 892807397}
   axeNum: 1
   door: {fileID: 0}
@@ -4325,26 +4325,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 593875173}
   sceneNew: {fileID: 1053219201}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -4470,6 +4470,8 @@ RectTransform:
   - {fileID: 1826544614}
   - {fileID: 885223125}
   - {fileID: 1805636903}
+  - {fileID: 1769016724}
+  - {fileID: 2087738814}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4659,26 +4661,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 264838081}
   removedItem: {fileID: 264838081}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -4912,7 +4914,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5093,26 +5095,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 892807397}
   axeNum: 2
   door: {fileID: 0}
@@ -5940,26 +5942,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -6383,26 +6385,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -6853,26 +6855,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 1
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 1
   addedItem: {fileID: 0}
   removedItem: {fileID: 264838081}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -6949,26 +6951,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 885223132}
+  hasSceneChange: 1
   sceneOld: {fileID: 593875173}
   sceneNew: {fileID: 892807392}
   newSceneNode: {fileID: 1828562075}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -7219,6 +7221,7 @@ RectTransform:
   - {fileID: 542482013}
   - {fileID: 749254896}
   - {fileID: 2100060352}
+  - {fileID: 1811475986}
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7647,26 +7650,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 966019277}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -7872,26 +7875,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 1051026283}
+  hasSceneChange: 0
   sceneOld: {fileID: 1448583979}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -8001,75 +8004,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1051026281}
   m_CullTransparentMesh: 0
---- !u!1 &1052420664
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1052420665}
-  - component: {fileID: 1052420667}
-  - component: {fileID: 1052420666}
-  m_Layer: 5
-  m_Name: DarkenPanel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1052420665
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1052420664}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2092980177}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.7000122, y: -1.7999878}
-  m_SizeDelta: {x: 38.6, y: 38.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1052420666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1052420664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1052420667
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1052420664}
-  m_CullTransparentMesh: 0
 --- !u!1 &1053219201
 GameObject:
   m_ObjectHideFlags: 0
@@ -8087,7 +8021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1053219202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8579,26 +8513,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 593875173}
   sceneNew: {fileID: 1053219201}
   newSceneNode: {fileID: 1493685931}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -9325,26 +9259,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 264838081}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -9487,26 +9421,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 1265732985}
   sceneNew: {fileID: 1053219201}
   newSceneNode: {fileID: 1486458224}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -10067,26 +10001,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 1291447255}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -10776,26 +10710,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 1
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 1
   addedItem: {fileID: 0}
   removedItem: {fileID: 264838081}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -10915,26 +10849,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 1386076218}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -11470,26 +11404,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 1053219201}
   sceneNew: {fileID: 1265732985}
   newSceneNode: {fileID: 1243913551}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -11669,26 +11603,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 1053219201}
   sceneNew: {fileID: 593875173}
   newSceneNode: {fileID: 1092024403}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -11893,26 +11827,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 741924897}
   sceneNew: {fileID: 593875173}
   newSceneNode: {fileID: 1961499634}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -12217,26 +12151,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 1497268426}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -12911,6 +12845,7 @@ MonoBehaviour:
   - {fileID: 749254897}
   - {fileID: 2100060353}
   background: {fileID: 1412588506}
+  darkPanel: {fileID: 0}
   Switch: {fileID: 1583198086}
   buttonOn: {fileID: 21300000, guid: adb66090bd92e9c419bff87982f13909, type: 3}
   buttonOff: {fileID: 21300000, guid: 4f58bf78df46a384b83761fd232e322e, type: 3}
@@ -13002,26 +12937,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 1
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 1
   p1: {fileID: 1828562075}
   p2: {fileID: 280545063}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -13041,26 +12976,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 1
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 1583198089}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 1
+  removeAnEdge: 0
   p1: {fileID: 1828562075}
   p2: {fileID: 280545063}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -13645,26 +13580,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 1
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 1764040357}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 1
+  removesItem: 0
   addedItem: {fileID: 1104798614}
   removedItem: {fileID: 264838081}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -13689,6 +13624,81 @@ MonoBehaviour:
   triggeredevent: {fileID: 1764040358}
   DestoryOnceUsed: 1
   visualOnly: 0
+--- !u!1 &1769016723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1769016724}
+  - component: {fileID: 1769016725}
+  m_Layer: 0
+  m_Name: Small_Crystal2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1769016724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1769016723}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 262, y: -63, z: -3798}
+  m_LocalScale: {x: 42.2, y: 42.2, z: 42.2}
+  m_Children: []
+  m_Father: {fileID: 593875177}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1769016725
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1769016723}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: 099b5a460a3a3f24f947aae5a4e443b8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.88, y: 0.59}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1774003271
 GameObject:
   m_ObjectHideFlags: 0
@@ -13907,26 +13917,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 1793078308}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -14128,26 +14138,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 1
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 1
   addedItem: {fileID: 0}
   removedItem: {fileID: 264838081}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -14286,6 +14296,39 @@ RectTransform:
   m_AnchoredPosition: {x: 65, y: -17.905}
   m_SizeDelta: {x: 335.3, y: 142.74}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1811475985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1811475986}
+  m_Layer: 5
+  m_Name: New Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1811475986
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1811475985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1000, y: 1000, z: 1}
+  m_Children: []
+  m_Father: {fileID: 892807396}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -749, y: -421}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1818133227
 GameObject:
   m_ObjectHideFlags: 0
@@ -14423,26 +14466,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 1826544620}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -14861,26 +14904,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 892807392}
   sceneNew: {fileID: 593875173}
   newSceneNode: {fileID: 885223127}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -14942,7 +14985,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2092980177}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.018666668, y: 0.04473934}
   m_AnchorMax: {x: 0.072000004, y: 0.13463034}
@@ -15602,26 +15645,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 1
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 1951837014}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 1
+  removesItem: 0
   addedItem: {fileID: 852584081}
   removedItem: {fileID: 264838081}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -15854,26 +15897,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 1
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 1
   sceneOld: {fileID: 593875173}
   sceneNew: {fileID: 741924897}
   newSceneNode: {fileID: 1497128386}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -15974,26 +16017,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 1973449202}
+  hasSceneChange: 0
   sceneOld: {fileID: 1973449200}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -16445,26 +16488,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 1
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 2045075289}
+  hasSceneChange: 0
   sceneOld: {fileID: 2045075286}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -16714,6 +16757,81 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2050119947}
   m_CullTransparentMesh: 0
+--- !u!1 &2087738813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2087738814}
+  - component: {fileID: 2087738815}
+  m_Layer: 0
+  m_Name: Small_Crystal1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087738814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087738813}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 325, y: -142, z: -3798}
+  m_LocalScale: {x: 42.2, y: 42.2, z: 42.2}
+  m_Children: []
+  m_Father: {fileID: 593875177}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2087738815
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2087738813}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_Sprite: {fileID: 21300000, guid: a180f3e3cf5a32d4b91f4ae67ea4e451, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.9, y: 0.83}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &2088381616
 GameObject:
   m_ObjectHideFlags: 0
@@ -16884,7 +17002,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1052420665}
   - {fileID: 1852384817}
   - {fileID: 199154353}
   m_Father: {fileID: 0}
@@ -16992,26 +17109,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasAnimation: 0
-  hasDialogue: 0
-  hasSceneChange: 0
-  addAnEdge: 0
-  removeAnEdge: 0
-  addsItem: 0
-  removesItem: 0
-  hasAnotherEvent: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+  hasDialogue: 0
   dialogueTrigger: {fileID: 0}
+  hasSceneChange: 0
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
   p1: {fileID: 0}
   p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
   addedItem: {fileID: 0}
   removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  anotherEvent: {fileID: 0}
   ap: {fileID: 892807397}
   axeNum: 3
   door: {fileID: 0}
