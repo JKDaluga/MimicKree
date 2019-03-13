@@ -44,7 +44,7 @@ public class LightRoom : Interactable {
                     button.sprite = buttonOn;
                 }
                 background.sprite = RoomOn;
-                darkPanel.SetActive(false);
+                //darkPanel.SetActive(false);
                 dialogueEvent.hasDialogue = false;
                 Switch.color = new Color(255f, 255f, 255f);
                 triggerEvent();
