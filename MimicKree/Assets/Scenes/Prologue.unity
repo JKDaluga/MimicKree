@@ -5942,6 +5942,7 @@ MonoBehaviour:
   hasAnimation: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+
   hasDialogue: 0
   dialogueTrigger: {fileID: 0}
   hasSceneChange: 0
