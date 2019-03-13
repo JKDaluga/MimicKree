@@ -5942,6 +5942,7 @@ MonoBehaviour:
   hasAnimation: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
+
   hasDialogue: 0
   dialogueTrigger: {fileID: 0}
   hasSceneChange: 0
@@ -9862,7 +9863,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1289910194}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 26acb67f82570dd4281054cdeb44a735, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: cbdbfe5e6125d8644a8f4cac708bb608, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 519420031}
