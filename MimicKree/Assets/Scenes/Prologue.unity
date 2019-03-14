@@ -4915,7 +4915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8005,7 +8005,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1053219202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12979,7 +12979,7 @@ MonoBehaviour:
   removedItem: {fileID: 0}
   hasAnotherEvent: 0
   anotherEvent: {fileID: 0}
-  triggerOnce: 0
+  triggerOnce: 1
   beenTriggered: 0
   ap: {fileID: 0}
   axeNum: 0
