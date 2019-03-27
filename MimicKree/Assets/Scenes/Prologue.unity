@@ -1875,7 +1875,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "I guess that's Raga, god of trickery, lies, and mystery.\r\n"
+    - "I'll bet a whole gold mark that's Raga. He seems like the type. \n"
     - Looks like somebody REALLY likes himself.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &234474298
@@ -2503,10 +2503,9 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Swinging axes, really?
-    - "I would\u2019ve expected more from the God of Tricks\u2026 but can\u2019t beat
-      a classic I suppose."
-    - Don't know why you would be able to disarm the trap in front of the trap, Raga
-      seems a bit lazy.
+    - 'This doesn''t seem clever enuff for a tricktser god... still, axes are classic. '
+    - Wait, is that for disarming the trap? Who puts that right in front of the-
+    - 'Unless that is the trap... '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &280545070
 BoxCollider2D:
@@ -2967,7 +2966,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "Huh. No lock. Can\u2019t pick that. \r"
+    - 'Huh. No lock. Can''t exactly pick that can I. '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &455203648
 MonoBehaviour:
@@ -3778,7 +3777,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Well I got what I came for,
-    - and without my lockpicks I best not push my luck with the others
+    - And I probably can't open the other cages without my tools.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &528276930
 MonoBehaviour:
@@ -7287,8 +7286,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - I can't see a thing in here! It's definitely to dangerous to continue without
-      light.
+    - Fyre's flaming pits, I can't see amything!
+    - 'I knew I shoulda bout Drowgoggles. '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &892807392
 GameObject:
@@ -7804,8 +7803,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "They may be old, but I\u2019m not willing to find out how nasty those blades
-      are. \r"
+    - 'I dunno how old these are but I ain''t gonna touch em. '
     profilePicture: {fileID: 0}
 --- !u!114 &966019278
 MonoBehaviour:
@@ -10213,8 +10211,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "This place is massive, though it looks like the cleaning crew took the century
-      off.\r"
+    - 'This place is massive! Smells like he stiffed the cleaning crew thought. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!61 &1291447256
 BoxCollider2D:
@@ -12494,8 +12491,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Raga's temple? If this does not make me the world's most legendary treasure
-      hunter I don't know what will.
+    - Raga's temple huh? If this don't  make me the  most legendary treasure hunter
+      I dunno what will.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &1497268427
 MonoBehaviour:
@@ -13925,7 +13922,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Well I got what I came for,
-    - and without my lockpicks I best not push my luck with the others
+    - And I probably can't open the other cages without my tools.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1764040358
 MonoBehaviour:
@@ -14263,8 +14260,9 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The map of revealing!
-    - "This thing reveals nearby treasures and traps. I\u2019ll never lose my keys
-      again. "
+    - 'This thing reveals nearby treasures and traps.Looks like I won''t be losing
+      my keys anytime soon/ '
+    - These cages look like s they have some magic. But it's still got a lock!
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1793078309
 MonoBehaviour:
@@ -14970,7 +14968,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "Seems like there\u2019s still something working up ahead\u2026  "
+    - Sounds like there's somethin' moving up ahead.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &1826544621
 BoxCollider2D:
@@ -15989,8 +15987,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Well I got what I came for,
-    - and without my lockpicks I best not push my luck with the others
+    - 'I got what I came here for. '
+    - And I probably can't open the other cages without my tools.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1951837015
 MonoBehaviour:
@@ -16365,6 +16363,7 @@ MonoBehaviour:
     - The chalice of immortality!
     - Huh. I expected it to be more... regal.
     - "It's totally spillproof though.  \r\n"
+    - "I can probably break into this cage, I got the tools for it. \n"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1973449203
 MonoBehaviour:
@@ -16795,9 +16794,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'The symbol on the switch looks similar to this one on the door. '
-    - Have not seen one of these since I last raided the shrine of the silver monkey.
-    - 'That was bananas. '
+    - I've seen that before... on the other door! Back where I found the crystal!
+    - Haven't seen this sorta thing since the tomb of the Silver Monkey.
+    - That whole trip was banannas.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &2045075286
 GameObject:
@@ -16894,6 +16893,7 @@ MonoBehaviour:
     - The Skeleton Key!
     - It can open any non-magical lock.
     - Sure would make my job easier.
+    - One more go with my old tools should open these cages.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &2045075290
 MonoBehaviour:
