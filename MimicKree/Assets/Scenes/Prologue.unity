@@ -2503,10 +2503,8 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Swinging axes, really?
-    - "I would\u2019ve expected more from the God of Tricks\u2026 but can\u2019t beat
-      a classic I suppose."
-    - Don't know why you would be able to disarm the trap in front of the trap, Raga
-      seems a bit lazy.
+    - "I expected more from the God of Tricks\u2026 guess it's just too classic. "
+    - 'Wait, the disarming mechanism is just right out here? Why by the '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &280545070
 BoxCollider2D:
@@ -4914,7 +4912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7287,8 +7285,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - I can't see a thing in here! It's definitely to dangerous to continue without
-      light.
+    - 'Fyre''s flaming pits, I can''t see a bloody thing!I knew I shoulda brought
+      Drow goggles. '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &892807392
 GameObject:
@@ -10213,8 +10211,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "This place is massive, though it looks like the cleaning crew took the century
-      off.\r"
+    - 'This place is massive! Looks like he stiffed the cleaners though, it smells
+      awful. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!61 &1291447256
 BoxCollider2D:
@@ -12494,8 +12492,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Raga's temple? If this does not make me the world's most legendary treasure
-      hunter I don't know what will.
+    - Raga's temple huh? If this don't make me the most legendary treasure hunter
+      I dunno what will.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &1497268427
 MonoBehaviour:
@@ -14970,7 +14968,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "Seems like there\u2019s still something working up ahead\u2026  "
+    - I think I hear something working up ahead...
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &1826544621
 BoxCollider2D:
