@@ -12480,15 +12480,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1497268420}
   m_CullTransparentMesh: 0
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of a0134d6... scene 1 node changes
->>>>>>> b040ef858bc0622b56bc988d6bdf1344d89ae2fc
 --- !u!114 &1497268426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12503,23 +12494,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-<<<<<<< HEAD
     - Raga's temple? If this does not make me the world's most legendary treasure
       hunter I don't know what will.
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Raga's temple huh? If this don't make me the most legendary treasure hunter
-      I dunno what will.
-=======
-    - Raga's temple? If this does not make me the world's most legendary treasure
-      hunter I don't know what will.
->>>>>>> parent of a0134d6... scene 1 node changes
-=======
-    - Raga's temple? If this does not make me the world's most legendary treasure
-      hunter I don't know what will.
->>>>>>> parent of e214beb... Dialogue uprages
->>>>>>> b040ef858bc0622b56bc988d6bdf1344d89ae2fc
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &1497268427
 MonoBehaviour:
@@ -12560,15 +12536,6 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e214bebc3f4113499b2f4b4d45437205404024af
-=======
->>>>>>> parent of a0134d6... scene 1 node changes
-=======
->>>>>>> parent of 09f553e... prologue s1
->>>>>>> b040ef858bc0622b56bc988d6bdf1344d89ae2fc
 --- !u!61 &1497268428
 BoxCollider2D:
   m_ObjectHideFlags: 0
