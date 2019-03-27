@@ -2523,10 +2523,8 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Swinging axes, really?
-    - "I would\u2019ve expected more from the God of Tricks\u2026 but can\u2019t beat
-      a classic I suppose."
-    - Don't know why you would be able to disarm the trap in front of the trap, Raga
-      seems a bit lazy.
+    - "I expected more from the God of Tricks\u2026 guess it's just too classic. "
+    - 'Wait, the disarming mechanism is just right out here? Why by the '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &280545070
 BoxCollider2D:
@@ -7310,8 +7308,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - I can't see a thing in here! It's definitely to dangerous to continue without
-      light.
+    - 'Fyre''s flaming pits, I can''t see a bloody thing!I knew I shoulda brought
+      Drow goggles. '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &892807392
 GameObject:
@@ -10442,8 +10440,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "This place is massive, though it looks like the cleaning crew took the century
-      off.\r"
+    - 'This place is massive! Looks like he stiffed the cleaners though, it smells
+      awful. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!61 &1291447256
 BoxCollider2D:
@@ -12708,6 +12706,65 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1497268420}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+=======
+--- !u!114 &1497268426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497268420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - Raga's temple huh? If this don't make me the most legendary treasure hunter
+      I dunno what will.
+    profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
+--- !u!114 &1497268427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497268420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAnimation: 0
+  anim: {fileID: 0}
+  waitOnAnimation: 0
+  hasDialogue: 1
+  dialogueTrigger: {fileID: 1497268426}
+  hasSceneChange: 0
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
+  addedItem: {fileID: 0}
+  removedItem: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
+  triggerOnce: 1
+  beenTriggered: 0
+  ap: {fileID: 0}
+  axeNum: 0
+  door: {fileID: 0}
+  door2: {fileID: 0}
+  button: {fileID: 0}
+  sprite: {fileID: 0}
+  ev: {fileID: 0}
+>>>>>>> e214bebc3f4113499b2f4b4d45437205404024af
 --- !u!61 &1497268428
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15329,7 +15386,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "Seems like there\u2019s still something working up ahead\u2026  "
+    - I think I hear something working up ahead...
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &1826544621
 BoxCollider2D:
