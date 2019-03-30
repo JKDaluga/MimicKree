@@ -75,8 +75,7 @@ public class Player : MonoBehaviour {
                     location.triggerEvent();
                 }
                 isWalking = false;
- 
-                print("We got to this part for walking");
+
                 isStartTimeSet = false;
                 if(pathsToTravel.Count == 0)
                 {

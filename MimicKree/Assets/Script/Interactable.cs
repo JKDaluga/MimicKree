@@ -88,6 +88,16 @@ public class Interactable : MonoBehaviour {
 
     public void walk()
     {
-        gm.walk(location);
+        if(location != FindObjectOfType<Player>().location)
+        {
+            print("or this");
+            gm.walk(location);
+        }
+        else
+        {
+            print("this");
+        }
+        
+        
     }
 }

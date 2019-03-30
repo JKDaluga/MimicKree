@@ -30,6 +30,12 @@ public class Event : MonoBehaviour {
     public bool removesItem;
     public Item addedItem;
     public Item removedItem;
+
+    [Header("Toggle Sprite")]
+    public bool istoggleSprite;
+    public bool on;
+    public GameObject toggleSprite;
+
     [Header("Extra Event Settings")]
     public bool hasAnotherEvent;
     public Event anotherEvent;

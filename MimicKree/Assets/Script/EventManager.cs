@@ -101,6 +101,10 @@ public class EventManager : MonoBehaviour {
         {
             inv.removeItem(triggeredEvent.removedItem);
         }
+        if (triggeredEvent.istoggleSprite)
+        {
+            triggeredEvent.toggleSprite.SetActive(triggeredEvent.on);
+        }
         if (triggeredEvent.hasAnotherEvent)
         {
             triggerEvent(triggeredEvent.anotherEvent);
