@@ -52,4 +52,7 @@ public class Event : MonoBehaviour {
     public Sprite sprite;
 
     public Event ev;
+
+    public bool isSwitch;
+    public Animator animator;
 }

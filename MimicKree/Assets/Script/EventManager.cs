@@ -18,14 +18,22 @@ public class EventManager : MonoBehaviour {
     {
         if(triggeredEvent.hasAnimation)
         {
-            if(triggeredEvent.waitOnAnimation)
+            if (triggeredEvent.isSwitch)
             {
-                WaitForAnimation(triggeredEvent.anim);
+                triggeredEvent.animator.SetBool("Pull", true);
             }
             else
             {
-                triggeredEvent.anim.Play();
+                if (triggeredEvent.waitOnAnimation)
+                {
+                    WaitForAnimation(triggeredEvent.anim);
+                }
+                else
+                {
+                    triggeredEvent.anim.Play();
+                }
             }
+            
         }
         if (triggeredEvent.hasDialogue)
         {

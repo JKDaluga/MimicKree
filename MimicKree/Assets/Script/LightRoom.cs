@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class LightRoom : Interactable {
 
-    public SpriteRenderer[] buttons;
+    public GameObject[] buttons;
+    public GameObject[] darkbuttons;
     public SpriteRenderer background;
 
     public Sprite buttonOn;
@@ -29,13 +30,16 @@ public class LightRoom : Interactable {
         }
         if (p.location == location)
         {
-            toggle = !toggle;
             toggle = true;
             if (toggle)
             {
-                foreach (SpriteRenderer button in buttons)
+                foreach (GameObject button in buttons)
                 {
-                    button.sprite = buttonOn;
+                    button.SetActive(true);
+                }
+                foreach (GameObject button in darkbuttons)
+                {
+                    button.SetActive(false);
                 }
                 background.sprite = RoomOn;
                 triggerEvent();
