@@ -113,6 +113,10 @@ public class EventManager : MonoBehaviour {
         {
             triggeredEvent.toggleSprite.SetActive(triggeredEvent.on);
         }
+        if (triggeredEvent.hasAudio == false)
+        {
+            
+        }
         if (triggeredEvent.hasAnotherEvent)
         {
             triggerEvent(triggeredEvent.anotherEvent);

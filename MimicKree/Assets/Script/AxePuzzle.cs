@@ -51,12 +51,12 @@ public class AxePuzzle : MonoBehaviour {
             float fracJourney = distCovered / length;
             // Set our position as a fraction of the distance between the markers.
 
-            Vector3 axe1v1 = new Vector3(axe1.transform.position.x,2,0);
-            Vector3 axe1v2 = new Vector3(axe1.transform.position.x, 11, 0);
-            Vector3 axe2v1 = new Vector3(axe2.transform.position.x, 2, 0);
-            Vector3 axe2v2 = new Vector3(axe2.transform.position.x, 11, 0);
-            Vector3 axe3v1 = new Vector3(axe3.transform.position.x, 2, 0);
-            Vector3 axe3v2 = new Vector3(axe3.transform.position.x, 11, 0);
+            Vector3 axe1v1 = new Vector3(axe1.transform.position.x,4,0);
+            Vector3 axe1v2 = new Vector3(axe1.transform.position.x, 15, 0);
+            Vector3 axe2v1 = new Vector3(axe2.transform.position.x, 4, 0);
+            Vector3 axe2v2 = new Vector3(axe2.transform.position.x, 15, 0);
+            Vector3 axe3v1 = new Vector3(axe3.transform.position.x, 4, 0);
+            Vector3 axe3v2 = new Vector3(axe3.transform.position.x, 15, 0);
             if(changeAxe1)
             {
                 if(isAxe1Active)

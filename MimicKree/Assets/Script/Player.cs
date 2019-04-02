@@ -33,9 +33,10 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(isWalking)
+        rescale();
+        if (isWalking)
         {
-
+            
             if (startMarker.position.x < endMarker.position.x)
             {
                 anim.SetBool("KreeWalkRight", true);
@@ -97,6 +98,12 @@ public class Player : MonoBehaviour {
             }
         }
         else walk();
+    }
+
+    void rescale()
+    {
+        float diff = -0.125f*(transform.position.y + 1);
+        transform.localScale = new Vector3(1 + diff, 1 + diff, 1);
     }
 
     public void walk()

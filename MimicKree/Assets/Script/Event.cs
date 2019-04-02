@@ -42,6 +42,11 @@ public class Event : MonoBehaviour {
     public bool triggerOnce;
     public bool beenTriggered;
 
+    [Header("Audio Settings")]
+    public bool hasAudio;
+    public AudioClip sfx;
+    private SoundManager sm;
+
     [Header("Special Settings")]
     public AxePuzzle ap;
     public int axeNum;
