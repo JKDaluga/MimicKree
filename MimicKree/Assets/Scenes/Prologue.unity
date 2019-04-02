@@ -861,6 +861,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 1566907306}
@@ -1138,6 +1140,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -1350,6 +1354,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -1813,6 +1819,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -2142,6 +2150,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -2265,6 +2275,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -2620,6 +2632,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -3183,6 +3197,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -3210,10 +3226,13 @@ MonoBehaviour:
   DestoryOnceUsed: 0
   visualOnly: 0
   buttons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  darkbuttons: []
+  - {fileID: 542482012}
+  - {fileID: 749254895}
+  - {fileID: 2100060351}
+  darkbuttons:
+  - {fileID: 1033058944}
+  - {fileID: 1570509084}
+  - {fileID: 638976498}
   background: {fileID: 1412588506}
   buttonOn: {fileID: 21300000, guid: 0494f45b5a1de1141b20c6fb2e356aee, type: 3}
   buttonOff: {fileID: 21300000, guid: 22fc539ef10702d42a4dee811532406d, type: 3}
@@ -3356,6 +3375,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -4097,6 +4118,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -4312,6 +4335,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 892807397}
   axeNum: 1
   door: {fileID: 0}
@@ -4319,8 +4344,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 0
-  animator: {fileID: 0}
+  isSwitch: 1
+  animator: {fileID: 542482020}
 --- !u!122 &542482016
 Halo:
   m_ObjectHideFlags: 0
@@ -4659,6 +4684,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -4710,7 +4737,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &593875174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5001,6 +5028,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -5519,7 +5548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5726,6 +5755,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 892807397}
   axeNum: 2
   door: {fileID: 0}
@@ -5733,8 +5764,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 0
-  animator: {fileID: 0}
+  isSwitch: 1
+  animator: {fileID: 749254903}
 --- !u!122 &749254899
 Halo:
   m_ObjectHideFlags: 0
@@ -5964,6 +5995,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -7031,6 +7064,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -7463,6 +7498,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -7938,6 +7975,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -8039,6 +8078,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -8541,6 +8582,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -8802,6 +8845,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -9223,6 +9268,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -9610,6 +9657,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -9738,7 +9787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1053219202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10255,6 +10304,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -11006,6 +11057,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -11200,6 +11253,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -11384,6 +11439,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -11972,6 +12029,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -13068,6 +13127,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -13212,6 +13273,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -13772,6 +13835,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -13976,6 +14041,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -14205,6 +14272,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -15316,7 +15385,7 @@ MonoBehaviour:
   sceneOld: {fileID: 0}
   sceneNew: {fileID: 0}
   newSceneNode: {fileID: 0}
-  addAnEdge: 1
+  addAnEdge: 0
   removeAnEdge: 0
   p1: {fileID: 1828562075}
   p2: {fileID: 280545063}
@@ -15331,6 +15400,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -16016,6 +16087,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -16361,6 +16434,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -16587,6 +16662,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -16887,6 +16964,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -17329,6 +17408,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -18074,6 +18155,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -18331,6 +18414,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -18461,6 +18546,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -19032,6 +19119,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -19662,6 +19751,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
+  hasAudio: 0
+  sfx: {fileID: 0}
   ap: {fileID: 892807397}
   axeNum: 3
   door: {fileID: 0}
@@ -19669,8 +19760,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 0
-  animator: {fileID: 0}
+  isSwitch: 1
+  animator: {fileID: 2100060359}
 --- !u!122 &2100060355
 Halo:
   m_ObjectHideFlags: 0
