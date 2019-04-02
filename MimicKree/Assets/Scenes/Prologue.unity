@@ -554,9 +554,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Oh wow, a whole room of treasures!
+    - Lookit all these!
     - 'Momma''s gonna go shopping. '
-    - 'And by shopping I mean stealing. '
+    - 'And by that I mean I''m stealing all these. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &56998613
 GameObject:
@@ -1372,6 +1372,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 1326949577}
+  - {fileID: 1326949577}
   history: []
   triggeredevent: {fileID: 171752313}
 --- !u!114 &171752315
@@ -1860,7 +1861,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Raga's temple huh? If this don't  make me the  most legendary treasure hunter
+    - Raga's temple huh? If this don't make me the most legendary treasure hunter
       I dunno what will.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &234474294
@@ -1916,7 +1917,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - "I'll bet a whole gold mark that's Raga. He seems like the type. \n"
-    - Looks like somebody REALLY likes himself.
+    - He must REALLY like himself.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &234474298
 MonoBehaviour:
@@ -3145,7 +3146,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Woah! This place is amazing!
+    - Woah! Nice digs.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &454554165
 MonoBehaviour:
@@ -3209,13 +3210,10 @@ MonoBehaviour:
   DestoryOnceUsed: 0
   visualOnly: 0
   buttons:
-  - {fileID: 542482012}
-  - {fileID: 749254895}
-  - {fileID: 2100060351}
-  darkbuttons:
-  - {fileID: 1033058944}
-  - {fileID: 1570509084}
-  - {fileID: 638976498}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  darkbuttons: []
   background: {fileID: 1412588506}
   buttonOn: {fileID: 21300000, guid: 0494f45b5a1de1141b20c6fb2e356aee, type: 3}
   buttonOff: {fileID: 21300000, guid: 22fc539ef10702d42a4dee811532406d, type: 3}
@@ -4062,7 +4060,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Well I got what I came for,
-    - And I probably can't open the other cages without my tools.
+    - 'Maybe I''ll come back when I get a new set o tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &528276930
 MonoBehaviour:
@@ -4321,8 +4319,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 1
-  animator: {fileID: 542482020}
+  isSwitch: 0
+  animator: {fileID: 0}
 --- !u!122 &542482016
 Halo:
   m_ObjectHideFlags: 0
@@ -5533,8 +5531,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 1
-  animator: {fileID: 749254903}
+  isSwitch: 0
+  animator: {fileID: 0}
 --- !u!122 &749254899
 Halo:
   m_ObjectHideFlags: 0
@@ -8129,7 +8127,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'This place is massive! Smells like he stiffed the cleaning crew thought. '
+    - 'This place is massive! Smells like he stiffed the cleaning crew though. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!224 &934615954
 RectTransform:
@@ -8874,9 +8872,10 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "Look like this is Raga\u2019s throne room."
-    - "I\u2019d say it\u2019s comforting that he\u2019s not here right now, but at
-      least then I\u2019d know where he is. \r"
+    - "Looks like Raga\u2019s treasure room is also his throne room."
+    - 'I''m happy he ain''t here right now, but that means I don''t know where he
+      is. '
+    - 'And that ain''t a happy thought. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1051026284
 MonoBehaviour:
@@ -11295,7 +11294,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'This place is massive! Smells like he stiffed the cleaning crew thought. '
+    - 'This place is massive! Smells like he stiffed the cleaning crew though. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!61 &1291447256
 BoxCollider2D:
@@ -15279,7 +15278,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Well I got what I came for,
-    - And I probably can't open the other cages without my tools.
+    - 'Maybe I''ll come back when I get a new set o tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1764040358
 MonoBehaviour:
@@ -15622,9 +15621,9 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The map of revealing!
-    - 'This thing reveals nearby treasures and traps.Looks like I won''t be losing
-      my keys anytime soon/ '
-    - These cages look like s they have some magic. But it's still got a lock!
+    - 'This thing reveals nearby treasures and traps. Maybe it''ll find my keys for
+      me. '
+    - 'These cages have some kind of magic. Never stopped me before. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1793078309
 MonoBehaviour:
@@ -17336,8 +17335,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'I got what I came here for. '
-    - And I probably can't open the other cages without my tools.
+    - This is what I came for.
+    - 'Maybe I''ll come back when I get a new set o tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1951837015
 MonoBehaviour:
@@ -17721,8 +17720,10 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The chalice of immortality!
-    - Huh. I expected it to be more... regal.
-    - "It's totally spillproof though.  \r\n"
+    - Huh. Kinda expected it to be more... regal.
+    - 'Looks spillproof though.
+
+'
     - "I can probably break into this cage, I got the tools for it. \n"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1973449203
@@ -18255,7 +18256,7 @@ MonoBehaviour:
     dialogues:
     - I've seen that before... on the other door! Back where I found the crystal!
     - Haven't seen this sorta thing since the tomb of the Silver Monkey.
-    - That whole trip was banannas.
+    - Now that trip was bananas.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &2045075286
 GameObject:
@@ -18968,8 +18969,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 1
-  animator: {fileID: 2100060359}
+  isSwitch: 0
+  animator: {fileID: 0}
 --- !u!122 &2100060355
 Halo:
   m_ObjectHideFlags: 0
