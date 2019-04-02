@@ -554,9 +554,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Oh wow, a whole room of treasures!
+    - Lookit all these!
     - 'Momma''s gonna go shopping. '
-    - 'And by shopping I mean stealing. '
+    - 'And by that I mean I''m stealing all these. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &56998613
 GameObject:
@@ -1308,7 +1308,7 @@ RectTransform:
   m_LocalScale: {x: 1.00014, y: 1.00014, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1265732989}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.051379476}
   m_AnchorMax: {x: 0.1353783, y: 0.632}
@@ -1371,6 +1371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
+  - {fileID: 1326949577}
   - {fileID: 1326949577}
   history: []
   triggeredevent: {fileID: 171752313}
@@ -1860,7 +1861,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Raga's temple huh? If this don't  make me the  most legendary treasure hunter
+    - Raga's temple huh? If this don't make me the most legendary treasure hunter
       I dunno what will.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &234474294
@@ -1916,7 +1917,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - "I'll bet a whole gold mark that's Raga. He seems like the type. \n"
-    - Looks like somebody REALLY likes himself.
+    - He must REALLY like himself.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &234474298
 MonoBehaviour:
@@ -3145,7 +3146,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Woah! This place is amazing!
+    - Woah! Nice digs.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &454554165
 MonoBehaviour:
@@ -3209,13 +3210,10 @@ MonoBehaviour:
   DestoryOnceUsed: 0
   visualOnly: 0
   buttons:
-  - {fileID: 542482012}
-  - {fileID: 749254895}
-  - {fileID: 2100060351}
-  darkbuttons:
-  - {fileID: 1033058944}
-  - {fileID: 1570509084}
-  - {fileID: 638976498}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  darkbuttons: []
   background: {fileID: 1412588506}
   buttonOn: {fileID: 21300000, guid: 0494f45b5a1de1141b20c6fb2e356aee, type: 3}
   buttonOff: {fileID: 21300000, guid: 22fc539ef10702d42a4dee811532406d, type: 3}
@@ -3300,7 +3298,7 @@ RectTransform:
   m_LocalScale: {x: 1.00014, y: 0.9922159, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1053219205}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.19786441, y: 0}
   m_AnchorMax: {x: 0.41124788, y: 0.54643655}
@@ -4062,7 +4060,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Well I got what I came for,
-    - And I probably can't open the other cages without my tools.
+    - 'Maybe I''ll come back when I get a new set o tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &528276930
 MonoBehaviour:
@@ -4321,8 +4319,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 1
-  animator: {fileID: 542482020}
+  isSwitch: 0
+  animator: {fileID: 0}
 --- !u!122 &542482016
 Halo:
   m_ObjectHideFlags: 0
@@ -4537,7 +4535,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 1826544616}
-  - {fileID: 934615951}
   - {fileID: 1291447249}
   history: []
   triggeredevent: {fileID: 574454125}
@@ -4713,7 +4710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &593875174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5179,6 +5176,209 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &689059550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 689059551}
+  - component: {fileID: 689059558}
+  - component: {fileID: 689059557}
+  - component: {fileID: 689059556}
+  - component: {fileID: 689059555}
+  - component: {fileID: 689059554}
+  - component: {fileID: 689059553}
+  - component: {fileID: 689059552}
+  m_Layer: 5
+  m_Name: Block19.75
+  m_TagString: MoveIcon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &689059551
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689059550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1752701, y: 1.00014, z: 1.00014}
+  m_Children: []
+  m_Father: {fileID: 1265732989}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.15345028, y: 0.021833975}
+  m_AnchorMax: {x: 0.34028372, y: 0.25482598}
+  m_AnchoredPosition: {x: -0.32885742, y: 0.000015258789}
+  m_SizeDelta: {x: -21.442291, y: 6.600006}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &689059552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689059550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: ???
+    dialogues:
+    - MY oh my, what do we have here?
+    profilePicture: {fileID: 0}
+--- !u!50 &689059553
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689059550}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &689059554
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689059550}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.839798, y: -1.901701}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 116.75517, y: 104.76248}
+  m_EdgeRadius: 0
+--- !u!114 &689059555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689059550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7308a2212360749b07af7af3c54620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neighbors:
+  - {fileID: 234474295}
+  - {fileID: 171752314}
+  history: []
+  triggeredevent: {fileID: 0}
+--- !u!114 &689059556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689059550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 689059557}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 689059555}
+        m_MethodName: walk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &689059557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689059550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &689059558
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 689059550}
+  m_CullTransparentMesh: 0
 --- !u!1 &710956486
 GameObject:
   m_ObjectHideFlags: 0
@@ -5533,8 +5733,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 1
-  animator: {fileID: 749254903}
+  isSwitch: 0
+  animator: {fileID: 0}
 --- !u!122 &749254899
 Halo:
   m_ObjectHideFlags: 0
@@ -5626,6 +5826,254 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &760600665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760600666}
+  - component: {fileID: 760600674}
+  - component: {fileID: 760600673}
+  - component: {fileID: 760600672}
+  - component: {fileID: 760600671}
+  - component: {fileID: 760600670}
+  - component: {fileID: 760600669}
+  - component: {fileID: 760600668}
+  - component: {fileID: 760600667}
+  m_Layer: 5
+  m_Name: Block16.5
+  m_TagString: MoveIcon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &760600666
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.00014, y: 0.992122, z: 1.00014}
+  m_Children: []
+  m_Father: {fileID: 1053219205}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.19786441, y: 0}
+  m_AnchorMax: {x: 0.41124788, y: 0.54643655}
+  m_AnchoredPosition: {x: -1.5344543, y: 4.3735657}
+  m_SizeDelta: {x: -0.28964233, y: -5.8055115}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!61 &760600667
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0014343262, y: -0.002155304}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 151.47586, y: 223.34006}
+  m_EdgeRadius: 0
+--- !u!50 &760600668
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &760600669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: ???
+    dialogues:
+    - "You think you\u2019re clever don\u2019t you. Only clever people try to steal
+      from GODS. "
+    profilePicture: {fileID: 0}
+--- !u!114 &760600670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAnimation: 0
+  anim: {fileID: 0}
+  waitOnAnimation: 0
+  hasDialogue: 1
+  dialogueTrigger: {fileID: 760600669}
+  hasSceneChange: 0
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
+  addedItem: {fileID: 0}
+  removedItem: {fileID: 0}
+  istoggleSprite: 0
+  on: 0
+  toggleSprite: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
+  triggerOnce: 1
+  beenTriggered: 0
+  ap: {fileID: 0}
+  axeNum: 0
+  door: {fileID: 0}
+  door2: {fileID: 0}
+  button: {fileID: 0}
+  sprite: {fileID: 0}
+  ev: {fileID: 0}
+  isSwitch: 0
+  animator: {fileID: 0}
+--- !u!114 &760600671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7308a2212360749b07af7af3c54620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neighbors:
+  - {fileID: 1111940671}
+  history: []
+  triggeredevent: {fileID: 760600670}
+--- !u!114 &760600672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 760600673}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 760600671}
+        m_MethodName: walk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &760600673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &760600674
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760600665}
+  m_CullTransparentMesh: 0
 --- !u!1 &761176413
 GameObject:
   m_ObjectHideFlags: 0
@@ -7955,6 +8403,255 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 899563877}
   m_CullTransparentMesh: 0
+--- !u!1 &916510351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 916510352}
+  - component: {fileID: 916510360}
+  - component: {fileID: 916510359}
+  - component: {fileID: 916510358}
+  - component: {fileID: 916510357}
+  - component: {fileID: 916510356}
+  - component: {fileID: 916510355}
+  - component: {fileID: 916510354}
+  - component: {fileID: 916510353}
+  m_Layer: 5
+  m_Name: Block14.5
+  m_TagString: MoveIcon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &916510352
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1752701, y: 1.00014, z: 1.00014}
+  m_Children: []
+  m_Father: {fileID: 1053219205}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.622613, y: 0}
+  m_AnchorMax: {x: 0.77051264, y: 0.54643655}
+  m_AnchoredPosition: {x: 6.4847717, y: 0.6689453}
+  m_SizeDelta: {x: -4.2402496, y: 1.4457703}
+  m_Pivot: {x: 0.6013589, y: 0.44527254}
+--- !u!114 &916510353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: ???
+    dialogues:
+    - 'I am honestly impressed with you now that you got the ball rolling. '
+    - 'You could even say I admire your stones. '
+    profilePicture: {fileID: 0}
+--- !u!61 &916510354
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -10.638618, y: 11.282742}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 101.38623, y: 226.59143}
+  m_EdgeRadius: 0
+--- !u!50 &916510355
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &916510356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasAnimation: 0
+  anim: {fileID: 0}
+  waitOnAnimation: 0
+  hasDialogue: 1
+  dialogueTrigger: {fileID: 916510353}
+  hasSceneChange: 0
+  sceneOld: {fileID: 0}
+  sceneNew: {fileID: 0}
+  newSceneNode: {fileID: 0}
+  addAnEdge: 0
+  removeAnEdge: 0
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  addsItem: 0
+  removesItem: 0
+  addedItem: {fileID: 0}
+  removedItem: {fileID: 0}
+  istoggleSprite: 0
+  on: 0
+  toggleSprite: {fileID: 0}
+  hasAnotherEvent: 0
+  anotherEvent: {fileID: 0}
+  triggerOnce: 1
+  beenTriggered: 0
+  ap: {fileID: 0}
+  axeNum: 0
+  door: {fileID: 0}
+  door2: {fileID: 0}
+  button: {fileID: 0}
+  sprite: {fileID: 0}
+  ev: {fileID: 0}
+  isSwitch: 0
+  animator: {fileID: 0}
+--- !u!114 &916510357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7308a2212360749b07af7af3c54620, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neighbors:
+  - {fileID: 1493685931}
+  - {fileID: 1111940671}
+  history: []
+  triggeredevent: {fileID: 916510356}
+--- !u!114 &916510358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 916510359}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 916510357}
+        m_MethodName: walk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &916510359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.16078432}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &916510360
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 916510351}
+  m_CullTransparentMesh: 0
 --- !u!1 &923373279
 GameObject:
   m_ObjectHideFlags: 0
@@ -8046,12 +8743,12 @@ GameObject:
   - component: {fileID: 934615953}
   - component: {fileID: 934615955}
   m_Layer: 5
-  m_Name: Block6 (1)
+  m_Name: Block6.5
   m_TagString: MoveIcon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &934615951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8066,7 +8763,6 @@ MonoBehaviour:
   neighbors:
   - {fileID: 1961499634}
   - {fileID: 1092024403}
-  - {fileID: 1291447249}
   - {fileID: 574454121}
   history:
   - {fileID: 574454121}
@@ -8127,10 +8823,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Kree
+    name: ???
     dialogues:
-    - 'This place is massive! Smells like he stiffed the cleaning crew thought. '
-    profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
+    - Look! The entrance is up ahead! You are crushing it!
+    profilePicture: {fileID: 0}
 --- !u!224 &934615954
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8144,11 +8840,11 @@ RectTransform:
   m_Father: {fileID: 593875177}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.13960786, y: 0.30810902}
+  m_AnchorMin: {x: 0.13960786, y: 0.07424278}
   m_AnchorMax: {x: 0.43, y: 0.5182708}
-  m_AnchoredPosition: {x: 1.4445648, y: -1.0564}
-  m_SizeDelta: {x: -104.27847, y: -3.353516}
-  m_Pivot: {x: 0.57144773, y: 0.3150175}
+  m_AnchoredPosition: {x: 1.5230103, y: 0.48190308}
+  m_SizeDelta: {x: -104.3, y: -7.680861}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &934615955
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8161,7 +8857,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -7.071411, y: 14.737499}
+  m_Offset: {x: -0.49928093, y: 1.3904266}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8172,7 +8868,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 110.52643, y: 86.9653}
+  m_Size: {x: 111.98662, y: 178.29324}
   m_EdgeRadius: 0
 --- !u!114 &934615956
 MonoBehaviour:
@@ -8373,7 +9069,7 @@ Transform:
   m_LocalScale: {x: 42.2, y: 42.2, z: 42.2}
   m_Children: []
   m_Father: {fileID: 1053219205}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &957630315
 SpriteRenderer:
@@ -8874,9 +9570,10 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "Look like this is Raga\u2019s throne room."
-    - "I\u2019d say it\u2019s comforting that he\u2019s not here right now, but at
-      least then I\u2019d know where he is. \r"
+    - "Looks like Raga\u2019s treasure room is also his throne room."
+    - 'I''m happy he ain''t here right now, but that means I don''t know where he
+      is. '
+    - 'And that ain''t a happy thought. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1051026284
 MonoBehaviour:
@@ -9114,8 +9811,10 @@ RectTransform:
   - {fileID: 1949511424}
   - {fileID: 1493685929}
   - {fileID: 836788262}
+  - {fileID: 916510352}
   - {fileID: 1111940677}
   - {fileID: 455203646}
+  - {fileID: 760600666}
   - {fileID: 1486458221}
   - {fileID: 957630314}
   m_Father: {fileID: 0}
@@ -9414,7 +10113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 934615951}
+  - {fileID: 1291447249}
   history: []
   triggeredevent: {fileID: 1092024408}
 --- !u!114 &1092024404
@@ -9904,7 +10603,7 @@ RectTransform:
   m_LocalScale: {x: 1.00014, y: 1.00014, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1053219205}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.41124788, y: 0}
   m_AnchorMax: {x: 0.6056253, y: 0.54643655}
@@ -10933,6 +11632,7 @@ RectTransform:
   - {fileID: 785782203}
   - {fileID: 234474301}
   - {fileID: 1326949574}
+  - {fileID: 689059551}
   - {fileID: 171752312}
   - {fileID: 1386076214}
   m_Father: {fileID: 0}
@@ -11128,7 +11828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 1961499634}
-  - {fileID: 934615951}
+  - {fileID: 1092024403}
   - {fileID: 574454121}
   history:
   - {fileID: 574454121}
@@ -11233,9 +11933,9 @@ RectTransform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.13960786, y: 0.07424278}
-  m_AnchorMax: {x: 0.43, y: 0.28940043}
-  m_AnchoredPosition: {x: 0.9558338, y: 2.5054228}
-  m_SizeDelta: {x: -104.27847, y: -5.4765096}
+  m_AnchorMax: {x: 0.43, y: 0.5182708}
+  m_AnchoredPosition: {x: 1.0215921, y: 1.5818644}
+  m_SizeDelta: {x: -104.43152, y: -7.9908395}
   m_Pivot: {x: 0.49999994, y: 0.36923313}
 --- !u!114 &1291447254
 MonoBehaviour:
@@ -11295,7 +11995,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'This place is massive! Smells like he stiffed the cleaning crew thought. '
+    - 'This place is massive! Smells like he stiffed the cleaning crew though. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!61 &1291447256
 BoxCollider2D:
@@ -11309,7 +12009,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.69447327, y: 9.369646}
+  m_Offset: {x: -0.69447327, y: 22.71605}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11320,7 +12020,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 112.12036, y: 88.49899}
+  m_Size: {x: 112.12036, y: 179.82314}
   m_EdgeRadius: 0
 --- !u!1 &1292040511
 GameObject:
@@ -12425,7 +13125,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1265732989}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.39655405, y: 0.354}
   m_AnchorMax: {x: 0.614, y: 0.96400005}
@@ -13005,7 +13705,7 @@ RectTransform:
   m_LocalScale: {x: 0.92637956, y: 1.044126, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 1053219205}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.03960911}
   m_AnchorMax: {x: 0.18300001, y: 0.54643655}
@@ -15279,7 +15979,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Well I got what I came for,
-    - And I probably can't open the other cages without my tools.
+    - 'Maybe I''ll come back when I get a new set o tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1764040358
 MonoBehaviour:
@@ -15622,9 +16322,9 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The map of revealing!
-    - 'This thing reveals nearby treasures and traps.Looks like I won''t be losing
-      my keys anytime soon/ '
-    - These cages look like s they have some magic. But it's still got a lock!
+    - 'This thing reveals nearby treasures and traps. Maybe it''ll find my keys for
+      me. '
+    - 'These cages have some kind of magic. Never stopped me before. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1793078309
 MonoBehaviour:
@@ -17336,8 +18036,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'I got what I came here for. '
-    - And I probably can't open the other cages without my tools.
+    - This is what I came for.
+    - 'Maybe I''ll come back when I get a new set o tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1951837015
 MonoBehaviour:
@@ -17489,7 +18189,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 934615951}
   - {fileID: 1291447249}
   history: []
   triggeredevent: {fileID: 1961499639}
@@ -17721,8 +18420,10 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The chalice of immortality!
-    - Huh. I expected it to be more... regal.
-    - "It's totally spillproof though.  \r\n"
+    - Huh. Kinda expected it to be more... regal.
+    - 'Looks spillproof though.
+
+'
     - "I can probably break into this cage, I got the tools for it. \n"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1973449203
@@ -18255,7 +18956,7 @@ MonoBehaviour:
     dialogues:
     - I've seen that before... on the other door! Back where I found the crystal!
     - Haven't seen this sorta thing since the tomb of the Silver Monkey.
-    - That whole trip was banannas.
+    - Now that trip was bananas.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &2045075286
 GameObject:
@@ -18968,8 +19669,8 @@ MonoBehaviour:
   button: {fileID: 0}
   sprite: {fileID: 0}
   ev: {fileID: 0}
-  isSwitch: 1
-  animator: {fileID: 2100060359}
+  isSwitch: 0
+  animator: {fileID: 0}
 --- !u!122 &2100060355
 Halo:
   m_ObjectHideFlags: 0
