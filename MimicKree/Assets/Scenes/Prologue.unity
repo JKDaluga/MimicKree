@@ -4711,7 +4711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &593875174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5520,7 +5520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8764,7 +8764,6 @@ MonoBehaviour:
   neighbors:
   - {fileID: 1961499634}
   - {fileID: 1092024403}
-  - {fileID: 1291447249}
   - {fileID: 574454121}
   history:
   - {fileID: 574454121}
@@ -10116,6 +10115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 934615951}
+  - {fileID: 1291447249}
   history: []
   triggeredevent: {fileID: 1092024408}
 --- !u!114 &1092024404
@@ -11830,7 +11830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 1961499634}
-  - {fileID: 934615951}
+  - {fileID: 1092024403}
   - {fileID: 574454121}
   history:
   - {fileID: 574454121}
