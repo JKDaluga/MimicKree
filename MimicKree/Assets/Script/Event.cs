@@ -45,7 +45,6 @@ public class Event : MonoBehaviour {
     [Header("Audio Settings")]
     public bool hasAudio;
     public AudioClip sfx;
-    private SoundManager sm;
 
     [Header("Special Settings")]
     public AxePuzzle ap;

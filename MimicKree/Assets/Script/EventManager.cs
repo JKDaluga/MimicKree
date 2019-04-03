@@ -115,7 +115,7 @@ public class EventManager : MonoBehaviour {
         }
         if (triggeredEvent.hasAudio == false)
         {
-            
+            FindObjectOfType<SoundManager>().playClip(triggeredEvent.sfx);
         }
         if (triggeredEvent.hasAnotherEvent)
         {
