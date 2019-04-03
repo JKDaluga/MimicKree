@@ -1869,8 +1869,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Raga's temple huh? If this don't make me the most legendary treasure hunter
-      I dunno what will.
+    - Raga's temple huh?
+    - ' If this don''t make me the most legendary treasure hunter I dunno what will.'
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &234474294
 GameObject:
@@ -2658,7 +2658,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Swinging axes, really?
-    - 'This doesn''t seem clever enuff for a tricktser god... still, axes are classic. '
+    - 'This doesn''t seem clever enough for a tricktser god... still, axes are classic. '
     - Wait, is that for disarming the trap? Who puts that right in front of the-
     - 'Unless that is the trap... '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
@@ -8229,8 +8229,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Fyre's flaming pits, I can't see amything!
-    - 'I knew I shoulda bout Drowgoggles. '
+    - Fyre's flaming pits, I can't see anything!
+    - 'I knew I shoulda bought Drowgoggles. '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &892807392
 GameObject:
@@ -15425,7 +15425,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - I think I might know a guy who will buys these.
+    - I think I might know a guy who buys these.
     - Well maybe not. Fingers crossed that it wasn't a trap.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &1590785914
