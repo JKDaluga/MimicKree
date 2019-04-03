@@ -3198,7 +3198,7 @@ MonoBehaviour:
   triggerOnce: 1
   beenTriggered: 0
   hasAudio: 1
-  sfx: {fileID: 8300000, guid: fb4ad281636e5a54ea132f669c8a0df2, type: 3}
+  sfx: {fileID: 8300000, guid: 819140cab18581a43b9665ce89345655, type: 3}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -5548,7 +5548,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8250,7 +8250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &892807393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16296,7 +16296,7 @@ MonoBehaviour:
   triggerOnce: 1
   beenTriggered: 0
   hasAudio: 1
-  sfx: {fileID: 8300000, guid: 787712e153a6b334b8c3c80f4bbdd952, type: 3}
+  sfx: {fileID: 0}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -16870,8 +16870,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  hasAudio: 0
-  sfx: {fileID: 0}
+  hasAudio: 1
+  sfx: {fileID: 8300000, guid: 787712e153a6b334b8c3c80f4bbdd952, type: 3}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
