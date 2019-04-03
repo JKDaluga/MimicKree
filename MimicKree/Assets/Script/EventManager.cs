@@ -113,7 +113,7 @@ public class EventManager : MonoBehaviour {
         {
             triggeredEvent.toggleSprite.SetActive(triggeredEvent.on);
         }
-        if (triggeredEvent.hasAudio == false)
+        if (triggeredEvent.hasAudio)
         {
             FindObjectOfType<SoundManager>().playClip(triggeredEvent.sfx);
         }
