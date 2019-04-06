@@ -7,6 +7,7 @@ public class PrologueEnd : Interactable {
     public bool stolenItem;
     public Event cutsceneEvent;
     public GameObject invIcon;
+    public AudioSource audio;
 
     private void Update()
     {
@@ -57,6 +58,7 @@ public class PrologueEnd : Interactable {
         }
         if (p.location == location)
         {
+            audio.enabled = false;
             triggerEvent(cutsceneEvent);
             invIcon.SetActive(false);
             if (DestoryOnceUsed)

@@ -36,7 +36,6 @@ public class Item : MonoBehaviour {
             transform.position = new Vector3(mousePosition.x, mousePosition.y,0);
             if(Input.GetMouseButtonDown(0) && !onInteractable)
             {
-                //GetComponent<BoxCollider2D>().enabled();
                 GameObject.FindGameObjectWithTag("dialoguething").GetComponent<DialogueTrigger>().TriggerDialogue();
                 isclicked = false;
                 transform.position = origPos;
@@ -81,8 +80,15 @@ public class Item : MonoBehaviour {
                 }
                 else
                 {
-                    
-                    GameObject.FindGameObjectWithTag("dialoguething").GetComponent<DialogueTrigger>().TriggerDialogue();
+                    if(inter.wrongItemDialogue != null)
+                    {
+                        print("woah");
+                        inter.wrongItemDialogue.TriggerDialogue();
+                    }
+                    else
+                    {
+                        GameObject.FindGameObjectWithTag("dialoguething").GetComponent<DialogueTrigger>().TriggerDialogue();
+                    }
                     isclicked = false;
                     transform.position = origPos;
                 }

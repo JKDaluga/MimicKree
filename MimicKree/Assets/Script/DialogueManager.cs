@@ -26,11 +26,11 @@ public class DialogueManager : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Space))
         {
             Player p = GameObject.FindObjectOfType<Player>();
-            if (p.getWalking())
+            if (!p.getWalking())
             {
-                p.stopWalking();
+                DisplayText();
             }
-            DisplayText();
+            
         }
         
     }

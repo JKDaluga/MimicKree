@@ -8,6 +8,7 @@ public class Interactable : MonoBehaviour {
     public bool isActivated;
     //public bool isRepeatable;
     public string itemRequired;
+    public DialogueTrigger wrongItemDialogue;
     public Event triggeredevent;
     private EventManager em;
     private GameManager gm;
@@ -57,9 +58,16 @@ public class Interactable : MonoBehaviour {
         if(Input.GetMouseButtonDown(0))
         {
             walk();
-            if(itemRequired == "")
+            if (itemRequired == "")
             {
                 StartCoroutine("waitForTrigger");
+            }
+            else
+            {
+                if(wrongItemDialogue != null)
+                {
+                    StartCoroutine("waitForWrongDialogue");
+                }
             }
         }
     }
@@ -83,6 +91,19 @@ public class Interactable : MonoBehaviour {
             {
                 Destroy(this.gameObject);
             }
+        }
+    }
+
+    IEnumerator waitForWrongDialogue()
+    {
+        Player p = FindObjectOfType<Player>();
+        while (p.walking)
+        {
+            yield return null;
+        }
+        if (p.location == location)
+        {
+            wrongItemDialogue.TriggerDialogue();
         }
     }
 

@@ -98,6 +98,11 @@ public class GameManager : MonoBehaviour {
         StartCoroutine("playIntro",vp);
     }
 
+    public void skipIntro()
+    {
+        SceneManager.LoadScene("Prologue");
+    }
+
     IEnumerator playIntro(UnityEngine.Video.VideoPlayer vp)
     {
         

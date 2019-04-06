@@ -9,6 +9,8 @@ public class LightRoom : Interactable {
     public GameObject[] darkbuttons;
     public SpriteRenderer background;
 
+    public DialogueTrigger darkRoomDialogue;
+
     public Sprite buttonOn;
     public Sprite buttonOff;
     public Sprite RoomOn;
