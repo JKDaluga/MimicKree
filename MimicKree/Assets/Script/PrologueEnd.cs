@@ -9,6 +9,12 @@ public class PrologueEnd : Interactable {
     public GameObject invIcon;
     public AudioSource audio;
 
+    private bool escapeTriggered = false;
+    public GameObject[] nonEscapeNodes;
+    public GameObject[] escapeNodes;
+    public Event runAwayEvent;
+    public PathNode runAwayToNode;
+
     private void Update()
     {
         if (FindObjectOfType<Inventory>().contains("lockpick"))
@@ -18,6 +24,20 @@ public class PrologueEnd : Interactable {
         else
         {
             stolenItem = true;
+        }
+        if(stolenItem && !escapeTriggered)
+        {
+            print("Trigger the escape D:");
+            foreach(GameObject node in nonEscapeNodes)
+            {
+                node.SetActive(false);
+            }
+            foreach (GameObject node in escapeNodes)
+            {
+                node.SetActive(true);
+            }
+            runAwayEvent.newSceneNode = runAwayToNode;
+            escapeTriggered = true;
         }
     }
 
