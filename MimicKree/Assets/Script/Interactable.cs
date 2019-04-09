@@ -111,14 +111,7 @@ public class Interactable : MonoBehaviour {
     {
         if(location != FindObjectOfType<Player>().location)
         {
-            print("or this");
             gm.walk(location);
         }
-        else
-        {
-            print("this");
-        }
-        
-        
     }
 }

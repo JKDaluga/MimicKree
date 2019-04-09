@@ -27,17 +27,17 @@ public class PrologueEnd : Interactable {
         }
         if(stolenItem && !escapeTriggered)
         {
-            print("Trigger the escape D:");
-            foreach(GameObject node in nonEscapeNodes)
+            escapeTriggered = true;
+            foreach(GameObject node in escapeNodes)
             {
                 node.SetActive(false);
             }
-            foreach (GameObject node in escapeNodes)
+            foreach (GameObject node in nonEscapeNodes)
             {
                 node.SetActive(true);
             }
             runAwayEvent.newSceneNode = runAwayToNode;
-            escapeTriggered = true;
+            
         }
     }
 
@@ -48,23 +48,12 @@ public class PrologueEnd : Interactable {
 
     private void OnMouseOver()
     {
-        if(stolenItem)
+        if (Input.GetMouseButtonDown(0))
         {
-            if (Input.GetMouseButtonDown(0))
+            walk();
+            if (itemRequired == "")
             {
-                walk();
-                StartCoroutine("waitForTrigger2");
-            }
-        }
-        else
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                walk();
-                if (itemRequired == "")
-                {
-                    StartCoroutine("waitForTrigger");
-                }
+                StartCoroutine("waitForTrigger");
             }
         }
     }

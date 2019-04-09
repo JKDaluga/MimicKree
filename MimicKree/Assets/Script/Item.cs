@@ -82,7 +82,6 @@ public class Item : MonoBehaviour {
                 {
                     if(inter.wrongItemDialogue != null)
                     {
-                        print("woah");
                         inter.wrongItemDialogue.TriggerDialogue();
                     }
                     else

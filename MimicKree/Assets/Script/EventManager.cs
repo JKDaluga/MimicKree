@@ -63,7 +63,6 @@ public class EventManager : MonoBehaviour {
                 print(triggeredEvent.p1.neighbors[i]);
                 temp[i] = triggeredEvent.p1.neighbors[i];
             }
-            print(triggeredEvent.p2);
             temp[triggeredEvent.p1.neighbors.Length] = triggeredEvent.p2;
             triggeredEvent.p1.neighbors = temp;
             temp = new PathNode[triggeredEvent.p2.neighbors.Length + 1];

@@ -874,7 +874,7 @@ RectTransform:
   m_GameObject: {fileID: 76783825}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 49.999825, y: 49.999825, z: 1.00014}
+  m_LocalScale: {x: 50, y: 50, z: 1.00014}
   m_Children: []
   m_Father: {fileID: 741924901}
   m_RootOrder: 14
@@ -3073,7 +3073,6 @@ GameObject:
   - component: {fileID: 251808863}
   - component: {fileID: 251808862}
   - component: {fileID: 251808861}
-  - component: {fileID: 251808865}
   - component: {fileID: 251808860}
   m_Layer: 5
   m_Name: Image
@@ -3165,13 +3164,42 @@ MonoBehaviour:
   DestoryOnceUsed: 0
   visualOnly: 0
   stolenItem: 0
-  cutsceneEvent: {fileID: 251808865}
+  cutsceneEvent: {fileID: 0}
   invIcon: {fileID: 1852384816}
   audio: {fileID: 1737518621}
-  nonEscapeNodes: []
-  escapeNodes: []
-  runAwayEvent: {fileID: 0}
-  runAwayToNode: {fileID: 0}
+  nonEscapeNodes:
+  - {fileID: 1889487311}
+  - {fileID: 1951528586}
+  - {fileID: 878334277}
+  - {fileID: 689059550}
+  - {fileID: 749591965}
+  - {fileID: 512973620}
+  - {fileID: 916510351}
+  - {fileID: 345672254}
+  - {fileID: 760600665}
+  - {fileID: 113350729}
+  - {fileID: 1839115835}
+  - {fileID: 934615950}
+  - {fileID: 239573362}
+  escapeNodes:
+  - {fileID: 1961499633}
+  - {fileID: 1291447248}
+  - {fileID: 1092024402}
+  - {fileID: 574454119}
+  - {fileID: 1826544613}
+  - {fileID: 885223124}
+  - {fileID: 1493685928}
+  - {fileID: 836788261}
+  - {fileID: 1111940670}
+  - {fileID: 455203645}
+  - {fileID: 1486458220}
+  - {fileID: 1243913550}
+  - {fileID: 785782202}
+  - {fileID: 234474294}
+  - {fileID: 1326949573}
+  - {fileID: 171752311}
+  runAwayEvent: {fileID: 251808860}
+  runAwayToNode: {fileID: 749591970}
 --- !u!61 &251808862
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3231,52 +3259,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 251808858}
   m_CullTransparentMesh: 0
---- !u!114 &251808865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 251808858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimation: 0
-  anim: {fileID: 0}
-  waitOnAnimation: 0
-  hasDialogue: 0
-  dialogueTrigger: {fileID: 0}
-  hasSceneChange: 1
-  sceneOld: {fileID: 1448583979}
-  sceneNew: {fileID: 835985492}
-  newSceneNode: {fileID: 171752314}
-  addAnEdge: 0
-  removeAnEdge: 0
-  p1: {fileID: 0}
-  p2: {fileID: 0}
-  addsItem: 0
-  removesItem: 0
-  addedItem: {fileID: 0}
-  removedItem: {fileID: 0}
-  istoggleSprite: 0
-  on: 0
-  toggleSprite: {fileID: 0}
-  hasAnotherEvent: 0
-  anotherEvent: {fileID: 0}
-  triggerOnce: 0
-  beenTriggered: 0
-  hasAudio: 0
-  sfx: {fileID: 0}
-  ap: {fileID: 0}
-  axeNum: 0
-  door: {fileID: 0}
-  door2: {fileID: 0}
-  button: {fileID: 0}
-  sprite: {fileID: 0}
-  ev: {fileID: 0}
-  isSwitch: 0
-  animator: {fileID: 0}
 --- !u!1 &258540253
 GameObject:
   m_ObjectHideFlags: 0
@@ -14240,7 +14222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1111940671
 MonoBehaviour:
   m_ObjectHideFlags: 0
