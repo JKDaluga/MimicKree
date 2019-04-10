@@ -5383,7 +5383,7 @@ MonoBehaviour:
   hasSceneChange: 1
   sceneOld: {fileID: 1053219201}
   sceneNew: {fileID: 593875173}
-  newSceneNode: {fileID: 1092024403}
+  newSceneNode: {fileID: 239573366}
   addAnEdge: 0
   removeAnEdge: 0
   p1: {fileID: 0}
@@ -7561,8 +7561,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 234474295}
-  - {fileID: 171752314}
+  - {fileID: 878334282}
+  - {fileID: 749591970}
   history: []
   triggeredevent: {fileID: 0}
 --- !u!114 &689059556
@@ -12086,7 +12086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 934615951}
+  - {fileID: 1839115839}
   - {fileID: 239573366}
   history:
   - {fileID: 574454121}
@@ -22146,7 +22146,7 @@ MonoBehaviour:
   dialogueTrigger: {fileID: 0}
   hasSceneChange: 1
   sceneOld: {fileID: 593875173}
-  sceneNew: {fileID: 741924897}
+  sceneNew: {fileID: 835985492}
   newSceneNode: {fileID: 1497128386}
   addAnEdge: 0
   removeAnEdge: 0
@@ -22501,7 +22501,7 @@ MonoBehaviour:
   hasSceneChange: 1
   sceneOld: {fileID: 1265732985}
   sceneNew: {fileID: 1053219201}
-  newSceneNode: {fileID: 1486458224}
+  newSceneNode: {fileID: 113350734}
   addAnEdge: 0
   removeAnEdge: 0
   p1: {fileID: 0}
