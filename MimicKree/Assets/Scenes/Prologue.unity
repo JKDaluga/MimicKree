@@ -11649,7 +11649,7 @@ MonoBehaviour:
   axe3: {fileID: 1918472231}
   length: 9
   p1: {fileID: 966019276}
-  p2: {fileID: 2023289046}
+  p2: {fileID: 1377217801}
   feedbackDialogue: {fileID: 966019278}
 --- !u!1 &899563877
 GameObject:
@@ -12695,7 +12695,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 153462746}
-  - {fileID: 1377217801}
   history: []
   triggeredevent: {fileID: 0}
 --- !u!114 &966019277
@@ -16900,7 +16899,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   neighbors:
-  - {fileID: 966019276}
   - {fileID: 848796252}
   history: []
   triggeredevent: {fileID: 0}
