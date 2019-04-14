@@ -26893,7 +26893,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "They\u2019re pretty until you remember that they\u2019re glow worms. "
+    - "Didn\u2019t know Raga was a fan of glow worms. Guess he doesn\u2019t enjoy
+      some sun after all."
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &2053911110
 BoxCollider2D:
