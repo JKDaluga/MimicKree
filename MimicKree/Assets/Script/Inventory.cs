@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour {
     public GameObject inventoryCanvas;
     public InventorySlot[] invSlots;
-    private int slotNum = 0;
 
 	// Use this for initialization
 	void Start () {

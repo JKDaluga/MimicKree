@@ -7,11 +7,15 @@ public class PrologueEnd : Interactable {
     public bool stolenItem;
     public Event cutsceneEvent;
     public GameObject invIcon;
-    public AudioSource audio;
+    public AudioSource audioSource;
 
     private bool escapeTriggered = false;
     public GameObject[] nonEscapeNodes;
     public GameObject[] escapeNodes;
+
+    public GameObject statue;
+    public GameObject door;
+
     public Event runAwayEvent;
     public PathNode runAwayToNode;
 
@@ -37,7 +41,8 @@ public class PrologueEnd : Interactable {
                 node.SetActive(true);
             }
             runAwayEvent.newSceneNode = runAwayToNode;
-            
+            statue.SetActive(true);
+            door.SetActive(true);
         }
     }
 
@@ -67,7 +72,7 @@ public class PrologueEnd : Interactable {
         }
         if (p.location == location)
         {
-            audio.enabled = false;
+            audioSource.enabled = false;
             triggerEvent(cutsceneEvent);
             invIcon.SetActive(false);
             if (DestoryOnceUsed)
