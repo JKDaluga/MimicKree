@@ -27090,7 +27090,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'I can''t even see the bottom, '
+    - "This place looks abysmal, I won\u2019t be able to steal if I fall after all.\r\n"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &2063952472
 BoxCollider2D:
