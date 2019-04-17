@@ -879,10 +879,10 @@ RectTransform:
   m_Father: {fileID: 741924901}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.7826081, y: 0.46920142}
-  m_AnchorMax: {x: 0.8655812, y: 0.59151274}
-  m_AnchoredPosition: {x: -239.3, y: -8.8}
-  m_SizeDelta: {x: 65.49496, y: 16.468124}
+  m_AnchorMin: {x: 0.48400003, y: 0.5}
+  m_AnchorMax: {x: 0.5624511, y: 0.57000005}
+  m_AnchoredPosition: {x: -12.749173, y: -6.383267}
+  m_SizeDelta: {x: 69.21365, y: 38.530838}
   m_Pivot: {x: 0.737979, y: 0.7116336}
 --- !u!114 &76783827
 MonoBehaviour:
@@ -1151,10 +1151,10 @@ RectTransform:
   m_Father: {fileID: 741924901}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.642446, y: 0.46920142}
-  m_AnchorMax: {x: 0.7306175, y: 0.59151274}
-  m_AnchoredPosition: {x: 83, y: -8.809}
-  m_SizeDelta: {x: 61.35188, y: 16.437414}
+  m_AnchorMin: {x: 0.7721434, y: 0.48800004}
+  m_AnchorMax: {x: 0.8655812, y: 0.59151274}
+  m_AnchoredPosition: {x: -17.276373, y: -11.1156225}
+  m_SizeDelta: {x: 57.384216, y: 24.315798}
   m_Pivot: {x: 0.737979, y: 0.7116336}
 --- !u!114 &103978788
 MonoBehaviour:
@@ -2448,10 +2448,10 @@ RectTransform:
   m_Father: {fileID: 741924901}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.44000003, y: 0.14559627}
-  m_AnchorMax: {x: 0.619, y: 0.43847355}
-  m_AnchoredPosition: {x: -12.3, y: 9.1}
-  m_SizeDelta: {x: 27.735409, y: -17.076025}
+  m_AnchorMin: {x: 0.44300002, y: 0.2198433}
+  m_AnchorMax: {x: 0.5858216, y: 0.43847355}
+  m_AnchoredPosition: {x: -0.8918617, y: -5.223342}
+  m_SizeDelta: {x: 55.100315, y: 14.256223}
   m_Pivot: {x: 0.5, y: 0.5428562}
 --- !u!114 &214387504
 MonoBehaviour:
@@ -8308,7 +8308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13194,10 +13194,10 @@ RectTransform:
   m_Father: {fileID: 741924901}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.4575936, y: 0.5}
-  m_AnchorMax: {x: 0.5956538, y: 0.64041364}
-  m_AnchoredPosition: {x: 42.6, y: -181.3}
-  m_SizeDelta: {x: 23.942768, y: 8.736625}
+  m_AnchorMin: {x: 0.545, y: 0.1124966}
+  m_AnchorMax: {x: 0.6831242, y: 0.2198433}
+  m_AnchoredPosition: {x: -23.043446, y: -7.9202747}
+  m_SizeDelta: {x: 23.881868, y: 22.564358}
   m_Pivot: {x: 0.737979, y: 0.7116336}
 --- !u!61 &955032901
 BoxCollider2D:
@@ -16275,10 +16275,10 @@ RectTransform:
   m_Father: {fileID: 741924901}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.63000005, y: 0.1124966}
-  m_AnchorMax: {x: 0.892, y: 0.36600003}
-  m_AnchoredPosition: {x: 3.7100067, y: 6.6309967}
-  m_SizeDelta: {x: 12.68, y: -22.609}
+  m_AnchorMin: {x: 0.7054919, y: 0.16766275}
+  m_AnchorMax: {x: 0.88144326, y: 0.36600003}
+  m_AnchoredPosition: {x: -1.1232916, y: 0.07349634}
+  m_SizeDelta: {x: 16.969679, y: 0.6800432}
   m_Pivot: {x: 0.5, y: 0.6917497}
 --- !u!61 &1241435559
 BoxCollider2D:
@@ -16292,7 +16292,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 4.598507, y: -15.4985695}
+  m_Offset: {x: 1.976696, y: -15.4985695}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -16303,7 +16303,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 220.4497, y: 83.47085}
+  m_Size: {x: 149.6412, y: 83.47085}
   m_EdgeRadius: 0
 --- !u!114 &1241435560
 MonoBehaviour:
@@ -16707,7 +16707,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1265732986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23972,10 +23972,10 @@ RectTransform:
   m_Father: {fileID: 593875177}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.83300006, y: 0.07424278}
-  m_AnchorMax: {x: 0.8872445, y: 0.31100002}
-  m_AnchoredPosition: {x: -92.4, y: 74.4}
-  m_SizeDelta: {x: -14.414274, y: 61.206024}
+  m_AnchorMin: {x: 0.6565412, y: 0.29500002}
+  m_AnchorMax: {x: 0.8104006, y: 0.43218663}
+  m_AnchoredPosition: {x: 1.7304156, y: 2.5677032}
+  m_SizeDelta: {x: -88.50462, y: 102.957504}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1838723015
 BoxCollider2D:
@@ -27312,7 +27312,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "This place looks abysmal, I won\u2019t be able to steal if I fall after all.\r\n"
+    - 'This place looks abysmal, hard to think anything would be down there.
+
+'
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &2063952472
 BoxCollider2D:
