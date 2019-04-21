@@ -16,6 +16,10 @@ public class EventManager : MonoBehaviour {
 
     public void triggerEvent(Event triggeredEvent)
     {
+        if(triggeredEvent.triggerOnce && triggeredEvent.beenTriggered)
+        {
+            return;
+        }
         if(triggeredEvent.hasAnimation)
         {
             if (triggeredEvent.isSwitch)

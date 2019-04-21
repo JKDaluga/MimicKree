@@ -1421,7 +1421,7 @@ MonoBehaviour:
   hasSceneChange: 1
   sceneOld: {fileID: 1053219201}
   sceneNew: {fileID: 1265732985}
-  newSceneNode: {fileID: 1243913551}
+  newSceneNode: {fileID: 1889487316}
   addAnEdge: 0
   removeAnEdge: 0
   p1: {fileID: 0}
@@ -3868,11 +3868,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -4864,7 +4864,7 @@ Prefab:
     - target: {fileID: 224690090672761072, guid: c9beab88004da1e4a9fa77ec1fc056a1,
         type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224690090672761072, guid: c9beab88004da1e4a9fa77ec1fc056a1,
         type: 2}
@@ -6143,8 +6143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   origPos: {x: 0, y: 0, z: 0}
   image: {fileID: 517173599}
-  itemName: 
-  isInSlot: 0
+  itemName: Dagger
+  isInSlot: 1
 --- !u!61 &517173597
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6209,7 +6209,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 15b1a608bf6bf8c43891c883780f7f3a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8602,7 +8602,6 @@ RectTransform:
   - {fileID: 76783826}
   - {fileID: 1414149179}
   - {fileID: 1591703931}
-  - {fileID: 1712429438}
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10064,8 +10063,9 @@ GameObject:
   - component: {fileID: 786270578}
   - component: {fileID: 786270580}
   - component: {fileID: 786270579}
+  - component: {fileID: 786270581}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Scroll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10084,7 +10084,7 @@ RectTransform:
   - {fileID: 1054705959}
   - {fileID: 1750277189}
   m_Father: {fileID: 2092980177}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10125,6 +10125,31 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 786270577}
   m_CullTransparentMesh: 0
+--- !u!61 &786270581
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 786270577}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 306.03442, y: -413.22424}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3006.3726, y: 1314.011}
+  m_EdgeRadius: 0
 --- !u!1 &790378781
 GameObject:
   m_ObjectHideFlags: 0
@@ -14724,7 +14749,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 18
+  m_fontSize: 28.95
   m_fontSizeBase: 28.5
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14742,7 +14767,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 6
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -14770,14 +14795,14 @@ MonoBehaviour:
     spaceCount: 12
     wordCount: 11
     linkCount: 0
-    lineCount: 36
+    lineCount: 5
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 1
+  m_isInputParsingRequired: 0
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -15139,7 +15164,7 @@ MonoBehaviour:
   removedItem: {fileID: 0}
   istoggleSprite: 1
   on: 0
-  toggleSprite: {fileID: 0}
+  toggleSprite: {fileID: 786270577}
   hasAnotherEvent: 0
   anotherEvent: {fileID: 0}
   triggerOnce: 0
@@ -17081,7 +17106,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1265732986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22462,203 +22487,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1712429437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1712429438}
-  - component: {fileID: 1712429444}
-  - component: {fileID: 1712429443}
-  - component: {fileID: 1712429442}
-  - component: {fileID: 1712429441}
-  - component: {fileID: 1712429440}
-  - component: {fileID: 1712429439}
-  m_Layer: 5
-  m_Name: Dagger 2
-  m_TagString: MoveIcon
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1712429438
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1712429437}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 1.00014}
-  m_Children: []
-  m_Father: {fileID: 741924901}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.545, y: 0.1124966}
-  m_AnchorMax: {x: 0.6831242, y: 0.2198433}
-  m_AnchoredPosition: {x: -1.2, y: 18.5}
-  m_SizeDelta: {x: 23.881866, y: 22.564354}
-  m_Pivot: {x: 0.737979, y: 0.7116336}
---- !u!114 &1712429439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1712429437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c19963fb59c774840b90f15219db9312, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  location: {fileID: 599212301}
-  isActivated: 0
-  itemRequired: 
-  wrongItemDialogue: {fileID: 0}
-  triggeredevent: {fileID: 1712429442}
-  DestoryOnceUsed: 0
-  visualOnly: 1
---- !u!114 &1712429440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1712429437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Kree
-    dialogues:
-    - Oooh, a dagger.
-    profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
---- !u!61 &1712429441
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1712429437}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.041223288, y: -0.020345092}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.56, y: 5.57}
-    newSize: {x: 3.62, y: 2.23}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 5.599767, y: 2.7529528}
-  m_EdgeRadius: 0
---- !u!114 &1712429442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1712429437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c48693b978f7b0409d7145b74038343, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasAnimation: 0
-  anim: {fileID: 0}
-  waitOnAnimation: 0
-  hasDialogue: 1
-  dialogueTrigger: {fileID: 1712429440}
-  hasSceneChange: 0
-  sceneOld: {fileID: 0}
-  sceneNew: {fileID: 0}
-  newSceneNode: {fileID: 0}
-  addAnEdge: 0
-  removeAnEdge: 0
-  p1: {fileID: 0}
-  p2: {fileID: 0}
-  addsItem: 1
-  removesItem: 0
-  addedItem: {fileID: 1946211777}
-  removedItem: {fileID: 0}
-  istoggleSprite: 1
-  on: 0
-  toggleSprite: {fileID: 1712429437}
-  hasAnotherEvent: 0
-  anotherEvent: {fileID: 0}
-  triggerOnce: 0
-  beenTriggered: 0
-  hasAudio: 0
-  sfx: {fileID: 0}
-  ap: {fileID: 0}
-  axeNum: 0
-  door: {fileID: 0}
-  door2: {fileID: 0}
-  button: {fileID: 0}
-  sprite: {fileID: 0}
-  ev: {fileID: 0}
-  isSwitch: 0
-  animator: {fileID: 0}
---- !u!212 &1712429443
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1712429437}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1640847469
-  m_SortingLayer: 3
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 15b1a608bf6bf8c43891c883780f7f3a, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.62, y: 2.23}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!222 &1712429444
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1712429437}
-  m_CullTransparentMesh: 0
 --- !u!1 &1718519219
 GameObject:
   m_ObjectHideFlags: 0
@@ -22743,7 +22571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 517173599}
   item: {fileID: 517173596}
-  itemName: 
+  itemName: Dagger
 --- !u!1 &1725892489 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1013748602570398, guid: aa4760de9fafe3245b5e8e72c69980dd,
@@ -23120,10 +22948,10 @@ RectTransform:
   m_Father: {fileID: 786270578}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 149.9, y: 154.7}
-  m_SizeDelta: {x: 49.9, y: 40.3}
+  m_AnchorMin: {x: 0.86200005, y: 0.8877521}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.1000061, y: 0.2000122}
+  m_SizeDelta: {x: 1.8999939, y: 1.300003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1750277190
 MonoBehaviour:
@@ -28578,8 +28406,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1852384817}
-  - {fileID: 199154353}
   - {fileID: 786270578}
+  - {fileID: 199154353}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
