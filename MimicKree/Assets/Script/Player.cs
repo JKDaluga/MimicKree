@@ -150,6 +150,7 @@ public class Player : MonoBehaviour {
 
     public void playStepSound()
     {
+        if(isWalking)
         audioSource.Play();
     }
 }
