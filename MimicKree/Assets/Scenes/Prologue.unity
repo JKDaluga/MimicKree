@@ -19330,7 +19330,7 @@ MonoBehaviour:
   location: {fileID: 468713283}
   pathsToTravel: []
   walking: 0
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 1397189644}
   startMarker: {fileID: 0}
   endMarker: {fileID: 0}
   speed: 3
@@ -19361,10 +19361,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 56928be3154abe5449c621f2f1ccde21, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1
+  m_Pitch: 0.24
   Loop: 0
   Mute: 0
   Spatialize: 0
