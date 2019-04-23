@@ -12,6 +12,8 @@ public class Player : MonoBehaviour {
     public bool walking;
     bool isStartTimeSet;
 
+    public AudioSource audioSource;
+
     // Transforms to act as start and end markers for the journey.
     public Transform startMarker;
     public Transform endMarker;
@@ -144,5 +146,10 @@ public class Player : MonoBehaviour {
     public bool getWalking()
     {
         return isWalking;
+    }
+
+    public void playStepSound()
+    {
+        audioSource.Play();
     }
 }
