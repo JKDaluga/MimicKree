@@ -27,6 +27,7 @@ public class PillarPuzzle : MonoBehaviour {
 
     public Event OpenDoor;
     private EventManager em;
+    private bool lockPuzzle = false;
 
     // Use this for initialization
     void Start () {
@@ -40,6 +41,10 @@ public class PillarPuzzle : MonoBehaviour {
 
     public void cyclePillar(int id)
     {
+        if(lockPuzzle)
+        {
+            return;
+        }
         switch(id)
         {
             case (1):
@@ -99,15 +104,14 @@ public class PillarPuzzle : MonoBehaviour {
         }
         if (pillar_ID1 == 2 && pillar_ID2 == 3 & pillar_ID3 == 1)
         {
-            print("attempt");
             solvedPuzzle();
         }
     }
 
     public void solvedPuzzle()
-    {
-        print("solved");
+    {  
         door.SetActive(false);
         em.triggerEvent(OpenDoor);
+        lockPuzzle = true;
     }
 }
