@@ -18,6 +18,10 @@ public class AxePuzzle : MonoBehaviour {
     public GameObject axe2;
     public GameObject axe3;
 
+    public GameObject spark1;
+    public GameObject spark2;
+    public GameObject spark3;
+
     private bool isStartTimeSet;
     private bool isMoving = true;
     public float length;
@@ -51,11 +55,11 @@ public class AxePuzzle : MonoBehaviour {
             float fracJourney = distCovered / length;
             // Set our position as a fraction of the distance between the markers.
 
-            Vector3 axe1v1 = new Vector3(axe1.transform.position.x,4,0);
+            Vector3 axe1v1 = new Vector3(axe1.transform.position.x,5.5f,0);
             Vector3 axe1v2 = new Vector3(axe1.transform.position.x, 15, 0);
-            Vector3 axe2v1 = new Vector3(axe2.transform.position.x, 4, 0);
+            Vector3 axe2v1 = new Vector3(axe2.transform.position.x, 5.5f, 0);
             Vector3 axe2v2 = new Vector3(axe2.transform.position.x, 15, 0);
-            Vector3 axe3v1 = new Vector3(axe3.transform.position.x, 4, 0);
+            Vector3 axe3v1 = new Vector3(axe3.transform.position.x, 5.5f, 0);
             Vector3 axe3v2 = new Vector3(axe3.transform.position.x, 15, 0);
             if(changeAxe1)
             {
@@ -180,5 +184,49 @@ public class AxePuzzle : MonoBehaviour {
 
             feedbackDialogue.hasDialogue = false;
         }
+    }
+
+    public void Spark(int axeNum)
+    {
+        switch (axeNum)
+        {
+            case 1:
+                if(isAxe1Active && !changeAxe1)
+                {
+                    spark1.SetActive(true);
+                    spark1.GetComponent<Animator>().SetBool("Spark", true);
+                    Invoke("disableSpark1",0.125f);
+                }
+                break;
+            case 2:
+                if (isAxe2Active && !changeAxe2)
+                {
+                    spark2.SetActive(true);
+                    spark2.GetComponent<Animator>().SetBool("Spark", true);
+                    Invoke("disableSpark2", 0.125f);
+                }
+                break;
+            case 3:
+                if (isAxe3Active && !changeAxe3)
+                {
+                    spark3.SetActive(true);
+                    spark3.GetComponent<Animator>().SetBool("Spark", true);
+                    Invoke("disableSpark3", 0.125f);
+                }
+                break;
+        }
+    }
+
+    void disableSpark1()
+    {
+        spark1.SetActive(false);
+    }
+    void disableSpark2()
+    {
+        spark2.SetActive(false);
+    }
+    void disableSpark3()
+    {
+        spark3.SetActive(false);
     }
 }
