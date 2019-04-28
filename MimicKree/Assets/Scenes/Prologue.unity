@@ -978,7 +978,7 @@ MonoBehaviour:
   addedItem: {fileID: 450492108}
   removedItem: {fileID: 0}
   istoggleSprite: 1
-  on: 0
+  on: 1
   toggleSprite: {fileID: 76783825}
   hasAnotherEvent: 0
   anotherEvent: {fileID: 0}
@@ -1247,7 +1247,7 @@ MonoBehaviour:
   addedItem: {fileID: 1822670396}
   removedItem: {fileID: 0}
   istoggleSprite: 1
-  on: 0
+  on: 1
   toggleSprite: {fileID: 187697275}
   hasAnotherEvent: 0
   anotherEvent: {fileID: 0}
@@ -13508,7 +13508,7 @@ MonoBehaviour:
   addedItem: {fileID: 1690563167}
   removedItem: {fileID: 0}
   istoggleSprite: 1
-  on: 0
+  on: 1
   toggleSprite: {fileID: 955032899}
   hasAnotherEvent: 0
   anotherEvent: {fileID: 0}
