@@ -7,6 +7,10 @@ public class Journal : MonoBehaviour {
 
     public GameObject journalCanvas;
     public GameObject helpPanel;
+    public GameObject ragaPanel;
+
+    public GameObject KreeBioPanel;
+
 
     // Use this for initialization
     void Start () {
@@ -27,6 +31,18 @@ public class Journal : MonoBehaviour {
     public void toggleHelp()
     {
         helpPanel.SetActive(!helpPanel.activeSelf);
+    }
+
+    public void toggleRaga()
+    {
+        ragaPanel.SetActive(!ragaPanel.activeSelf);
+
+    }
+
+    public void toggleKreeBio()
+    {
+        KreeBioPanel.SetActive(!KreeBioPanel.activeSelf);
+
     }
 
     public void QuitGame()
