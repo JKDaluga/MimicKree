@@ -6,6 +6,7 @@ public class IntroAnimation : MonoBehaviour {
 
     public Animator chestAnim;
     public GameObject Skull;
+    public GameObject PressAnyText;
 
     public void eatSkull()
     {
@@ -15,5 +16,11 @@ public class IntroAnimation : MonoBehaviour {
     public void startAnim()
     {
         chestAnim.SetBool("Eat",true);
+    }
+
+    public void pressAny()
+    {
+        PressAnyText.SetActive(true);
+        GetComponent<PressAnyButtonToContinue>().enabled = true;
     }
 }
