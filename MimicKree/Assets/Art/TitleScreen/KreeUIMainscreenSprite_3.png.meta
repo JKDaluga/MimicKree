@@ -1,0 +1,1077 @@
+fileFormatVersion: 2
+guid: 4f65842b51e07234d9f6b13eb728cd50
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: KreeUIMainscreenSprite_3_0
+    21300002: KreeUIMainscreenSprite_3_1
+    21300004: KreeUIMainscreenSprite_3_2
+    21300006: KreeUIMainscreenSprite_3_3
+    21300008: KreeUIMainscreenSprite_3_4
+    21300010: KreeUIMainscreenSprite_3_5
+    21300012: KreeUIMainscreenSprite_3_6
+    21300014: KreeUIMainscreenSprite_3_7
+    21300016: KreeUIMainscreenSprite_3_8
+    21300018: KreeUIMainscreenSprite_3_9
+    21300020: KreeUIMainscreenSprite_3_10
+    21300022: KreeUIMainscreenSprite_3_11
+    21300024: KreeUIMainscreenSprite_3_12
+    21300026: KreeUIMainscreenSprite_3_13
+    21300028: KreeUIMainscreenSprite_3_14
+    21300030: KreeUIMainscreenSprite_3_15
+    21300032: KreeUIMainscreenSprite_3_16
+    21300034: KreeUIMainscreenSprite_3_17
+    21300036: KreeUIMainscreenSprite_3_18
+    21300038: KreeUIMainscreenSprite_3_19
+    21300040: KreeUIMainscreenSprite_3_20
+    21300042: KreeUIMainscreenSprite_3_21
+    21300044: KreeUIMainscreenSprite_3_22
+    21300046: KreeUIMainscreenSprite_3_23
+    21300048: KreeUIMainscreenSprite_3_24
+    21300050: KreeUIMainscreenSprite_3_25
+    21300052: KreeUIMainscreenSprite_3_26
+    21300054: KreeUIMainscreenSprite_3_27
+    21300056: KreeUIMainscreenSprite_3_28
+    21300058: KreeUIMainscreenSprite_3_29
+    21300060: KreeUIMainscreenSprite_3_30
+    21300062: KreeUIMainscreenSprite_3_31
+    21300064: KreeUIMainscreenSprite_3_32
+    21300066: KreeUIMainscreenSprite_3_33
+    21300068: KreeUIMainscreenSprite_3_34
+    21300070: KreeUIMainscreenSprite_3_35
+    21300072: KreeUIMainscreenSprite_3_36
+    21300074: KreeUIMainscreenSprite_3_37
+    21300076: KreeUIMainscreenSprite_3_38
+    21300078: KreeUIMainscreenSprite_3_39
+    21300080: KreeUIMainscreenSprite_3_40
+    21300082: KreeUIMainscreenSprite_3_41
+    21300084: KreeUIMainscreenSprite_3_42
+    21300086: KreeUIMainscreenSprite_3_43
+    21300088: KreeUIMainscreenSprite_3_44
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774d31591e787bc4bae67ac8943bdd0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_1
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13adc711be941cd45afb79e4f599325d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_2
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4e2baff4d721d46b13a74f05a1d5f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_3
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc08510838f0054d9a072e77140d9f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_4
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36c6f48cc4883d46996864d7b8af34e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_5
+      rect:
+        serializedVersion: 2
+        x: 5410
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548dcaa96d524ef4d9293879bcd381a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_6
+      rect:
+        serializedVersion: 2
+        x: 6492
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f5cc13f7650914e85a466fcaae1344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_7
+      rect:
+        serializedVersion: 2
+        x: 7574
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b0512671491c54681f4af02f84feec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_8
+      rect:
+        serializedVersion: 2
+        x: 8656
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca22b7cd93dc66a4a955e958b363ea06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_9
+      rect:
+        serializedVersion: 2
+        x: 9738
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f32bb7ab09747488bb62521041e1fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_10
+      rect:
+        serializedVersion: 2
+        x: 10820
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35263cd41da4a894d94eb592a1686484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_11
+      rect:
+        serializedVersion: 2
+        x: 11902
+        y: 2811
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f503025615f064cb75839242a646a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c48cd8d81c611a44aacda1fa8de280f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_13
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d5fef43680f3840a7bfdbc81087353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_14
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd3ded535bfdc84d868634dce54065f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_15
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232d9b5f0a3d1784db322778195f3f5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_16
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf2177b80394e343b7f9e3520e51718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_17
+      rect:
+        serializedVersion: 2
+        x: 5410
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f44f8e7d9b75543acfbe7a8fb8eeef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_18
+      rect:
+        serializedVersion: 2
+        x: 6492
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd6fac5c1d383a41b30fff9f8c13291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_19
+      rect:
+        serializedVersion: 2
+        x: 7574
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ec79090ef563d48a6fe79c2f67fdd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_20
+      rect:
+        serializedVersion: 2
+        x: 8656
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08dc94d23ba1c845b32a26446d01962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_21
+      rect:
+        serializedVersion: 2
+        x: 9738
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c577e59ea6fd3748849b5d1cb8cbd27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_22
+      rect:
+        serializedVersion: 2
+        x: 10820
+        y: 1874
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0066146315a5716499a94cfee6898bc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b83e7e884a574241ba5d1fa7768745d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_24
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245cb63b1867f2d4e86f93ba3f62d767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_25
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47c0661883988349ac7e38a689d6e1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_26
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5ad821808942a44948e3acd455b04b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_27
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88808cfb6373a8d4ab628247bd3a0cfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_28
+      rect:
+        serializedVersion: 2
+        x: 5410
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb1993789e09094fbe2cce115826fee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_29
+      rect:
+        serializedVersion: 2
+        x: 6492
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b99dce0842de40b09074100f31582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_30
+      rect:
+        serializedVersion: 2
+        x: 7574
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b15f19ca1694d1469ac1bc5ca1acaf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_31
+      rect:
+        serializedVersion: 2
+        x: 8740
+        y: 931
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e009cebd5c8ce245902a993fd9ed6e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_32
+      rect:
+        serializedVersion: 2
+        x: 9840
+        y: 937
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2deac6d9b3e3e74e84b6da4b29a33b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_33
+      rect:
+        serializedVersion: 2
+        x: 10940
+        y: 919
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dededbf57559b4e8c0d60045bf14e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcc9cbf83eef404e9aa035417b155d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_35
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5cd9ad4147301446bf283b453cd0c00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_36
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bca7bfc02e08742a5bf1644673cd94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_37
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bd4597367bccd4680b6471e8c376fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_38
+      rect:
+        serializedVersion: 2
+        x: 4328
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c610cc84465f8ca4d86d6c5c3a02957f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_39
+      rect:
+        serializedVersion: 2
+        x: 5410
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6ceab996096f14d8962c744aab2188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_40
+      rect:
+        serializedVersion: 2
+        x: 6492
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff303ba0882f16409da3fe12277de1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_41
+      rect:
+        serializedVersion: 2
+        x: 7574
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8153abe1cc642114ab89cc014658d25d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_42
+      rect:
+        serializedVersion: 2
+        x: 8656
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7175299e1452c4f969b6050e532da8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_43
+      rect:
+        serializedVersion: 2
+        x: 9738
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b764017405e7d74ea786f04f8c20db8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KreeUIMainscreenSprite_3_44
+      rect:
+        serializedVersion: 2
+        x: 10820
+        y: 0
+        width: 1072
+        height: 927
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5916c57e0171a364b98c577dc8095153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bb8e6b41a8d1d6d4f93ccae5466332dd
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
