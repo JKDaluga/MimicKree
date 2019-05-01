@@ -28,17 +28,17 @@ public class Journal : MonoBehaviour {
         kreePanel.SetActive(false);
     }
 
-    public void ragaJournal()
+    public void RagaJournal()
     {
         journalCanvas.SetActive(!ragaPanel.activeSelf);
     }
 
-    public void kreeJournal()
+    public void KreeJournal()
     {
         journalCanvas.SetActive(!kreePanel.activeSelf);
     }
 
-    public void toggleHelp()
+    public void ToggleHelp()
     {
         helpPanel.SetActive(!helpPanel.activeSelf);
     }
