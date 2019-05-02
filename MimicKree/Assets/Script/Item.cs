@@ -13,10 +13,13 @@ public class Item : MonoBehaviour {
     public bool isInSlot;
     private bool onInteractable;
 
+    private Player player;
+
     private void Start()
     {
         image = GetComponent<Image>();
         origPos = transform.position;
+        player = FindObjectOfType<Player>();
         if(isInSlot)
         {
             GetComponent<Image>().enabled = true;
@@ -49,6 +52,7 @@ public class Item : MonoBehaviour {
         if (Input.GetMouseButtonDown(0) == true && isInSlot && !isclicked)
         {
             isclicked = true;
+            player.selectedItem = true;
         }
     }
 
@@ -74,6 +78,7 @@ public class Item : MonoBehaviour {
                 if(inter.itemRequired == itemName)
                 {
                     isclicked = false;
+                    Invoke("deselectItem", .1f);
                     transform.position = origPos;
                     inter.walk();
                     inter.StartCoroutine("waitForTrigger");
@@ -89,6 +94,7 @@ public class Item : MonoBehaviour {
                         GameObject.FindGameObjectWithTag("dialoguething").GetComponent<DialogueTrigger>().TriggerDialogue();
                     }
                     isclicked = false;
+                    Invoke("deselectItem", .1f);
                     transform.position = origPos;
                 }
             }
@@ -109,5 +115,10 @@ public class Item : MonoBehaviour {
         {
             onInteractable = false;
         }
+    }
+
+    private void deselectItem()
+    {
+        player.selectedItem = false;
     }
 }

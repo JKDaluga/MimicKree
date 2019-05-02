@@ -10,6 +10,7 @@ public class Player : MonoBehaviour {
     public List<PathNode> pathsToTravel = new List<PathNode>();
     private bool isWalking;
     public bool walking;
+    public bool selectedItem;
     bool isStartTimeSet;
 
     public AudioSource audioSource;
@@ -117,7 +118,7 @@ public class Player : MonoBehaviour {
             pathsToTravel.RemoveAt(0);
             isWalking = true;
             walking = true;
-          }
+        }
     }
 
     public void setList(List<PathNode> path)

@@ -14,11 +14,13 @@ public class Interactable : MonoBehaviour {
     private GameManager gm;
     public bool DestoryOnceUsed;
     public bool visualOnly;
+    private Player player;
 
     // Use this for initialization
     void Start () {
         em = FindObjectOfType<EventManager>();
         gm = FindObjectOfType<GameManager>();
+        player = FindObjectOfType<Player>();
     }
 
     public virtual void triggerEvent()
@@ -64,7 +66,7 @@ public class Interactable : MonoBehaviour {
             }
             else
             {
-                if(wrongItemDialogue != null)
+                if(wrongItemDialogue != null && player.selectedItem == false)
                 {
                     StartCoroutine("waitForWrongDialogue");
                 }
