@@ -1068,10 +1068,10 @@ MonoBehaviour:
     - "That\u2019s a nice looking medallion\u2026 "
     - "It looks completely spotless even though it\u2019s been sitting in an ash pile."
     - Huh...
-    - "Yeah, I\u2019m not putting that on, not since that time with \nthe amulet of
-      opposite alignment."
-    - "Took me forever to get my street cred back. \n"
-    - "I\u2019ll still take it though. \r"
+    - "Yeah, I\u2019m not putting that on, not since that time with the amulet of
+      Charitable Intentions. "
+    - "I gave a barefoot homeless kid a magic ring! \r\n"
+    - 'Never saw that kid again, wonder what happened to him. '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &76783829
 BoxCollider2D:
@@ -3137,7 +3137,8 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Raga's temple huh?
-    - If this doesn't make me the most legendary treasure hunter I dunno what will.
+    - "I\u2019m definitely gonna be world famous after this. \r\n"
+    - 'I better be. '
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &234474294
 GameObject:
@@ -3192,7 +3193,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - "I'll bet a whole gold mark that's Raga. He seems like the type. \n"
-    - He must REALLY like himself.
+    - "You know, the type that REALLY likes themselves. \r\n"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &234474298
 MonoBehaviour:
@@ -4126,9 +4127,8 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Swinging axes, really?
-    - 'This doesn''t seem clever enough for a tricktser god... still, axes are classic. '
-    - Wait, is that for disarming the trap? Who puts that right in front of the-
-    - 'Unless that is the trap... '
+    - "I expected some clever mind games or something, not just axes. \r\n"
+    - "Still, axes\u2019 are a classic I guess. \r"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &280545070
 BoxCollider2D:
@@ -5010,8 +5010,10 @@ MonoBehaviour:
     - 'I haven''t seen a crystal that huge since my plunder
 
       back in Elantis. '
-    - To bad the city sunk into the ocean....
-    - "but the only really surprising thing is that it \ndidn\u2019t happen sooner."
+    - "Wish the city hadn\u2019t sunk beneath the ocean, I had just started to loot
+      the treasury. \r\n"
+    - "Just my luck that the first thing I grab is the one thing keeping the city
+      afloat. \r"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &388533800
 BoxCollider2D:
@@ -5746,7 +5748,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Woah! Nice digs.
+    - Woah! Now this is cool!
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &454554165
 MonoBehaviour:
@@ -5926,7 +5928,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'Huh. No lock. Can''t exactly pick that can I. '
+    - Huh. No lock. Can't exactly pick that.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &455203648
 MonoBehaviour:
@@ -12398,7 +12400,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'I bet I can get something out of this, but I am here for something even bigger. '
+    - An unlit crystal. Definitely not worth my time.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &872572013
 BoxCollider2D:
@@ -14298,8 +14300,9 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Oof, you had a bad time friend.
-    - Looks like you still have some shiny gold teeth in there though.
-    - "I\u2019ll take them off your hands, just don\u2019t make any bones about it. "
+    - "I always say it takes a good thief to appreciate a bad thief. \r"
+    - "I\u2019ll take those shiny gold teeth of yours, just don\u2019t make any bones
+      about it. "
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!222 &955032906
 CanvasRenderer:
@@ -16291,7 +16294,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - "\rThere\u2019s something written here.\r\n"
-    - "Foolish decisions are often bolder ones. \r"
+    - "Foolish decisions are often boulder ones. \r"
     - "What's that supposed to mean?\r"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &1094218620
@@ -17007,7 +17010,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'I bet I can get something out of this, but I am here for something even bigger. '
+    - An unlit crystal. Definitely not worth my time.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &1183302373
 BoxCollider2D:
@@ -20458,7 +20461,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - "I guess that's Raga, god of trickery, lies, and mystery.\r\n"
-    - Looks like somebody REALLY likes himself.
+    - "You know, the type that REALLY likes themselves. \r"
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1386076219
 MonoBehaviour:
@@ -23433,7 +23436,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - It's really stuck in there. There has to be some way to pry it out.
+    - "I can\u2019t get this with my bare hands, but it seems kind of loose."
+    - "Maybe I can pry it up with something. \r\n\r\n"
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!114 &1583198088
 MonoBehaviour:
@@ -29749,7 +29753,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - I've seen that before... on the other door! Back where I found the crystal!
-    - Haven't seen this sorta thing since the tomb of the Silver Monkey.
+    - "This is just like the thingy in the Temple of the Silver Monkey!\r"
     - Now that trip was bananas.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &2045075286
@@ -30179,8 +30183,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "Didn\u2019t know Raga was a fan of glow worms. Guess he doesn\u2019t enjoy
-      some sun after all."
+    - "Huh, the god of secrets and lies likes glow worms. I wouldn\u2019t have learned
+      that in a book. "
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &2053911110
 BoxCollider2D:
