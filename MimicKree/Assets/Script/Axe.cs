@@ -6,19 +6,24 @@ public class Axe : MonoBehaviour {
 
     AxePuzzle ap;
     public int axeNum;
+    public bool soundEnabled;
+    public AudioSource axeSound;
 
 	// Use this for initialization
 	void Start () {
         ap = FindObjectOfType<AxePuzzle>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     void Spark()
     {
         ap.Spark(axeNum);
+    }
+
+    void AxeNoise()
+    {
+        if(soundEnabled)
+        {
+            axeSound.Play();
+        }
     }
 }
