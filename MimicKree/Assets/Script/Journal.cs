@@ -25,7 +25,7 @@ public class Journal : MonoBehaviour {
     public void toggleJournal()
     {
         journalCanvas.SetActive(!journalCanvas.activeSelf);
-        helpPanel.SetActive(false);
+        //helpPanel.SetActive(false);
         ragaPanel.SetActive(false);
         kreePanel.SetActive(false);
     }

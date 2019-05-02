@@ -87,6 +87,7 @@ public class Player : MonoBehaviour {
                     if (anim.GetBool("KreeWalkRight"))
                     {
                         anim.SetBool("KreeIdleRight", true);
+                        anim.SetBool("KreeIdleLeft", false);
                         anim.SetBool("KreeWalkRight", false);
                         anim.SetBool("KreeWalkLeft", false);
                     }
@@ -94,6 +95,7 @@ public class Player : MonoBehaviour {
                     {
 
                         anim.SetBool("KreeIdleLeft", true);
+                        anim.SetBool("KreeIdleRight", false);
                         anim.SetBool("KreeWalkRight", false);
                         anim.SetBool("KreeWalkLeft", false);
                     }

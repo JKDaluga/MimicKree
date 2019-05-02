@@ -12,6 +12,7 @@ public class PrologueEnd : Interactable {
     private bool escapeTriggered = false;
     public GameObject[] nonEscapeNodes;
     public GameObject[] escapeNodes;
+    public GameObject[] pillarPuzzlePieces;
 
     public GameObject statue;
     public GameObject door;
@@ -31,6 +32,7 @@ public class PrologueEnd : Interactable {
         }
         if(stolenItem && !escapeTriggered)
         {
+            print("STOLEN ITEM HERE");
             escapeTriggered = true;
             foreach(GameObject node in escapeNodes)
             {
@@ -39,6 +41,10 @@ public class PrologueEnd : Interactable {
             foreach (GameObject node in nonEscapeNodes)
             {
                 node.SetActive(true);
+            }
+            foreach (GameObject go in pillarPuzzlePieces)
+            {
+                go.SetActive(true);
             }
             runAwayEvent.newSceneNode = runAwayToNode;
             statue.SetActive(true);
