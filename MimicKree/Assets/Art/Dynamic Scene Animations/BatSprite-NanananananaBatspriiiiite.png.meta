@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: e176e1bf44a75ee49a4b38eec1877c7c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BatSprite-NanananananaBatspriiiiite_0
+    21300002: BatSprite-NanananananaBatspriiiiite_1
+    21300004: BatSprite-NanananananaBatspriiiiite_2
+    21300006: BatSprite-NanananananaBatspriiiiite_3
+    21300008: BatSprite-NanananananaBatspriiiiite_4
+    21300010: BatSprite-NanananananaBatspriiiiite_5
+    21300012: BatSprite-NanananananaBatspriiiiite_6
+    21300014: BatSprite-NanananananaBatspriiiiite_7
+    21300016: BatSprite-NanananananaBatspriiiiite_8
+    21300018: BatSprite-NanananananaBatspriiiiite_9
+    21300020: BatSprite-NanananananaBatspriiiiite_10
+    21300022: BatSprite-NanananananaBatspriiiiite_11
+    21300024: BatSprite-NanananananaBatspriiiiite_12
+    21300026: BatSprite-NanananananaBatspriiiiite_13
+    21300028: BatSprite-NanananananaBatspriiiiite_14
+    21300030: BatSprite-NanananananaBatspriiiiite_15
+    21300032: BatSprite-NanananananaBatspriiiiite_16
+    21300034: BatSprite-NanananananaBatspriiiiite_17
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 205
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1627048080e6b784b90a98268666e45a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_1
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 0
+        width: 313
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621469aad63cc8146b608684bc808ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_2
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 0
+        width: 195
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6084f58d2175dd94b99bd946dd04292c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_3
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 0
+        width: 271
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82eb353af4e6094a83ebba9154f0a17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_4
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 0
+        width: 273
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34de4915203b4dd42a9b14401dbf958a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_5
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 0
+        width: 273
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f01711811b5abf45945a111d428e0ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_6
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 0
+        width: 576
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd38420d784c844383f01a21bdfddd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_7
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 0
+        width: 422
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d814b41b8a5f4f4783da1d4cdddd2a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_8
+      rect:
+        serializedVersion: 2
+        x: 4960
+        y: 0
+        width: 269
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec50033602bbd834c9558f9ae3354dc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_9
+      rect:
+        serializedVersion: 2
+        x: 5521
+        y: 0
+        width: 355
+        height: 351
+      alignment: 9
+      pivot: {x: 0.5279967, y: 0.51355886}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0292e6f2dc686d438564a12df03c9a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_10
+      rect:
+        serializedVersion: 2
+        x: 6106
+        y: 0
+        width: 374
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402a6bd3eb20385408be8ef2b3272f9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_11
+      rect:
+        serializedVersion: 2
+        x: 6686
+        y: 0
+        width: 426
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4addf89bbb5bdd45ad12fe3fc36c78f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_12
+      rect:
+        serializedVersion: 2
+        x: 7285
+        y: 0
+        width: 434
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fe09e20d370f843a950d8315ec71d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_13
+      rect:
+        serializedVersion: 2
+        x: 7875
+        y: 0
+        width: 443
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04906f9a742cb284982da142b80aa2b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_14
+      rect:
+        serializedVersion: 2
+        x: 8508
+        y: 1
+        width: 380
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0176a4db2549f45a1b5a25f3078afb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_15
+      rect:
+        serializedVersion: 2
+        x: 9076
+        y: 0
+        width: 440
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f3c27af7bbc9e4bac5b01be1ab962b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_16
+      rect:
+        serializedVersion: 2
+        x: 9686
+        y: 0
+        width: 436
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2023d8bb7555b42a57e362b31444b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatSprite-NanananananaBatspriiiiite_17
+      rect:
+        serializedVersion: 2
+        x: 10299
+        y: 0
+        width: 407
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177423d26ccd2894bb24166d6e7dc985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3756c4080d819d44195c3047128013a4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
