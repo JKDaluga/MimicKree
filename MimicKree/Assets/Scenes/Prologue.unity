@@ -810,7 +810,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.1349983, y: 0}
+  m_AnchoredPosition: {x: 2.1349945, y: 0}
   m_SizeDelta: {x: 4.27, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &56998615
@@ -7310,8 +7310,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: edab6e190e354bb418132189e5cf012a, type: 3}
-    m_FontSize: 21
+    m_Font: {fileID: 12800000, guid: 39a563c7c17f87243aff4dcedb04858d, type: 3}
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -16575,7 +16575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.99998856}
+  m_AnchoredPosition: {x: 0, y: -0.99998474}
   m_SizeDelta: {x: 4.27, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1110313117
@@ -21271,8 +21271,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: edab6e190e354bb418132189e5cf012a, type: 3}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 39a563c7c17f87243aff4dcedb04858d, type: 3}
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -21286,11 +21286,10 @@ MonoBehaviour:
   m_Text: "Born in the city of Destiny, Kree survived on the streets by living among
     the band of thieves known as \u201CDestiny\u2019s Children\u201D. Plying her trade
     on unsuspecting tourists and adventurers, Kree\u2019s ambition was only matched
-    by her skill. She became world famous by stealing the royal scepter of King Waz
-    from his supposedly impenetrable vault. Since then, she\u2019s made a name for
-    herself by seeking out priceless treasures from castles, temples, and tombs. Sources
-    say she\u2019s set her eyes on her greatest heist yet \u2013 stealing from the
-    Temple of Raga \u2013 The God of Trickery, Mystery, an Lies.\r\n"
+    by her skill. She\u2019s made a name for herself by seeking out priceless treasures
+    from castles, temples, and tombs. Sources say she\u2019s set her eyes on her greatest
+    heist yet \u2013 stealing from the Temple of Raga \u2013 The God of Trickery,
+    Mystery, and Lies.\r\n"
 --- !u!222 &1465548855
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25621,8 +25620,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: edab6e190e354bb418132189e5cf012a, type: 3}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 39a563c7c17f87243aff4dcedb04858d, type: 3}
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -25636,11 +25635,10 @@ MonoBehaviour:
   m_Text: "Born in the city of Destiny, Kree survived on the streets by living among
     the band of thieves known as \u201CDestiny\u2019s Children\u201D. Plying her trade
     on unsuspecting tourists and adventurers, Kree\u2019s ambition was only matched
-    by her skill. She became world famous by stealing the royal scepter of King Waz
-    from his supposedly impenetrable vault. Since then, she\u2019s made a name for
-    herself by seeking out priceless treasures from castles, temples, and tombs. Sources
-    say she\u2019s set her eyes on her greatest heist yet \u2013 stealing from the
-    Temple of Raga \u2013 The God of Trickery, Mystery, an Lies.\r\n"
+    by her skill. She\u2019s made a name for herself by seeking out priceless treasures
+    from castles, temples, and tombs. Sources say she\u2019s set her eyes on her greatest
+    heist yet \u2013 stealing from the Temple of Raga \u2013 The God of Trickery,
+    Mystery, and Lies.\r\n"
 --- !u!222 &1792911573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -27622,7 +27620,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: edab6e190e354bb418132189e5cf012a, type: 3}
+    m_Font: {fileID: 12800000, guid: 39a563c7c17f87243aff4dcedb04858d, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -27636,7 +27634,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "4) Thinks your original character is a Mary Sue\r\n5) Known to ramble\r\n6)
     Hates puppies (not crunchy enough)\r\n7) Likes to look at himself in the mirror
-    \r\n8)Hates lists about him\r\n"
+    \r\n8) Hates lists about him\r\n"
 --- !u!222 &1877853713
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31139,7 +31137,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: edab6e190e354bb418132189e5cf012a, type: 3}
+    m_Font: {fileID: 12800000, guid: 39a563c7c17f87243aff4dcedb04858d, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -31664,7 +31662,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.1349983, y: -0.99998856}
+  m_AnchoredPosition: {x: -2.1349945, y: -0.99998474}
   m_SizeDelta: {x: 4.27, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2108255839
