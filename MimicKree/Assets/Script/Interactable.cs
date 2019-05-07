@@ -15,12 +15,14 @@ public class Interactable : MonoBehaviour {
     public bool DestoryOnceUsed;
     public bool visualOnly;
     private Player player;
+    private CursorManager cursor;
 
     // Use this for initialization
     void Start () {
         em = FindObjectOfType<EventManager>();
         gm = FindObjectOfType<GameManager>();
         player = FindObjectOfType<Player>();
+        cursor = FindObjectOfType<CursorManager>();
     }
 
     public virtual void triggerEvent()
@@ -51,8 +53,8 @@ public class Interactable : MonoBehaviour {
 
     private void OnMouseEnter()
     {
-        if(visualOnly) FindObjectOfType<CursorManager>().changeCursor("EyeIcon");
-        else FindObjectOfType<CursorManager>().changeCursor("InteractableIcon");
+        if(visualOnly) cursor.changeCursor("EyeIcon");
+        else cursor.changeCursor("InteractableIcon");
     }
 
     private void OnMouseOver()
@@ -60,9 +62,10 @@ public class Interactable : MonoBehaviour {
         if(Input.GetMouseButtonDown(0))
         {
             walk();
-            if (itemRequired == "")
+            if(isValidItem(cursor.getItemID()))
             {
                 StartCoroutine("waitForTrigger");
+                cursor.dropItem();
             }
             else
             {
@@ -76,7 +79,7 @@ public class Interactable : MonoBehaviour {
 
     private void OnMouseExit()
     {
-        FindObjectOfType<CursorManager>().changeCursor("");
+        cursor.changeCursor("");
     }
 
     IEnumerator waitForTrigger()
@@ -115,5 +118,11 @@ public class Interactable : MonoBehaviour {
         {
             gm.walk(location);
         }
+    }
+
+    public bool isValidItem(string item)
+    {
+        if (item.Equals(itemRequired)) return true;
+        return false;
     }
 }

@@ -14,13 +14,15 @@ public class Item : MonoBehaviour {
     private bool onInteractable;
 
     private Player player;
+    private CursorManager cursor;
 
     private void Start()
     {
         image = GetComponent<Image>();
         origPos = transform.position;
         player = FindObjectOfType<Player>();
-        if(isInSlot)
+        cursor = FindObjectOfType<CursorManager>();
+        if (isInSlot)
         {
             GetComponent<Image>().enabled = true;
         }
@@ -32,18 +34,7 @@ public class Item : MonoBehaviour {
 
     private void FixedUpdate()
     {
-        if (isclicked)
-        {
-            mousePosition = Input.mousePosition;
-            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-            transform.position = new Vector3(mousePosition.x, mousePosition.y,0);
-            if(Input.GetMouseButtonDown(0) && !onInteractable)
-            {
-                GameObject.FindGameObjectWithTag("dialoguething").GetComponent<DialogueTrigger>().TriggerDialogue();
-                isclicked = false;
-                transform.position = origPos;
-            }
-        }
+
     }
 
     //used for pickin up items
@@ -51,8 +42,7 @@ public class Item : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(0) == true && isInSlot && !isclicked)
         {
-            isclicked = true;
-            player.selectedItem = true;
+            pickUp();
         }
     }
 
@@ -120,5 +110,10 @@ public class Item : MonoBehaviour {
     private void deselectItem()
     {
         player.selectedItem = false;
+    }
+
+    public void pickUp()
+    {
+        cursor.pickUpItem(this);
     }
 }
