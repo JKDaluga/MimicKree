@@ -4840,6 +4840,7 @@ MonoBehaviour:
   - {fileID: 1826544616}
   - {fileID: 1561342813}
   - {fileID: 1838723017}
+  - {fileID: 574454121}
   history: []
   triggeredevent: {fileID: 380490287}
 --- !u!114 &380490289
@@ -7391,6 +7392,7 @@ MonoBehaviour:
   - {fileID: 1291447249}
   - {fileID: 1092024403}
   - {fileID: 1561342813}
+  - {fileID: 574454121}
   history: []
   triggeredevent: {fileID: 574454125}
 --- !u!114 &574454122
@@ -12209,7 +12211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.8872445, y: 0.134}
   m_AnchorMax: {x: 0.9761783, y: 0.21064864}
-  m_AnchoredPosition: {x: -9.826538, y: -10.654129}
+  m_AnchoredPosition: {x: -9.9057, y: -10.366}
   m_SizeDelta: {x: 61.362076, y: 35.945618}
   m_Pivot: {x: 0.737979, y: 0.7116336}
 --- !u!114 &872572011
