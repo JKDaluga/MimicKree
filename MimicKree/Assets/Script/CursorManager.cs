@@ -14,6 +14,9 @@ public class CursorManager : MonoBehaviour {
     public Sprite transitionCursor;
     public Sprite EyeCursor;
 
+    public Image itemImage;
+    private Item item;
+    private string itemID = "";
 
     // Use this for initialization
     void Start () {
@@ -75,5 +78,31 @@ public class CursorManager : MonoBehaviour {
                 cursorImage.sprite = defaultCursor;
                 break;
         }
+    }
+
+    public void pickUpItem(Item itemPickedUp)
+    {
+        if (item != null) dropItem();
+        item = itemPickedUp;
+        item.gameObject.SetActive(false);
+        itemImage.sprite = itemPickedUp.image.sprite;
+        itemImage.gameObject.SetActive(true);
+        itemID = itemPickedUp.itemName;
+    }
+
+    public void dropItem()
+    {
+        itemID = "";
+        if(item != null)
+        {
+            itemImage.gameObject.SetActive(false);
+            item.gameObject.SetActive(true);
+            item = null;
+        }
+    }
+
+    public string getItemID()
+    {
+        return itemID;
     }
 }
