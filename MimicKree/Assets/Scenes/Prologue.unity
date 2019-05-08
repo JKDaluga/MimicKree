@@ -3131,9 +3131,9 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Raga's temple huh?
-    - "I\u2019m definitely gonna be world famous after this. \r\n"
-    - 'I better be. '
+    - Looks like some unfortunates stumbled into the wrong place.
+    - "I don\u2019t know if that's great news or terrible news,"
+    - "but at least there\u2019s fewer traps now."
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!1 &227361843
 GameObject:
@@ -17380,7 +17380,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Leaving empty handed doesn't seem like my type of thing.
+    - Leaving empty handed isn't my type of thing.
     profilePicture: {fileID: 21300000, guid: 688c2a2841fa75f42aee372a8d6e37d5, type: 3}
 --- !u!114 &1186374036
 MonoBehaviour:
