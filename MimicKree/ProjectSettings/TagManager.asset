@@ -9,6 +9,7 @@ TagManager:
   - SceneChangeIcon
   - DialogueIcon
   - InteractableIcon
+  - Water Splash
   layers:
   - Default
   - TransparentFX
