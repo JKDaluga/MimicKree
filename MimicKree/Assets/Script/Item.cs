@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Item : MonoBehaviour {
     public Vector3 origPos;
     public Image image;
+    private BoxCollider2D boxCol;
     public string itemName;
     private bool isclicked = false;
     private Vector3 mousePosition;
@@ -22,13 +23,22 @@ public class Item : MonoBehaviour {
         origPos = transform.position;
         player = FindObjectOfType<Player>();
         cursor = FindObjectOfType<CursorManager>();
+        boxCol = GetComponent<BoxCollider2D>();
         if (isInSlot)
         {
             GetComponent<Image>().enabled = true;
+            if(boxCol != null)
+            {
+                boxCol.enabled = true;
+            }
         }
         else
         {
             GetComponent<Image>().enabled = false;
+            if (boxCol != null)
+            {
+                boxCol.enabled = false;
+            }
         }
     }
 
@@ -50,12 +60,20 @@ public class Item : MonoBehaviour {
     {
         isInSlot = true;
         image.enabled = true;
+        if (boxCol != null)
+        {
+            boxCol.enabled = true;
+        }
     }
 
     public void deactivate()
     {
         isInSlot = false;
         image.enabled = false;
+        if (boxCol != null)
+        {
+            boxCol.enabled = false;
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
