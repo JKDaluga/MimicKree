@@ -17380,7 +17380,7 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - Leaving empty handed doesn't seem like my type of thing.
+    - Leaving empty handed isn't exactly my thing.
     profilePicture: {fileID: 21300000, guid: 688c2a2841fa75f42aee372a8d6e37d5, type: 3}
 --- !u!114 &1186374036
 MonoBehaviour:
