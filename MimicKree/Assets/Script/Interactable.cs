@@ -69,9 +69,11 @@ public class Interactable : MonoBehaviour {
             }
             else
             {
-                if(wrongItemDialogue != null && player.selectedItem == false)
+                cursor.dropItem();
+                if (wrongItemDialogue != null && player.selectedItem == false)
                 {
                     StartCoroutine("waitForWrongDialogue");
+                    
                 }
             }
         }

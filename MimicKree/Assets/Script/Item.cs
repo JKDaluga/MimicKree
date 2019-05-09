@@ -17,6 +17,8 @@ public class Item : MonoBehaviour {
     private Player player;
     private CursorManager cursor;
 
+    public string tooltipText;
+
     private void Start()
     {
         image = GetComponent<Image>();
@@ -50,10 +52,16 @@ public class Item : MonoBehaviour {
     //used for pickin up items
     void OnMouseOver()
     {
+        tooltip();
         if (Input.GetMouseButtonDown(0) == true && isInSlot && !isclicked)
         {
             pickUp();
         }
+    }
+
+    private void OnMouseExit()
+    {
+        offTooltip();
     }
 
     public void activate()
@@ -133,5 +141,15 @@ public class Item : MonoBehaviour {
     public void pickUp()
     {
         cursor.pickUpItem(this);
+    }
+
+    public void tooltip()
+    {
+        cursor.turnOnTooltip(tooltipText);
+    }
+
+    public void offTooltip()
+    {
+        cursor.turnOffTooltip();
     }
 }

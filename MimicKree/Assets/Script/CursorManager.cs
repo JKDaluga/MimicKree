@@ -18,6 +18,9 @@ public class CursorManager : MonoBehaviour {
     private Item item;
     private string itemID = "";
 
+    public GameObject tooltip;
+    public Text tooltipText;
+
     // Use this for initialization
     void Start () {
         cursorImage = GetComponent<Image>();
@@ -92,6 +95,7 @@ public class CursorManager : MonoBehaviour {
         itemImage.sprite = itemPickedUp.image.sprite;
         itemImage.gameObject.SetActive(true);
         itemID = itemPickedUp.itemName;
+        turnOffTooltip();
     }
 
     public void dropItem()
@@ -108,5 +112,19 @@ public class CursorManager : MonoBehaviour {
     public string getItemID()
     {
         return itemID;
+    }
+
+    public void turnOnTooltip(string tip)
+    {
+        if (item == null)
+        {
+            tooltipText.text = tip;
+            tooltip.SetActive(true);
+        }
+    }
+
+    public void turnOffTooltip()
+    {
+        tooltip.SetActive(false);
     }
 }

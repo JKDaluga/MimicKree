@@ -8,9 +8,11 @@ public class Inventory : MonoBehaviour {
     public GameObject inventoryCanvas;
     public InventorySlot[] invSlots;
 
+    public CursorManager cursor;
+
 	// Use this for initialization
 	void Start () {
-		
+        cursor = FindObjectOfType<CursorManager>();
 	}
 	
 	// Update is called once per frame
@@ -31,6 +33,7 @@ public class Inventory : MonoBehaviour {
             {
                 inv.item.image.sprite = item.image.sprite;
                 inv.item.itemName = item.itemName;
+                inv.item.tooltipText = item.tooltipText;
                 inv.item.activate();
                 return true;
             }
@@ -64,5 +67,16 @@ public class Inventory : MonoBehaviour {
             }
         }
         return false;
+    }
+
+    public void turnOnInv()
+    {
+        inventoryCanvas.SetActive(true);
+    }
+
+    public void turnOffInv()
+    {
+        inventoryCanvas.SetActive(false);
+        cursor.dropItem();
     }
 }

@@ -6,15 +6,18 @@ using UnityEngine.SceneManagement;
 public class Journal : MonoBehaviour {
 
     public GameObject journalCanvas;
+
     public GameObject helpPanel;
 
     public GameObject kreePanel;
 
     public GameObject ragaPanel;
 
+    public Inventory Inv;
+
     // Use this for initialization
     void Start () {
-		
+        Inv = FindObjectOfType<Inventory>();
 	}
 	
 	// Update is called once per frame
@@ -28,6 +31,10 @@ public class Journal : MonoBehaviour {
         //helpPanel.SetActive(false);
         ragaPanel.SetActive(false);
         kreePanel.SetActive(false);
+        if(journalCanvas.activeSelf)
+        {
+            Inv.turnOffInv();
+        }
     }
 
     public void toggleRaga()

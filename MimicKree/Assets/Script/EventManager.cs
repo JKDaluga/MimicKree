@@ -37,7 +37,6 @@ public class EventManager : MonoBehaviour {
                     triggeredEvent.anim.Play();
                 }
             }
-            
         }
         if (triggeredEvent.hasDialogue)
         {
@@ -107,6 +106,7 @@ public class EventManager : MonoBehaviour {
         if (triggeredEvent.addsItem)
         {
             inv.addItem(triggeredEvent.addedItem);
+            inv.turnOnInv();
         }
         if (triggeredEvent.removesItem)
         {
