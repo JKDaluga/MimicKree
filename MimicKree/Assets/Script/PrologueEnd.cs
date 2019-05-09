@@ -32,7 +32,6 @@ public class PrologueEnd : Interactable {
         }
         if(stolenItem && !escapeTriggered)
         {
-            print("STOLEN ITEM HERE");
             escapeTriggered = true;
             foreach(GameObject node in escapeNodes)
             {

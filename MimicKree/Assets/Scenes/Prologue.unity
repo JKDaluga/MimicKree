@@ -7191,7 +7191,7 @@ MonoBehaviour:
   triggeredevent: {fileID: 528276930}
   DestoryOnceUsed: 1
   visualOnly: 0
-  grabOnly: 0
+  grabOnly: 1
 --- !u!114 &528276929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26645,7 +26645,7 @@ MonoBehaviour:
   triggeredevent: {fileID: 1764040358}
   DestoryOnceUsed: 1
   visualOnly: 0
-  grabOnly: 0
+  grabOnly: 1
 --- !u!1 &1792911570
 GameObject:
   m_ObjectHideFlags: 0
@@ -30055,7 +30055,7 @@ MonoBehaviour:
   triggeredevent: {fileID: 1951837015}
   DestoryOnceUsed: 1
   visualOnly: 0
-  grabOnly: 0
+  grabOnly: 1
 --- !u!122 &1951837017
 Halo:
   m_ObjectHideFlags: 0
