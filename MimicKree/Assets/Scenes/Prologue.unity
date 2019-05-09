@@ -10271,8 +10271,8 @@ MonoBehaviour:
   dialogue:
     name: ???
     dialogues:
-    - "You think you\u2019re clever don\u2019t you. Only clever people try to steal
-      from GODS. "
+    - "You think you\u2019re clever don\u2019t you. Only fools try to steal from the
+      GODS. "
     profilePicture: {fileID: 21300000, guid: b1882d6fb80eba54b827ddb8576001d5, type: 3}
 --- !u!114 &760600670
 MonoBehaviour:
@@ -16401,6 +16401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   neighbors:
   - {fileID: 1291447249}
+  - {fileID: 8182127}
   history: []
   triggeredevent: {fileID: 1092024408}
 --- !u!114 &1092024404
