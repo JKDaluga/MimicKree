@@ -12675,7 +12675,7 @@ MonoBehaviour:
   image: {fileID: 852584079}
   itemName: Cup
   isInSlot: 0
-  tooltipText: Chalice of Immortality
+  tooltipText: The Chalice
 --- !u!1 &872572009
 GameObject:
   m_ObjectHideFlags: 0
@@ -23733,7 +23733,7 @@ MonoBehaviour:
   image: {fileID: 1510591240}
   itemName: Map
   isInSlot: 0
-  tooltipText: Map of Revealing
+  tooltipText: The Magic Map
 --- !u!1 &1527706811
 GameObject:
   m_ObjectHideFlags: 0
