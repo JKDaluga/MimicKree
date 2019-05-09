@@ -38,7 +38,6 @@ public class Inventory : MonoBehaviour {
                 return true;
             }
         }
-        print("I don't have room for that");
         return false;
     }
 
