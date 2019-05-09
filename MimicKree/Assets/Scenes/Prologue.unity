@@ -1130,8 +1130,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  hasAudio: 0
-  sfx: {fileID: 0}
+  hasAudio: 1
+  sfx: {fileID: 8300000, guid: 317c5da1eb411b146a720206b6489bb8, type: 3}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -1470,8 +1470,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  hasAudio: 0
-  sfx: {fileID: 0}
+  hasAudio: 1
+  sfx: {fileID: 8300000, guid: 317c5da1eb411b146a720206b6489bb8, type: 3}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -6212,7 +6212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.158, y: 0}
   m_AnchorMax: {x: 0.4036156, y: 0.37841263}
-  m_AnchoredPosition: {x: 0.44691104, y: 4.431054}
+  m_AnchoredPosition: {x: 0.4468994, y: 4.431061}
   m_SizeDelta: {x: 6.744478, y: -5.200715}
   m_Pivot: {x: 0.4687183, y: 0.5786614}
 --- !u!114 &455203647
@@ -7244,8 +7244,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  hasAudio: 0
-  sfx: {fileID: 0}
+  hasAudio: 1
+  sfx: {fileID: 8300000, guid: 317c5da1eb411b146a720206b6489bb8, type: 3}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -11825,7 +11825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.622613, y: 0}
   m_AnchorMax: {x: 0.794, y: 0.54643655}
-  m_AnchoredPosition: {x: -4.106125, y: 0.59334564}
+  m_AnchoredPosition: {x: -4.106125, y: 0.5933533}
   m_SizeDelta: {x: -21.864601, y: 1.4701924}
   m_Pivot: {x: 0.60135335, y: 0.37471828}
 --- !u!114 &836788263
@@ -13727,7 +13727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.622613, y: 0}
   m_AnchorMax: {x: 0.77051264, y: 0.54643655}
-  m_AnchoredPosition: {x: 6.4847717, y: -3.2}
+  m_AnchoredPosition: {x: 6.4847717, y: -3.199997}
   m_SizeDelta: {x: -4.2, y: -7.2}
   m_Pivot: {x: 0.6013589, y: 0.44527254}
 --- !u!114 &916510353
@@ -14504,8 +14504,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 0
   beenTriggered: 0
-  hasAudio: 0
-  sfx: {fileID: 0}
+  hasAudio: 1
+  sfx: {fileID: 8300000, guid: 317c5da1eb411b146a720206b6489bb8, type: 3}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -15844,7 +15844,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.05}
+  m_AnchoredPosition: {x: 0.06, y: 0.06}
   m_SizeDelta: {x: 750, y: 422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1054705958
@@ -22606,7 +22606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.03960911}
   m_AnchorMax: {x: 0.14674672, y: 0.6616811}
-  m_AnchoredPosition: {x: -1.2563815, y: -0.6879317}
+  m_AnchoredPosition: {x: -1.2563782, y: -0.68792725}
   m_SizeDelta: {x: 4.0872345, y: -10.17586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &1486458222
@@ -26617,7 +26617,7 @@ MonoBehaviour:
   triggerOnce: 1
   beenTriggered: 0
   hasAudio: 1
-  sfx: {fileID: 0}
+  sfx: {fileID: 8300000, guid: 317c5da1eb411b146a720206b6489bb8, type: 3}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
@@ -30026,8 +30026,8 @@ MonoBehaviour:
   anotherEvent: {fileID: 0}
   triggerOnce: 1
   beenTriggered: 0
-  hasAudio: 0
-  sfx: {fileID: 0}
+  hasAudio: 1
+  sfx: {fileID: 8300000, guid: 317c5da1eb411b146a720206b6489bb8, type: 3}
   ap: {fileID: 0}
   axeNum: 0
   door: {fileID: 0}
