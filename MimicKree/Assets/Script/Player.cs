@@ -12,6 +12,7 @@ public class Player : MonoBehaviour {
     public bool walking;
     public bool selectedItem;
     bool isStartTimeSet;
+    private Inventory inv;
 
     public AudioSource audioSource;
 
@@ -32,6 +33,7 @@ public class Player : MonoBehaviour {
     void Start ()
     {
         anim = GetComponent<Animator>();
+        inv = FindObjectOfType<Inventory>();
 	}
 	
 	// Update is called once per frame
@@ -115,6 +117,7 @@ public class Player : MonoBehaviour {
     {
         if (pathsToTravel.Count != 0)
         {
+            inv.turnOffInv();
             startMarker = location.transform;
             endMarker = pathsToTravel[0].transform;
             pathsToTravel.RemoveAt(0);
