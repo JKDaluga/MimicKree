@@ -13,6 +13,7 @@ public class CursorManager : MonoBehaviour {
     public Sprite dialogueCursor;
     public Sprite transitionCursor;
     public Sprite EyeCursor;
+    public Sprite GrabCursor;
 
     public Image itemImage;
     private Item item;
@@ -80,6 +81,9 @@ public class CursorManager : MonoBehaviour {
                 break;
             case "EyeIcon":
                 cursorImage.sprite = EyeCursor;
+                break;
+            case "GrabIcon":
+                cursorImage.sprite = GrabCursor;
                 break;
             default:
                 cursorImage.sprite = defaultCursor;

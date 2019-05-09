@@ -14,6 +14,7 @@ public class Interactable : MonoBehaviour {
     private GameManager gm;
     public bool DestoryOnceUsed;
     public bool visualOnly;
+    public bool grabOnly;
     private Player player;
     private CursorManager cursor;
 
@@ -54,6 +55,7 @@ public class Interactable : MonoBehaviour {
     private void OnMouseEnter()
     {
         if(visualOnly) cursor.changeCursor("EyeIcon");
+        else if(grabOnly) cursor.changeCursor("GrabIcon");
         else cursor.changeCursor("InteractableIcon");
     }
 
@@ -73,7 +75,6 @@ public class Interactable : MonoBehaviour {
                 if (wrongItemDialogue != null && player.selectedItem == false)
                 {
                     StartCoroutine("waitForWrongDialogue");
-                    
                 }
             }
         }
