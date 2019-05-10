@@ -17,7 +17,7 @@ public class Interactable : MonoBehaviour {
     public bool grabOnly;
     public bool destroyScript;
     protected Player player;
-    private CursorManager cursor;
+    protected CursorManager cursor;
     private Item item;
 
     // Use this for initialization

@@ -117,7 +117,6 @@ public class Player : MonoBehaviour {
     {
         if (pathsToTravel.Count != 0)
         {
-            inv.turnOffInv();
             startMarker = location.transform;
             endMarker = pathsToTravel[0].transform;
             pathsToTravel.RemoveAt(0);
@@ -128,6 +127,7 @@ public class Player : MonoBehaviour {
 
     public void setList(List<PathNode> path)
     {
+        inv.turnOffInv();
         pathsToTravel = path;
     }
 

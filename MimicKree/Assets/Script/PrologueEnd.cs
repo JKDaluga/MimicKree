@@ -8,7 +8,6 @@ public class PrologueEnd : Interactable {
     public Event cutsceneEvent;
     public GameObject invIcon;
     public AudioSource audioSource;
-    private CursorManager cursor;
 
     private bool escapeTriggered = false;
     public GameObject[] nonEscapeNodes;
