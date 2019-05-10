@@ -127,8 +127,8 @@ public class Player : MonoBehaviour {
 
     public void setList(List<PathNode> path)
     {
-        inv.turnOffInv();
         pathsToTravel = path;
+        Invoke("invOff", 0.05f);
     }
 
     public PathNode getLocation()
@@ -158,5 +158,10 @@ public class Player : MonoBehaviour {
     {
         if(isWalking)
         audioSource.Play();
+    }
+
+    public void invOff()
+    {
+        inv.turnOffInv();
     }
 }
