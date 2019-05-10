@@ -5,10 +5,11 @@ using UnityEngine;
 public class droplet : MonoBehaviour {
 
     public Animator anim;
+    private AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
-		
+        audio = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -18,6 +19,7 @@ public class droplet : MonoBehaviour {
 
     public void Splash()
     {
+        audio.Play();
         anim.SetBool("Puddle Spash", true);
     }
 }
