@@ -3191,8 +3191,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "I'll bet a whole gold mark that's Raga. He seems like the type. \n"
-    - "You know, the type that REALLY likes themselves. \r\n"
+    - Hey Raga! We finally meet.
+    - For such a legendary joker you seemed pretty stoned face.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &234474298
 MonoBehaviour:
@@ -9519,7 +9519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13692,7 +13692,7 @@ MonoBehaviour:
   dialogue:
     name: ???
     dialogues:
-    - 'I am honestly impressed with you now that you got the ball rolling. '
+    - 'I am honestly impressed with you, now that you got the ball rolling. '
     - 'You could even say I admire your stones. '
     profilePicture: {fileID: 21300000, guid: b1882d6fb80eba54b827ddb8576001d5, type: 3}
 --- !u!61 &916510354
@@ -15704,7 +15704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1053219202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26642,8 +26642,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - The map of revealing!
-    - 'This thing reveals nearby treasures and traps. Maybe it''ll find my keys for
-      me. '
+    - No treasure would be able to hide from me ever again.
     - 'These cages have some kind of magic. Never stopped me before. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1793078309
