@@ -25,7 +25,7 @@ public class IntroAnimation : MonoBehaviour {
 
     public void startAnim()
     {
-        audio.Play();
+        audio.PlayOneShot(audioclip2);
         chestAnim.SetBool("Eat",true);
     }
 

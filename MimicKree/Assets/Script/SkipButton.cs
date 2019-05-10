@@ -29,7 +29,7 @@ public class SkipButton : MonoBehaviour {
         else
         {
             counter += Time.deltaTime;
-            if(counter >= 5f)
+            if(counter >= 3f)
             {
                 skipButton.SetActive(false);
                 skipHelpText.SetActive(false);
