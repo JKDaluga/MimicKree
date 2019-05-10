@@ -8,6 +8,7 @@ public class PrologueEnd : Interactable {
     public Event cutsceneEvent;
     public GameObject invIcon;
     public AudioSource audioSource;
+    private CursorManager cursor;
 
     private bool escapeTriggered = false;
     public GameObject[] nonEscapeNodes;
@@ -19,6 +20,11 @@ public class PrologueEnd : Interactable {
 
     public Event runAwayEvent;
     public PathNode runAwayToNode;
+
+    private void Start()
+    {
+        cursor = FindObjectOfType<CursorManager>();
+    }
 
     private void Update()
     {
@@ -77,6 +83,7 @@ public class PrologueEnd : Interactable {
         }
         if (p.location == location)
         {
+            cursor.changeCursor("");
             audioSource.enabled = false;
             triggerEvent(cutsceneEvent);
             invIcon.SetActive(false);
