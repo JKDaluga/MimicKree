@@ -21749,7 +21749,7 @@ MonoBehaviour:
   isActivated: 0
   itemRequired: lockpick
   wrongItemDialogue: {fileID: 0}
-  triggeredevent: {fileID: 1794441357}
+  triggeredevent: {fileID: 1385376071}
   DestoryOnceUsed: 0
   visualOnly: 0
   grabOnly: 0
