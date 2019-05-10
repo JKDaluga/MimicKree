@@ -10,6 +10,7 @@ public class Chest : MonoBehaviour {
     public GameObject Drool1;
     public GameObject Drool2;
     public GameObject intro;
+    public AudioSource audio;
 
     public void EnterIdle()
     {
@@ -37,5 +38,6 @@ public class Chest : MonoBehaviour {
     public void Intro()
     {
         FindObjectOfType<GameManager>().Intro();
+        audio.enabled = false;
     }
 }

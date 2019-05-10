@@ -429,6 +429,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!61 &8182129
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1146,6 +1148,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &76783831
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1489,6 +1493,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &103978792
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1750,6 +1756,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &113350734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2023,6 +2031,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &127559997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2307,6 +2317,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!61 &153462751
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2448,6 +2460,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &171752314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3115,6 +3129,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!61 &214387509
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3474,6 +3490,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &239573366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3661,6 +3679,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &251808861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4321,6 +4341,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &280545069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5175,6 +5197,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &380490288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5433,6 +5457,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &388533802
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6183,6 +6209,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 1
+  destroyObj: {fileID: 2022238819}
 --- !u!114 &454554166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6367,6 +6395,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &455203649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6817,6 +6847,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &512973625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7351,6 +7383,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!1 &536120060
 GameObject:
   m_ObjectHideFlags: 0
@@ -7570,6 +7604,8 @@ MonoBehaviour:
   animator: {fileID: 542482020}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!122 &542482016
 Halo:
   m_ObjectHideFlags: 0
@@ -7937,6 +7973,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!61 &574454126
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8649,6 +8687,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &619684523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8841,6 +8881,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &628043966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10001,6 +10043,8 @@ MonoBehaviour:
   animator: {fileID: 749254903}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!122 &749254899
 Halo:
   m_ObjectHideFlags: 0
@@ -10228,6 +10272,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &749591970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10480,6 +10526,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &760600671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11471,6 +11519,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!61 &790378789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12033,6 +12083,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &836788264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12286,6 +12338,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &840704888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12498,6 +12552,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &848796255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12912,6 +12968,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &872572015
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13138,6 +13196,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &877966572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13451,6 +13511,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &885223127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13644,6 +13706,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!1 &892807392
 GameObject:
   m_ObjectHideFlags: 0
@@ -13752,6 +13816,7 @@ RectTransform:
   - {fileID: 265413354}
   - {fileID: 974265026}
   - {fileID: 388533797}
+  - {fileID: 2022238820}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14014,6 +14079,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &916510357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14457,6 +14524,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &934615953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14734,6 +14803,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &955032904
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15086,6 +15157,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &966019279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15558,6 +15631,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &986729260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15906,6 +15981,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1051026285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16664,6 +16741,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1078854487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16873,6 +16952,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!61 &1092024409
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17048,6 +17129,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &1094218622
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17838,6 +17921,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &1183302375
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17993,6 +18078,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!50 &1186374037
 Rigidbody2D:
   serializedVersion: 4
@@ -18381,6 +18468,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1231416750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18654,6 +18743,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1241435561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18844,6 +18935,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1243913553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19334,6 +19427,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!1 &1265942543
 GameObject:
   m_ObjectHideFlags: 0
@@ -19816,6 +19911,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1291447255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21256,6 +21353,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1377217804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21533,6 +21632,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1385376072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21679,6 +21780,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1386076218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22182,6 +22285,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1420463119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22613,6 +22718,7 @@ GameObject:
   - component: {fileID: 1477053311}
   - component: {fileID: 1477053313}
   - component: {fileID: 1477053312}
+  - component: {fileID: 1477053314}
   m_Layer: 0
   m_Name: BatSprite-NanananananaBatspriiiiite_0
   m_TagString: Untagged
@@ -22697,6 +22803,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1477053314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1477053310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a080dfed918b414ea3fedc020b48055, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1485744812
 GameObject:
   m_ObjectHideFlags: 0
@@ -22933,6 +23050,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1486458224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23141,6 +23260,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1493685931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23374,6 +23495,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1497128386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24205,6 +24328,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1561342813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25077,6 +25202,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1583198089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25468,6 +25595,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1591703934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26821,6 +26950,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1764040359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27029,6 +27160,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1793078310
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27286,6 +27419,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!50 &1794441358
 Rigidbody2D:
   serializedVersion: 4
@@ -27726,6 +27861,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1826544616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28158,6 +28295,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!61 &1828562081
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28417,6 +28556,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1838723017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28634,6 +28775,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 1
   invIcon: {fileID: 1852384816}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1839115839
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29068,6 +29211,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1889487316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30252,6 +30397,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1951837016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30516,6 +30663,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!61 &1961499640
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -30651,6 +30800,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1973449204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30993,6 +31144,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &1987162348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31429,6 +31582,101 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2022238819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2022238820}
+  - component: {fileID: 2022238821}
+  - component: {fileID: 2022238823}
+  - component: {fileID: 2022238822}
+  m_Layer: 5
+  m_Name: BigHitbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2022238820
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022238819}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 892807396}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.17138055, y: 0.20600002}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -26.496569, y: -24.661713}
+  m_SizeDelta: {x: -521.4127, y: -235.2324}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!61 &2022238821
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022238819}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 29.805359, y: 27.48053}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 627.4159, y: 336.52588}
+  m_EdgeRadius: 0
+--- !u!114 &2022238822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022238819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2022238823
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2022238819}
+  m_CullTransparentMesh: 0
 --- !u!1 &2023289044
 GameObject:
   m_ObjectHideFlags: 0
@@ -31701,6 +31949,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!114 &2045075289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32121,6 +32371,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &2053911112
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32501,6 +32753,8 @@ MonoBehaviour:
   animator: {fileID: 0}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!212 &2063952474
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -32950,6 +33204,8 @@ MonoBehaviour:
   animator: {fileID: 2100060359}
   end: 0
   invIcon: {fileID: 0}
+  destory: 0
+  destroyObj: {fileID: 0}
 --- !u!122 &2100060355
 Halo:
   m_ObjectHideFlags: 0

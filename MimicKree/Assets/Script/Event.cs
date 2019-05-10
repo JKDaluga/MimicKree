@@ -63,4 +63,8 @@ public class Event : MonoBehaviour {
     [Header("Prologue End Settings")]
     public bool end;
     public GameObject invIcon;
+
+    [Header("Destroy Settings")]
+    public bool destory;
+    public GameObject destroyObj;
 }
