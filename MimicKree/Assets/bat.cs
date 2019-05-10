@@ -10,6 +10,7 @@ public class bat : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         pos = transform.position;
+        anim = GetComponent<Animator>();
 	}
 
     private void OnDisable()
