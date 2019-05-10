@@ -23,6 +23,9 @@ public class PrologueEnd : Interactable {
 
     private void Start()
     {
+        em = FindObjectOfType<EventManager>();
+        gm = FindObjectOfType<GameManager>();
+        player = FindObjectOfType<Player>();
         cursor = FindObjectOfType<CursorManager>();
     }
 

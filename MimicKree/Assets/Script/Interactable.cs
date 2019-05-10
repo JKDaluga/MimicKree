@@ -10,13 +10,13 @@ public class Interactable : MonoBehaviour {
     public string itemRequired;
     public DialogueTrigger wrongItemDialogue;
     public Event triggeredevent;
-    private EventManager em;
-    private GameManager gm;
+    protected EventManager em;
+    protected GameManager gm;
     public bool DestoryOnceUsed;
     public bool visualOnly;
     public bool grabOnly;
     public bool destroyScript;
-    private Player player;
+    protected Player player;
     private CursorManager cursor;
     private Item item;
 
