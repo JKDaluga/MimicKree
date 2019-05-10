@@ -7314,7 +7314,7 @@ MonoBehaviour:
   itemRequired: 
   wrongItemDialogue: {fileID: 0}
   triggeredevent: {fileID: 528276930}
-  DestoryOnceUsed: 1
+  DestoryOnceUsed: 0
   visualOnly: 0
   grabOnly: 1
   destroyScript: 0
@@ -7363,9 +7363,9 @@ MonoBehaviour:
   removesItem: 0
   addedItem: {fileID: 1510591242}
   removedItem: {fileID: 264838081}
-  istoggleSprite: 0
-  on: 0
-  toggleSprite: {fileID: 0}
+  istoggleSprite: 1
+  on: 1
+  toggleSprite: {fileID: 528276922}
   hasAnotherEvent: 0
   anotherEvent: {fileID: 0}
   triggerOnce: 1
@@ -26930,9 +26930,9 @@ MonoBehaviour:
   removesItem: 0
   addedItem: {fileID: 1104798614}
   removedItem: {fileID: 264838081}
-  istoggleSprite: 0
-  on: 0
-  toggleSprite: {fileID: 0}
+  istoggleSprite: 1
+  on: 1
+  toggleSprite: {fileID: 1764040351}
   hasAnotherEvent: 0
   anotherEvent: {fileID: 0}
   triggerOnce: 1
@@ -26968,7 +26968,7 @@ MonoBehaviour:
   itemRequired: 
   wrongItemDialogue: {fileID: 0}
   triggeredevent: {fileID: 1764040358}
-  DestoryOnceUsed: 1
+  DestoryOnceUsed: 0
   visualOnly: 0
   grabOnly: 1
   destroyScript: 0
@@ -30377,9 +30377,9 @@ MonoBehaviour:
   removesItem: 0
   addedItem: {fileID: 852584081}
   removedItem: {fileID: 264838081}
-  istoggleSprite: 0
-  on: 0
-  toggleSprite: {fileID: 0}
+  istoggleSprite: 1
+  on: 1
+  toggleSprite: {fileID: 1951837011}
   hasAnotherEvent: 0
   anotherEvent: {fileID: 0}
   triggerOnce: 1
@@ -30415,7 +30415,7 @@ MonoBehaviour:
   itemRequired: 
   wrongItemDialogue: {fileID: 0}
   triggeredevent: {fileID: 1951837015}
-  DestoryOnceUsed: 1
+  DestoryOnceUsed: 0
   visualOnly: 0
   grabOnly: 1
   destroyScript: 0
