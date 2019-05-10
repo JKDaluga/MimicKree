@@ -84,7 +84,10 @@ public class Interactable : MonoBehaviour {
 
     private void OnMouseExit()
     {
-        cursor.changeCursor("");
+        if(cursor != null)
+        {
+            cursor.changeCursor("");
+        }
     }
 
     IEnumerator waitForTrigger()

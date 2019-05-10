@@ -23,7 +23,7 @@ public class SkipButton : MonoBehaviour {
             }
             else
             {
-                skipHelpText.SetActive(true);
+                if(!Input.GetMouseButtonDown(0)) skipHelpText.SetActive(true);
             }
         }
         else

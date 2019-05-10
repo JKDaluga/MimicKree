@@ -1331,6 +1331,7 @@ GameObject:
   - component: {fileID: 927420044}
   - component: {fileID: 927420046}
   - component: {fileID: 927420047}
+  - component: {fileID: 927420048}
   m_Layer: 0
   m_Name: KreeUIMainscreenSprite_1073X928_0
   m_TagString: Untagged
@@ -1429,6 +1430,8 @@ MonoBehaviour:
   chestAnim: {fileID: 0}
   Skull: {fileID: 1103877374}
   PressAnyText: {fileID: 1190867825}
+  audioclip: {fileID: 8300000, guid: cf288ee9ed7a8d242a8a50b3b52650c6, type: 3}
+  audioclip2: {fileID: 8300000, guid: 801571a23022b3245a5faf20a4821b9a, type: 3}
 --- !u!114 &927420047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1445,6 +1448,101 @@ MonoBehaviour:
   PressAnyButton: {fileID: 1190867825}
   NewScreen: {fileID: 177528893}
   chestAnim: {fileID: 927420044}
+--- !u!82 &927420048
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 927420042}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 00beb6052f2542f43989d37ebb8cfec1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.774
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 174
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1087450299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,6 +1808,8 @@ MonoBehaviour:
   chestAnim: {fileID: 927420044}
   Skull: {fileID: 0}
   PressAnyText: {fileID: 0}
+  audioclip: {fileID: 8300000, guid: cf288ee9ed7a8d242a8a50b3b52650c6, type: 3}
+  audioclip2: {fileID: 0}
 --- !u!82 &1103877379
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1719,8 +1819,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 00beb6052f2542f43989d37ebb8cfec1, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

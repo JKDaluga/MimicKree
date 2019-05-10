@@ -27,6 +27,7 @@ public class PrologueEnd : Interactable {
         gm = FindObjectOfType<GameManager>();
         player = FindObjectOfType<Player>();
         cursor = FindObjectOfType<CursorManager>();
+        print(cursor);
     }
 
     private void Update()
