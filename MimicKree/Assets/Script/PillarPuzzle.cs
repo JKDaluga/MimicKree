@@ -54,6 +54,7 @@ public class PillarPuzzle : MonoBehaviour {
                     pillar_ID1 = pillar_ID1 % 4;
                     Numeral1.sprite = pillar1Sprites[pillar_ID1];
                     isP1Spinning = true;
+                    StartCoroutine("resetSpinning", id);
                 }
                 break;
             case (2):
@@ -63,6 +64,7 @@ public class PillarPuzzle : MonoBehaviour {
                     pillar_ID2 = pillar_ID2 % 4;
                     Numeral2.sprite = pillar2Sprites[pillar_ID2];
                     isP2Spinning = true;
+                    StartCoroutine("resetSpinning", id);
                 }
                 break;
             case (3):
@@ -72,15 +74,15 @@ public class PillarPuzzle : MonoBehaviour {
                     pillar_ID3 = pillar_ID3 % 4;
                     Numeral3.sprite = pillar3Sprites[pillar_ID3];
                     isP3Spinning = true;
+                    StartCoroutine("resetSpinning", id);
                 }
                 break;
         }
-        StartCoroutine("resetSpinning", id);
     }
 
     IEnumerator resetSpinning(int id)
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(.2f);
         switch(id)
         {
             case (1):
@@ -112,6 +114,9 @@ public class PillarPuzzle : MonoBehaviour {
     {  
         door.SetActive(false);
         em.triggerEvent(OpenDoor);
+        Numeral1.GetComponent<BoxCollider2D>().enabled = false;
+        Numeral2.GetComponent<BoxCollider2D>().enabled = false;
+        Numeral3.GetComponent<BoxCollider2D>().enabled = false;
         lockPuzzle = true;
     }
 }

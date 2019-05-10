@@ -1586,7 +1586,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: -1}
+  m_AnchoredPosition: {x: 0.000015258789, y: -1.0000038}
   m_SizeDelta: {x: 4.25, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &108012599
@@ -5910,7 +5910,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -18.490967, y: -16.33751}
+  m_Offset: {x: 87.62915, y: 3.7769623}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -5921,7 +5921,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 831.4337, y: 478.38748}
+  m_Size: {x: 1334.0664, y: 733.1846}
   m_EdgeRadius: 0
 --- !u!114 &443410411
 MonoBehaviour:
@@ -11290,6 +11290,7 @@ GameObject:
   - component: {fileID: 786270580}
   - component: {fileID: 786270579}
   - component: {fileID: 786270581}
+  - component: {fileID: 786270582}
   m_Layer: 5
   m_Name: Scroll
   m_TagString: Untagged
@@ -11376,6 +11377,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3006.3726, y: 1314.011}
   m_EdgeRadius: 0
+--- !u!114 &786270582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 786270577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9325a32bde01873478479791f3d89355, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &790378781
 GameObject:
   m_ObjectHideFlags: 0
@@ -13949,7 +13961,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -0.7000084}
+  m_AnchoredPosition: {x: 0, y: -0.7000084}
   m_SizeDelta: {x: 7.75, y: 1.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &899563879
@@ -15652,7 +15664,7 @@ MonoBehaviour:
   wrongItemDialogue: {fileID: 0}
   triggeredevent: {fileID: 986729259}
   DestoryOnceUsed: 0
-  visualOnly: 0
+  visualOnly: 1
   grabOnly: 0
   destroyScript: 0
 --- !u!114 &986729259
@@ -15669,7 +15681,7 @@ MonoBehaviour:
   hasAnimation: 0
   anim: {fileID: 0}
   waitOnAnimation: 0
-  hasDialogue: 0
+  hasDialogue: 1
   dialogueTrigger: {fileID: 986729260}
   hasSceneChange: 0
   sceneOld: {fileID: 0}
@@ -15721,8 +15733,8 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - "What has 4 letters, sometimes has nine, and never has five. \n"
-    - Wonder what that means?
+    - Of course he had more tricks up his sleeve.
+    - Quit looking so smug. There is no way you can keep me trapped.
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!1 &1021792466
 GameObject:
@@ -21026,7 +21038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: -1}
+  m_AnchoredPosition: {x: 0.000015258789, y: -1.0000038}
   m_SizeDelta: {x: 4.25, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355168055
