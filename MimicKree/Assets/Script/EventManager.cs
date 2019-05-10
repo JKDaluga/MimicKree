@@ -136,6 +136,10 @@ public class EventManager : MonoBehaviour {
             triggeredEvent.button.GetComponent<SpriteRenderer>().sprite = triggeredEvent.sprite;
             triggeredEvent.ev.hasDialogue = false;
         }
+        if(triggeredEvent.destory)
+        {
+            Destroy(triggeredEvent.destroyObj);
+        }
     }
 
     private IEnumerator WaitForAnimation(Animation animation)
