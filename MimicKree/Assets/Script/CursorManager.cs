@@ -102,15 +102,18 @@ public class CursorManager : MonoBehaviour {
         turnOffTooltip();
     }
 
-    public void dropItem()
+    public Item dropItem()
     {
         itemID = "";
         if(item != null)
         {
             itemImage.gameObject.SetActive(false);
             item.gameObject.SetActive(true);
+            Item temp = item;
             item = null;
+            return temp;
         }
+        return null;
     }
 
     public string getItemID()
@@ -130,5 +133,10 @@ public class CursorManager : MonoBehaviour {
     public void turnOffTooltip()
     {
         tooltip.SetActive(false);
+    }
+
+    public void InvalidDialogue()
+    {
+        item.triggerDialogue();
     }
 }

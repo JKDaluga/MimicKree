@@ -17,6 +17,7 @@ public class Interactable : MonoBehaviour {
     public bool grabOnly;
     private Player player;
     private CursorManager cursor;
+    private Item item;
 
     // Use this for initialization
     void Start () {
@@ -71,8 +72,8 @@ public class Interactable : MonoBehaviour {
             }
             else
             {
-                cursor.dropItem();
-                if (wrongItemDialogue != null && player.selectedItem == false)
+                item = cursor.dropItem();
+                if (wrongItemDialogue != null || item != null)
                 {
                     StartCoroutine("waitForWrongDialogue");
                 }
@@ -111,7 +112,12 @@ public class Interactable : MonoBehaviour {
         }
         if (p.location == location)
         {
-            wrongItemDialogue.TriggerDialogue();
+            if (wrongItemDialogue != null) wrongItemDialogue.TriggerDialogue();
+            else if (item != null)
+            {
+                item.triggerDialogue();
+            }
+
         }
     }
 

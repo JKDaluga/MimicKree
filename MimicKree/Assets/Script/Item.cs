@@ -13,6 +13,8 @@ public class Item : MonoBehaviour {
     private Vector3 mousePosition;
     public bool isInSlot;
     private bool onInteractable;
+    public string InvalidDialogue;
+    private DialogueTrigger dt;
 
     private Player player;
     private CursorManager cursor;
@@ -26,6 +28,7 @@ public class Item : MonoBehaviour {
         player = FindObjectOfType<Player>();
         cursor = FindObjectOfType<CursorManager>();
         boxCol = GetComponent<BoxCollider2D>();
+        dt = GameObject.FindGameObjectWithTag("IndivDialogueThing").GetComponent<DialogueTrigger>();
         if (isInSlot)
         {
             GetComponent<Image>().enabled = true;
@@ -151,5 +154,11 @@ public class Item : MonoBehaviour {
     public void offTooltip()
     {
         cursor.turnOffTooltip();
+    }
+
+    public void triggerDialogue()
+    {
+        dt.dialogue.dialogues[0] = InvalidDialogue;
+        dt.TriggerDialogue();
     }
 }

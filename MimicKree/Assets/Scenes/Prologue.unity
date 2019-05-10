@@ -3139,101 +3139,6 @@ MonoBehaviour:
     - "I don\u2019t know if that's great news or terrible news,"
     - "but at least there\u2019s fewer traps now."
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
---- !u!1 &227361843
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 227361844}
-  - component: {fileID: 227361846}
-  - component: {fileID: 227361845}
-  - component: {fileID: 227361847}
-  m_Layer: 5
-  m_Name: Inventory DropHitbox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &227361844
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 227361843}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1148016636}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00015259, y: -169.09}
-  m_SizeDelta: {x: 704, y: 78.02}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &227361845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 227361843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &227361846
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 227361843}
-  m_CullTransparentMesh: 0
---- !u!61 &227361847
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 227361843}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.7496338, y: -1.8475151}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 711.6621, y: 83.53983}
-  m_EdgeRadius: 0
 --- !u!1 &234474294
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,6 +3850,7 @@ MonoBehaviour:
   image: {fileID: 258540255}
   itemName: LightGem
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: Emitter Crystal
 --- !u!1 &264838079
 GameObject:
@@ -3997,6 +3903,7 @@ MonoBehaviour:
   image: {fileID: 0}
   itemName: lockpick
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: 
 --- !u!114 &264838082
 MonoBehaviour:
@@ -5648,6 +5555,40 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1690248798867828, guid: c9beab88004da1e4a9fa77ec1fc056a1, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224363067579075564, guid: c9beab88004da1e4a9fa77ec1fc056a1,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224363067579075564, guid: c9beab88004da1e4a9fa77ec1fc056a1,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224363067579075564, guid: c9beab88004da1e4a9fa77ec1fc056a1,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224363067579075564, guid: c9beab88004da1e4a9fa77ec1fc056a1,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224363067579075564, guid: c9beab88004da1e4a9fa77ec1fc056a1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 122.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 224363067579075564, guid: c9beab88004da1e4a9fa77ec1fc056a1,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 18.03
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9beab88004da1e4a9fa77ec1fc056a1, type: 2}
   m_IsPrefabAsset: 0
@@ -5873,6 +5814,7 @@ MonoBehaviour:
   image: {fileID: 450492109}
   itemName: Amulet
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: Amulet (Cursed?)
 --- !u!114 &450492109
 MonoBehaviour:
@@ -6879,6 +6821,7 @@ MonoBehaviour:
   image: {fileID: 517173599}
   itemName: Dagger
   isInSlot: 1
+  InvalidDialogue: I don't want to mess up my blade
   tooltipText: Dagger
 --- !u!61 &517173597
 BoxCollider2D:
@@ -8382,6 +8325,7 @@ MonoBehaviour:
   image: {fileID: 600936241}
   itemName: 
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: 
 --- !u!61 &600936239
 BoxCollider2D:
@@ -10649,6 +10593,7 @@ MonoBehaviour:
   image: {fileID: 765319582}
   itemName: 
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: 
 --- !u!61 &765319580
 BoxCollider2D:
@@ -11596,6 +11541,8 @@ MonoBehaviour:
   image: {fileID: 813796643}
   itemName: lockpick
   isInSlot: 1
+  InvalidDialogue: I dont have many of these left. I should try to only use them in
+    emergencies.
   tooltipText: Lockpicks
 --- !u!224 &820923319
 RectTransform:
@@ -11781,7 +11728,7 @@ RectTransform:
   m_Children:
   - {fileID: 1289910195}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -12599,6 +12546,7 @@ MonoBehaviour:
   image: {fileID: 852584079}
   itemName: Cup
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: The Chalice
 --- !u!1 &872572009
 GameObject:
@@ -15074,8 +15022,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1640847469
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 718090b27f1cae84da84ad3a0c3e75b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -16061,6 +16009,7 @@ MonoBehaviour:
   image: {fileID: 1060181687}
   itemName: 
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: 
 --- !u!61 &1060181685
 BoxCollider2D:
@@ -16882,6 +16831,7 @@ MonoBehaviour:
   image: {fileID: 1104798612}
   itemName: Key
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: Skeleton Key
 --- !u!1 &1110114696
 GameObject:
@@ -17310,194 +17260,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &1128504320
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1128504323}
-  - component: {fileID: 1128504322}
-  - component: {fileID: 1128504321}
-  m_Layer: 0
-  m_Name: InventoryChestAnimation144X178_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1128504321
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1128504320}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a997720a77f95994ab46bec1d2598c13, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!212 &1128504322
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1128504320}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5c9746bce56aa71469ae82c922cd24b2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1.39, y: 1.79}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1128504323
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1128504320}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.794346, y: 9.238908, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1148016632
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1148016636}
-  - component: {fileID: 1148016635}
-  - component: {fileID: 1148016634}
-  - component: {fileID: 1148016633}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1148016633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1148016632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1148016634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1148016632}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &1148016635
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1148016632}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 519420031}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: -7049275
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1148016636
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1148016632}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.025252525, y: 0.025252525, z: 0.025252525}
-  m_Children:
-  - {fileID: 227361844}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 704, y: 396}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1175906645
 GameObject:
   m_ObjectHideFlags: 0
@@ -20523,7 +20285,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1346781280
 Prefab:
@@ -23685,6 +23447,7 @@ MonoBehaviour:
   image: {fileID: 1510591240}
   itemName: Map
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: The Magic Map
 --- !u!1 &1527706811
 GameObject:
@@ -24427,6 +24190,7 @@ MonoBehaviour:
   image: {fileID: 1572944495}
   itemName: 
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: 
 --- !u!61 &1572944493
 BoxCollider2D:
@@ -25681,6 +25445,7 @@ MonoBehaviour:
   image: {fileID: 1690563168}
   itemName: Gold Teeth
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: Gold Teeth
 --- !u!114 &1690563168
 MonoBehaviour:
@@ -27532,6 +27297,7 @@ MonoBehaviour:
   image: {fileID: 1822670394}
   itemName: Glasses
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: Broken Glasses
 --- !u!1 &1826544613
 GameObject:
@@ -29440,6 +29206,7 @@ MonoBehaviour:
   image: {fileID: 1925604342}
   itemName: 
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: 
 --- !u!61 &1925604340
 BoxCollider2D:
@@ -29647,6 +29414,7 @@ MonoBehaviour:
   image: {fileID: 1946211778}
   itemName: Dagger
   isInSlot: 0
+  InvalidDialogue: 
   tooltipText: 
 --- !u!114 &1946211778
 MonoBehaviour:
@@ -31257,6 +31025,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2012255206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2012255208}
+  - component: {fileID: 2012255207}
+  m_Layer: 0
+  m_Name: Individual Invalid Inventory Dialogue
+  m_TagString: IndivDialogueThing
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2012255207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2012255206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d792d41f9a96f844293db121e9a85d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Kree
+    dialogues:
+    - I wouldn't want to break it.
+    profilePicture: {fileID: 21300000, guid: 1ddb4d3a7743c72419de75df3e6c0cd0, type: 3}
+--- !u!4 &2012255208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2012255206}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2023289044
 GameObject:
   m_ObjectHideFlags: 0

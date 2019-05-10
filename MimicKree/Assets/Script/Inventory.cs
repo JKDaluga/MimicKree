@@ -34,6 +34,7 @@ public class Inventory : MonoBehaviour {
                 inv.item.image.sprite = item.image.sprite;
                 inv.item.itemName = item.itemName;
                 inv.item.tooltipText = item.tooltipText;
+                inv.item.InvalidDialogue = item.InvalidDialogue;
                 inv.item.activate();
                 return true;
             }
