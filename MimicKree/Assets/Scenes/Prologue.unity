@@ -3850,7 +3850,7 @@ MonoBehaviour:
   image: {fileID: 258540255}
   itemName: LightGem
   isInSlot: 0
-  InvalidDialogue: 
+  InvalidDialogue: I should be careful where I use this, these things are priceless
   tooltipText: Emitter Crystal
 --- !u!1 &264838079
 GameObject:
@@ -5814,7 +5814,7 @@ MonoBehaviour:
   image: {fileID: 450492109}
   itemName: Amulet
   isInSlot: 0
-  InvalidDialogue: 
+  InvalidDialogue: Probably not my best idea.
   tooltipText: Amulet (Cursed?)
 --- !u!114 &450492109
 MonoBehaviour:
@@ -9519,7 +9519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &741924898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12546,7 +12546,7 @@ MonoBehaviour:
   image: {fileID: 852584079}
   itemName: Cup
   isInSlot: 0
-  InvalidDialogue: 
+  InvalidDialogue: The lid is stuck tight.
   tooltipText: The Chalice
 --- !u!1 &872572009
 GameObject:
@@ -14685,7 +14685,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 56b2669cfabd83142b7361ddfc12ad44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 802fcac0687407341891fd631dc5092e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15704,7 +15704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1053219202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16831,7 +16831,7 @@ MonoBehaviour:
   image: {fileID: 1104798612}
   itemName: Key
   isInSlot: 0
-  InvalidDialogue: 
+  InvalidDialogue: This isn't a lock...
   tooltipText: Skeleton Key
 --- !u!1 &1110114696
 GameObject:
@@ -23447,7 +23447,7 @@ MonoBehaviour:
   image: {fileID: 1510591240}
   itemName: Map
   isInSlot: 0
-  InvalidDialogue: 
+  InvalidDialogue: Pretty sure I can find my way out without this.
   tooltipText: The Magic Map
 --- !u!1 &1527706811
 GameObject:
@@ -25445,7 +25445,7 @@ MonoBehaviour:
   image: {fileID: 1690563168}
   itemName: Gold Teeth
   isInSlot: 0
-  InvalidDialogue: 
+  InvalidDialogue: Gross...
   tooltipText: Gold Teeth
 --- !u!114 &1690563168
 MonoBehaviour:
@@ -27297,7 +27297,7 @@ MonoBehaviour:
   image: {fileID: 1822670394}
   itemName: Glasses
   isInSlot: 0
-  InvalidDialogue: 
+  InvalidDialogue: This seems alittle nearsighted
   tooltipText: Broken Glasses
 --- !u!1 &1826544613
 GameObject:
@@ -31890,6 +31890,7 @@ GameObject:
   - component: {fileID: 2060191278}
   - component: {fileID: 2060191280}
   - component: {fileID: 2060191279}
+  - component: {fileID: 2060191281}
   m_Layer: 0
   m_Name: DropletAnimation_0
   m_TagString: Untagged
@@ -31974,6 +31975,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2060191281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2060191277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20bf9169eaba71a479afbef278ca0871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 966320886}
 --- !u!1 &2063952468
 GameObject:
   m_ObjectHideFlags: 0
