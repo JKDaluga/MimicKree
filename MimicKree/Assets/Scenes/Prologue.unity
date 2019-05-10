@@ -5329,13 +5329,12 @@ MonoBehaviour:
   dialogue:
     name: Kree
     dialogues:
-    - 'I haven''t seen a crystal that huge since my plunder
+    - This almost looks like the gemstone I took from Atlantis.
+    - 'If the engineers didn''t want their city to sink they should''ve picked something
+      that took more than one person to steal.
 
-      back in Elantis. '
-    - "Wish the city hadn\u2019t sunk beneath the ocean, I had just started to loot
-      the treasury. \r\n"
-    - "Just my luck that the first thing I grab is the one thing keeping the city
-      afloat. \r"
+'
+    - Just suprised it didn't happen sooner.
     profilePicture: {fileID: 21300000, guid: 04507dac8260a634c838b739cf38920c, type: 3}
 --- !u!61 &388533800
 BoxCollider2D:
