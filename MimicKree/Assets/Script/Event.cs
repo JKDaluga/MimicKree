@@ -59,4 +59,8 @@ public class Event : MonoBehaviour {
 
     public bool isSwitch;
     public Animator animator;
+
+    [Header("Prologue End Settings")]
+    public bool end;
+    public GameObject invIcon;
 }
