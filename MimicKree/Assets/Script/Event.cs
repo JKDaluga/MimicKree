@@ -67,4 +67,8 @@ public class Event : MonoBehaviour {
     [Header("Destroy Settings")]
     public bool destory;
     public GameObject destroyObj;
+
+    [Header("Toggle GameObject Settings")]
+    public bool toggleGO;
+    public GameObject Go;
 }

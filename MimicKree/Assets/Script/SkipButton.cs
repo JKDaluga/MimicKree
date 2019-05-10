@@ -16,7 +16,7 @@ public class SkipButton : MonoBehaviour {
 	void Update () {
         if(Input.anyKeyDown)
         {
-            counter = 0;
+            counter = 0; 
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 skipButton.SetActive(true);

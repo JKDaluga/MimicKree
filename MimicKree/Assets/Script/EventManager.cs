@@ -140,6 +140,10 @@ public class EventManager : MonoBehaviour {
         {
             Destroy(triggeredEvent.destroyObj);
         }
+        if(triggeredEvent.toggleGO)
+        {
+            triggeredEvent.Go.SetActive(!triggeredEvent.Go.activeSelf);
+        }
     }
 
     private IEnumerator WaitForAnimation(Animation animation)
