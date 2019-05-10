@@ -7333,7 +7333,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Well I got what I came for,
-    - 'Maybe I''ll come back when I get a new set o tools. '
+    - 'maybe I''ll come back when I get a new set of tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &528276930
 MonoBehaviour:
@@ -26900,7 +26900,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - Well I got what I came for,
-    - 'Maybe I''ll come back when I get a new set o tools. '
+    - 'maybe I''ll come back when I get a new set of tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1764040358
 MonoBehaviour:
@@ -30347,7 +30347,7 @@ MonoBehaviour:
     name: Kree
     dialogues:
     - This is what I came for.
-    - 'Maybe I''ll come back when I get a new set o tools. '
+    - 'maybe I''ll come back when I get a new set of tools. '
     profilePicture: {fileID: 21300000, guid: aae3680451b80c14f88c858040b6cf7d, type: 3}
 --- !u!114 &1951837015
 MonoBehaviour:
