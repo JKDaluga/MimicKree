@@ -15,6 +15,7 @@ public class Interactable : MonoBehaviour {
     public bool DestoryOnceUsed;
     public bool visualOnly;
     public bool grabOnly;
+    public bool destroyScript;
     private Player player;
     private CursorManager cursor;
     private Item item;
@@ -96,6 +97,10 @@ public class Interactable : MonoBehaviour {
         if (p.location == location)
         {
             triggerEvent();
+            if(destroyScript)
+            {
+                Destroy(this);
+            }
             if (DestoryOnceUsed)
             {
                 Destroy(this.gameObject);
